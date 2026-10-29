@@ -1,0 +1,11 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_11d995df9c18"
+msgid "X1A2 Prototype"
+msgstr ""
+
+msgctxt "desc/squad/mw_11d995df9c18"
+msgid "X1A2 Prototype"
+msgstr ""

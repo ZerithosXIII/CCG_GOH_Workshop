@@ -3,6 +3,18 @@ msgstr ""
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgctxt "desc/squad/mw_reserve_7832a898e33a(usa)"
+msgid "Reserve crew"
+msgstr "Tripulación de reserva"
+
+msgctxt "desc/squad/mw_reserve_dca2c15722c9(usa)"
+msgid "Reserve crew"
+msgstr "Tripulación de reserva"
+
+msgctxt "desc/squad/mw_reserve_0bf7d62a5391(usa)"
+msgid "Reserve crew"
+msgstr "Tripulación de reserva"
+
 msgctxt "desc/squad/mw_reserve_e8ee90c7a999(usa)"
 msgid "Reserve crew"
 msgstr "Tripulación de reserva"

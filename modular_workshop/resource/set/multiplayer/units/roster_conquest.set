@@ -42,4 +42,8 @@
 (include "modular_workshop/mw_e5ee481f8031.set")
 
 (include "modular_workshop/mw_292cb7fb75bd.set")
+
+(include "modular_workshop/mw_0ef04b0ad273.set")
+
+(include "modular_workshop/mw_11d995df9c18.set")
 }

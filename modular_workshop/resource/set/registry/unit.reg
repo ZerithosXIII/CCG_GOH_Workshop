@@ -2571,4 +2571,12 @@
 {"mw_292cb7fb75bd"
 		{vehicle_view "m4_75_late"}
 	}
+
+{"mw_0ef04b0ad273"
+		{vehicle_view "m5a1_stuart_late"}
+	}
+
+{"mw_11d995df9c18"
+		{vehicle_view "m5a1_stuart_late"}
+	}
 }
