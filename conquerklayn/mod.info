@@ -1,0 +1,6 @@
+{mod
+	{name "Conquest Klayn Mode"}
+	{desc "Conquest w lower enemy counts + factions unlocked"}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}

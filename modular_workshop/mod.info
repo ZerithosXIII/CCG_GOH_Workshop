@@ -1,0 +1,6 @@
+{mod
+	{name "Cursed Workshop - Built Vehicles"}
+	{desc "Vehículos: M4E2 'Narwhal' [WW2 2026]; 76mm GMC M18 'Denny's'; M4A3(38)W; M4 Narwhal; 150mm GMC M18 \"Nyancat\" [WW2 2026]; X1A Prototype. Cargar después de: Conquest Klayn Mode. Cursed Workshop 0.8.9."}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}

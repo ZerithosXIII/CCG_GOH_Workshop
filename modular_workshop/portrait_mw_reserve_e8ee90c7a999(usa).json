@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "id": "mw_reserve_e8ee90c7a999(usa)",
+  "source": "chassis_fallback",
+  "template": "single_tankman(usa)"
+}

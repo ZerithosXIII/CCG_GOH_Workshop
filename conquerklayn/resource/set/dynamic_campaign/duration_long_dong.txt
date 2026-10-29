@@ -1,0 +1,8 @@
+{Normal
+	{FlagCount "2:5 2:5 2:5 2:5 2:5 2:5 2:5 2:5 2:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 3:5 4:5"} ;//this version is for advanced AI start.
+	{Bots
+		{ResearchStages "0:1 1:2 2:3 3:4 4:6 5:7 6:8 7:9 8:10 9:12 10:13 11:15 12:16 13:17 14:19 15:20 16:22 17:23 18:24 19:25 20:26 21:27 22:28 23:29 24:30 25:31 26:32 27:33 28:34 29:35 30:36 31:37 32:38 33:39 34:40"} ;// afaik the AI caps out at 40, but idk exactly how this is supposed to be laid out. In any case this gives them a 4 round head-start which, to be fair, doesn't really match the player's ~10 round head start lol.
+	}
+	{MapSelection "0:1"}
+	{MapBorder "0:1"}
+}

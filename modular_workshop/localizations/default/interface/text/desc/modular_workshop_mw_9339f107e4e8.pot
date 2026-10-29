@@ -1,0 +1,11 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_9339f107e4e8"
+msgid "M4 Narwhal"
+msgstr ""
+
+msgctxt "desc/squad/mw_9339f107e4e8"
+msgid "M4 Narwhal"
+msgstr ""

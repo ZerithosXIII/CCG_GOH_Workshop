@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_e0dcc79a529a"
+msgid "150mm GMC M18 \"Nyancat\""
+msgstr "150mm GMC M18 \"Nyancat\""
+
+msgctxt "desc/squad/mw_e0dcc79a529a"
+msgid "150mm GMC M18 \"Nyancat\""
+msgstr "150mm GMC M18 \"Nyancat\""

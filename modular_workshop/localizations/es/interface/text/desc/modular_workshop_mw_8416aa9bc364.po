@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_8416aa9bc364"
+msgid "M4A3(38)W"
+msgstr "M4A3(38)W"
+
+msgctxt "desc/squad/mw_8416aa9bc364"
+msgid "M4A3(38)W"
+msgstr "M4A3(38)W"

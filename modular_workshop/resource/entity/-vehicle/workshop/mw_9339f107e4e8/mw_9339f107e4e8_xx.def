@@ -1,0 +1,164 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	
+	{extension "mw_9339f107e4e8_xx.mdl"}
+
+	{volume "body1"			; Hull lower Front
+		{thickness 38.1
+			{front 50.8}	
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "body2"			; 
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 12.5}
+			{rear 10}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "body12"			; 
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 25.4}
+			{rear 10}
+		}
+	}
+	{volume "body13"			; 
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 25.4}
+			{rear 10}
+		}
+	}
+	{volume "body3"
+		{thickness 38.1
+			{front 50.8}
+		}
+	}
+	{volume "body4"
+		{thickness 38.1
+			{front 50.8}
+		}
+	}
+	{volume "body5"
+		{thickness 50.8}
+	}
+	{volume "body6"
+		{thickness 50.8}
+	}
+	{volume "body7"		; Hull lower middle
+		{thickness 38.1
+			{front 50.8}
+			{rear 10}
+			{bottom 12.5}
+		}
+	}
+	{volume "body8"
+		{thickness 63.5}
+	}
+	{volume "body9"
+		{thickness 63.5}
+	}
+	{volume "body10"
+		{thickness 63.5}
+	}
+	{volume "body11"
+		{thickness 50.8}
+	}
+	{volume "engine1"
+		{thickness 38.1
+			{front 19.5}
+			{bottom 12.7}
+		}
+	}
+	{volume "engine2"
+		{thickness 38.1
+			{front 10}
+			{top 19.5}
+			{bottom 25.4}
+		}
+		{able {holed}}
+	}
+	
+	
+	
+	
+	
+	{volume "armor1"	; turret ring armor
+		{thickness 19.5
+			{top 5.9}
+		}
+	}
+	{volume "armor2"	; +front armor
+		{thickness 25.4}
+	}
+	{volume "armor3"	; +front armor
+		{thickness 25.4}
+	}
+	
+	{volume "part1"
+		{thickness 10}
+	}
+	{volume "part2"
+		{thickness 10}
+	}
+	
+	{volume "shieldl1"
+		{thickness 5}
+	}
+	{volume "shieldl2"
+		{thickness 5}
+	}
+	{volume "shieldl3"
+		{thickness 5}
+	}
+	{volume "shieldr1"
+		{thickness 5}
+	}
+	{volume "shieldr2"
+		{thickness 5}
+	}
+	{volume "shieldr3"
+		{thickness 5}
+	}
+
+	("tracks" thickness(20))
+
+{volume "turret1"
+		{thickness 6.4}
+	}
+
+{volume "turret2"
+		{thickness 6.4}
+		{able {holed}}
+	}
+
+{volume "turret3"
+		{thickness 6.4}
+		{able {holed}}
+	}
+
+{volume "turret4"
+		{thickness 6.4}
+	}
+
+{volume "turret5"
+		{thickness 6.4}
+	}
+
+{volume "turret6"
+		{thickness 6.4}
+	}
+
+{volume "turret8"
+		{thickness 6.4}
+	}
+
+{volume "part3"
+		{thickness 6.4}
+	}
+}

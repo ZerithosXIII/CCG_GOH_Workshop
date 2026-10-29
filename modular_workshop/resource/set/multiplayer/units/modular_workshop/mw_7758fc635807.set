@@ -1,0 +1,40 @@
+{"mw_7758fc635807"
+	
+	
+	{score_factor 0.05}
+	{tags "conquest conquestonly rus mid"}
+	{charge {delay 0}{interval 0}}
+	{cw 8}
+	{cp 25}
+	{research_stage 5}
+	{research_stage_max 99}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+	{level 1}
+	{button "vehicles"}
+
+	{content "* ( mp/rus/mid/tankman:9 mp/rus/mid/tank_commander:1 )"}
+	{button "vehicles"}
+
+	{cost 1460}
+}
+{"mw_7758fc635807"
+	
+	
+	{score_factor 0.05}
+	{tags "conquest conquestonly usa mid"}
+	{charge {delay 0}{interval 0}}
+	{cw 8}
+	{cp 25}
+	{research_stage 5}
+	{research_stage_max 99}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+	{level 1}
+	{button "vehicles"}
+
+	{content "* ( mp/usa/mid/tankman:9 mp/usa/mid/tank_commander:1 )"}
+	{button "vehicles"}
+
+	{cost 1460}
+}

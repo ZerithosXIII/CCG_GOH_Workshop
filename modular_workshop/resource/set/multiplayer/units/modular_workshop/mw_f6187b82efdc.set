@@ -1,0 +1,20 @@
+{"mw_f6187b82efdc"
+	
+	
+	{score_factor 0.05}
+	{tags "conquest conquestonly rus late"}
+	{charge {delay 0}{interval 0}}
+	{cw 8}
+	{cp 46}
+	{research_stage 8}
+	{research_stage_max 99}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+	{level 1}
+	{button "vehicles"}
+
+	{content "* ( mp/rus/late/tankman_ace:3 mp/rus/late/tank_commander_ace:1 )"}
+	{button "vehicles"}
+
+	{cost 990}
+}

@@ -1,0 +1,855 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery"
+;//////////////////////////////////////////////////
+
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+
+("squad_with1types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(single_officer)		c1(commisar:1))
+
+("squad_with3types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(squad_officer_con)	c1(nco:1) c2(commisar:1) c3(sniper:2))
+
+{"squad_officer_gaz_con"
+	("squad_vehicle3"		 side(rus) period(mid) min_stage(3) max_stage(99) cw(3) cp(0) vehicle(gaz67) crew1(nco:1) crew2(commisar:1) crew3(sniper:2)) 
+}
+
+{"ba20_command"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(7) cw(2) cp(3) crew1(tankman:2) crew2(commisar:1))
+	{cost 250}
+}
+
+;// t1
+("squad_with3types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(squad_border)			c1(militia_1:2)	c2(militia_2:2)  c3(militia_3:2))
+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(1) max_stage(5) name(squad_partisan_con)		c1(nco:1) c2(partisan_1:3) c3(partisan_2:2) c4(partisan_3:1) c5(partisan_4:2) c6(partisan_5:1))
+
+("squad_with3types_conquest" side(rus) period(mid) min_stage(1) max_stage(5) name(squad_penal_con) 			c1(nco:1) c2(penal_smg:2) c3(penal_rifle:8))
+
+("squad_with2types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(squad_conscripts_con)		c1(conscript_nco:1) c2(conscript_rifle:8))
+
+;//t1+
+("squad_with8types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_vet_partisan_rifle_late_con) c1(vet_nco_stick:1) c2(vet_partisan_pps43:1) c3(vet_partisan_mp40_pzf:1) c4(vet_partisan_svt40:1) c5(vet_partisan_mosin:1) c6(vet_partisan_k98:2) c7(vet_partisan_mosin_pzf:2) c8(vet_partisan_mg42:1))
+("squad_with5types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_vet_partisan_smg_late_con) c1(vet_nco_stick:1) c2(vet_partisan_mp40_pzf:2) c3(vet_partisan_pps43:3) c4(vet_partisan_drum_pzf:2) c5(vet_partisan_stick:2))
+
+;// t2
+
+("squad_with3types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(squad_nkvd_recon_con)		c1(nkvd_recon_nco:1) c2(nkvd_recon_smg:1) c3(nkvd_recon_rifle:9))
+("squad_with4types_conquest" side(rus) period(mid) min_stage(1) max_stage(8) name(squad_recon_con)				c1(recon_nco:1) c2(recon_rifle:7) c3(recon_mg:1) c4(recon_mg_asst:1))
+("squad_with4types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_recon_44_con)			c1(recon_nco:1) c2(recon_smg:2) c3(recon_smg2:2) c4(recon_rifle:1))
+
+("squad_with3types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(squad_nkvd_sapper_con)		c1(nkvd_sapper_nco_rifle:1) c2(nkvd_sapper_builder:1) c3(nkvd_sapper_rifle:7))
+("squad_with5types_conquest" side(rus) period(mid) min_stage(1) max_stage(8) name(squad_sapper_con)				c1(sapper_nco_rifle:1) c2(sapper_builder:1) c3(sapper_mine_at:1) c4(sapper_mine_ap:1) c5(sapper_rifle:4))
+("squad_with9types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_sapper_44_con)		c1(sapper_nco:1) c2(sapper_senior:1) c3(sapper_smg_pps43:2) c4(sapper_rifle:1) c5(sapper_builder:1) c6(sapper_miner_ap:1) c7(sapper_miner_at:1) c8(sapper_flamer:1) c9(sapper_smg_stick:1))
+
+("squad_with4types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(squad_at_rifle_con)			c1(nco:1) c2(antitank_ptrs:1) c3(antitank_1:2) c4(antitank_2:3))
+("squad_with3types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(squad_nkvd_at_rifle_con)		c1(nkvd_nco_rifle:1) c2(nkvd_at_rifle:3) c3(nkvd_at_asst:3))
+
+;1941
+("squad_with5types_conquest" side(rus) period(mid) min_stage(2) max_stage(99) name(squad_nkvd_rifle_con)		c1(nkvd_nco_rifle:1) c2(nkvd_senior_rifle:1) c3(nkvd_rifle:8) c4(nkvd_mg:1) c5(nkvd_mg_asst:1))
+("squad_with4types_conquest" side(rus) period(mid) min_stage(2) max_stage(5) name(squad_rifleunit_alt_con)		c1(nco_rifle:1) c2(senior_sa:1) c3(rifleman_3:8) c4(smg_3:1))
+("squad_with5types_conquest" side(rus) period(mid) min_stage(2) max_stage(5) name(squad_rifleunit_con)			c1(nco:1) c2(senior_sa:1) c3(rifleman_3:7) c4(mgun_1:1) c5(mgun_2:1))
+;1942
+{"squad_rifle_motorised_con" 
+	("squad_vehicle6"		 side(rus) period(mid) min_stage(3) max_stage(6) vehicle(zis5) cw(1) cp(4) crew1(rifleman_1:1) crew2(nco_42:1) crew3(senior_sa:1) crew4(rifleman_3:5) crew5(mgun_1:1) crew6(mgun_2:1))
+}
+;1943
+("squad_with6types_conquest" side(rus) period(late) min_stage(6) max_stage(11) name(squad_rifle_43_con)			c1(nco:1) c2(senior_sa:1) c3(rifleman_3:1) c4(rifleman_2:4) c5(mgun_1:1) c6(mgun_2:1))
+("squad_with6types_conquest" side(rus) period(late) min_stage(6) max_stage(11) name(squad_rifle_43_heavy_con)	c1(nco:1) c2(senior_sa:1) c3(rifleman_3:1) c4(rifleman_2:2) c5(mgun_1:2) c6(mgun_2:2))
+;1944
+("squad_with6types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_rifle_44_con)		c1(nco_pps43:1) c2(senior_sa:1) c3(rifleman_3:1) c4(rifleman_2:2) c5(mgun_1:1) c6(mgun_2:1))
+
+;1942
+("squad_with4types_conquest" side(rus) period(mid) min_stage(4) max_stage(7) name(squad_smg_con)			c1(nco_42:1) c2(senior_smg:1) c3(smg_2:5) c4(smg_3:3))
+;1943
+("squad_with6types_conquest" side(rus) period(late) min_stage(6) max_stage(11) name(squad_smg_mg_43_con)		c1(nco_stick:1) c2(senior_smg:1) c3(smg_2:3) c4(smg_3:2) c5(mgun_1:1) c6(mgun_3:1))
+("squad_with6types_conquest" side(rus) period(late) min_stage(6) max_stage(11) name(squad_smg_mg_43_heavy_con)	c1(nco_stick:1) c2(senior_smg_stick:1) c3(smg_2:2) c4(smg_3:1) c5(mgun_1:2) c6(mgun_3:2))
+;1944
+("squad_with6types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_smg_mg_44_con)		c1(nco:1) c2(senior_smg_pps43:1) c3(smg_2:2) c4(smg_3:1) c5(mgun_1:1) c6(mgun_3:1))
+
+;// t2+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(3) max_stage(8) name(squad_guardsrifle_con)	c1(guard_nco:1) c2(guard_senior:1) c3(guard_2:1) c4(guard_1:4) c5(guard_4:1) c6(guard_5:1))
+{"squad_guardsrifle_motorised_con" 
+	("squad_vehicle7"		 side(rus) period(mid) min_stage(5) max_stage(8) vehicle(zis5) cw(1) cp(4) crew1(guard_1:1) crew2(guard_nco:1) crew3(guard_senior:1) crew4(guard_2:1) crew5(guard_1:4) crew6(guard_4:1) crew7(guard_5:1))
+}
+("squad_with6types_conquest" side(rus) period(mid) min_stage(5) max_stage(8) name(squad_guards_smg_con)	c1(guard_nco:1) c2(guard_senior:1) c3(guard_2:2) c4(guard_3:4) c5(guard_4:1) c6(guard_5:1))
+
+("squad_with6types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_guardsrifle_44_con)	c1(guards_nco:1) c2(guards_senior_sa:1) c3(guards_rifleman_3:1) c4(guards_rifleman_2:2) c5(guards_mgun_1:1) c6(guards_mgun_2:1))
+("squad_vehicle_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_guardsrifle_44_motor_con) vehicle(zis5) c1(guards_rifleman_2:1) c2(guards_nco:1) c3(guards_senior_sa:1) c4(guards_rifleman_3:2) c5(guards_rifleman_2:2) c6(guards_mgun_1:1) c7(guards_mgun_2:1))
+
+("squad_with6types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_guards_smg_mg_44_con)	c1(guards_nco:1) c2(guards_senior_smg:1) c3(guards_smg_2:2) c4(guards_smg_stick:1) c5(guards_mgun_1:1) c6(guards_mgun_3:1))
+("squad_vehicle_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_guards_smg_mg_44_motor_con) vehicle(zis5) c1(guards_rifleman_2:1) c2(guards_nco:1) c3(guards_senior_smg:1) c4(guards_smg_2:2) c5(guards_smg_stick:2) c6(guards_mgun_1:1) c7(guards_mgun_3:1))
+
+;// t3
+("squad_with6types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(squad_nkvd_mountain_con)	c1(nkvd_mountain_nco:1) c2(nkvd_mountain_senior:1) c3(nkvd_mountain_sa:1) c4(nkvd_mountain_rifle:7) c5(nkvd_mountain_mg:1) c6(nkvd_mountain_mg_asst:1))
+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(squad_mountainrifles_con)	c1(mountain_nco:1) c2(mountain_senior:1) c3(mountain_1:2) c4(mountain_3:3) c5(mountain_mg:1) c6(mountain_mg_asst:1))
+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(3) max_stage(8) name(squad_marines_reg_con)	c1(marine_reg_nco:1) c2(marine_reg_senior:1) c3(marine_reg_smg_m1928:2) c4(marine_reg_rifle:4) c5(marine_reg_mg:1) c6(marine_reg_mg_asst:1))
+
+("squad_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_cav_44_con)	c1(cav_nco_stick:1) c2(cav_senior_sa:1) c3(cav_smg_pps43:1) c4(cav_smg_drum:1) c5(cav_rifle:2) c6(cav_mg:1) c7(cav_mg_asst:1))
+
+;// t3+
+("squad_vehicle_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_elite_guardsrifle_44_motor_con) vehicle(zis5) c1(elite_guards_rifle:1) c2(elite_guards_nco:1) c3(elite_guards_senior_sa:1) c4(elite_guards_sa:2) c5(elite_guards_rifle:2) c6(elite_guards_mg:1) c7(elite_guards_mg_asst:1))
+("squad_vehicle_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_elite_guards_smg_mg_44_motor_con) vehicle(zis5) c1(elite_guards_rifle:1) c2(elite_guards_nco:1) c3(elite_guards_senior_smg:1) c4(elite_guards_smg_drum:2) c5(elite_guards_smg_pps43:2) c6(elite_guards_mg:1) c7(elite_guards_mg_asst_smg:1))
+
+("squad_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_guards_cav_44_con)	c1(guards_cav_nco:1) c2(guards_cav_senior_sa:1) c3(guards_cav_smg_drum:2) c4(guards_cav_sa:1) c5(guards_cav_rifle:1) c6(guards_cav_mg:1) c7(guards_cav_mg_asst:1))
+
+("squad_with8types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_guards_marines_44_con)	c1(guards_marine_nco:1) c2(guards_marine_senior:1) c3(guards_marine_smg:1) c4(guards_marine_sa:1) c5(guards_marine_sa_pzf:2) c6(guards_marine_rifle:1) c7(guards_marine_mg:1) c8(guards_marine_mg_asst:1))
+
+;// t4
+("squad_with7types_conquest" side(rus) period(mid) min_stage(5) max_stage(99) name(squad_nkvd_mountain_cav_con)	c1(nkvd_mountain_cav_nco:1) c2(nkvd_mountain_cav_senior:1) c3(nkvd_mountain_cav_smg:1) c4(nkvd_mountain_cav_sa:1) c5(nkvd_mountain_cav_rifle:1) c6(nkvd_mountain_cav_mg:1) c7(nkvd_mountain_cav_mg_asst:1))
+
+("squad_with7types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_mountain_cav_44_con)	c1(mountain_cav_nco:1) c2(mountain_cav_senior:1) c3(mountain_cav_smg:1) c4(mountain_cav_sa:1) c5(mountain_cav_rifle:1) c6(mountain_cav_mg:1) c7(mountain_cav_mg_asst:1))
+
+("squad_with4types_conquest" side(rus) period(late) min_stage(8) max_stage(99) name(squad_assaultsappers_con)	c1(assault-sap_sl:1) c2(assault-sap_sl_asst_mg:1) c3(assault-sap_3:1) c4(assault-sap_1:7))
+("squad_with3types_conquest" side(rus) period(late) min_stage(8) max_stage(99) name(squad_assaultsappers_flame_con)	c1(assault-sap_sl:1) c2(assault-sap_sl_asst:2) c3(assault-sap_4:4))
+("squad_with3types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(squad_assaultsappers_at_con)	c1(assault-sap_sl:1) c2(assault-sap_at:6) c3(assault-sap_sl_asst_mg:2))
+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(4) max_stage(6) name(squad_paras_con)			c1(para_nco:1) c2(para_1:2) c3(para_4:1) c4(para_2:4) c5(para_mg:2) c6(para_mg_asst:2))
+
+("squad_with3types_conquest" side(rus) period(mid) min_stage(5) max_stage(99) name(squad_spetsnaz)		c1(spetsnaz_1:2) c2(spetsnaz_2:2) c3(spetsnaz_3:1))
+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(5) max_stage(8) name(squad_marines_con)	c1(marine_2:1) c2(marine_senior:1) c3(marine_4:2) c4(marine_smg_m1928:2) c5(marine_3:2) c6(marine_mg_asst:2))
+
+;// t4+
+("squad_with6types_conquest" side(rus) period(mid) min_stage(7) max_stage(10) name(squad_guards_paras_con)		c1(guard_para_nco:1) c2(guard_para_nco_asst_sa:1) c3(guard_para_smg:2) c4(guard_para_sa:4) c5(guard_para_mg_dt:2) c6(guard_para_mg_asst_dt:2))
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+
+("squad_with2types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(single_at)			c1(antitank_1:1) c2(antitank_2:1))
+("squad_with2types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(single_at2)			c1(antitank_ptrs:1) c2(antitank_2:1))
+("squad_with2types_conquest" side(rus) period(late) min_stage(9) max_stage(99) name(single_at_pzs_late_con)	c1(antitank_asst2:1) c2(antitank_5:1))
+("squad_with2types_conquest" side(rus) period(late) min_stage(10) max_stage(99) name(single_at_late_con)	c1(antitank_3:1) c2(antitank_4:1))
+
+("squad_with1types_conquest" side(rus) period(mid) min_stage(1) max_stage(99) name(single_medic)		c1(medic:2))
+("squad_with2types_conquest" side(rus) period(mid) min_stage(2) max_stage(99) name(single_riflegrenade)	c1(antitank_3:1) c2(antitank_4:1))
+("squad_with1types_conquest" side(rus) period(mid) min_stage(2) max_stage(99) name(single_ap_miner)		c1(miner-ap:2))
+("squad_with1types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(single_at_miner)		c1(miner-at:2))
+("squad_with2types_conquest" side(rus) period(mid) min_stage(4) max_stage(99) name(single_engineer)		c1(engineer_1:1) c2(engineer_2:1))
+("squad_with2types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(single_flamer)		c1(flamer:1) c2(rifleman_1:2))
+("squad_with2types_conquest" side(rus) period(mid) min_stage(0) max_stage(0)  name(single_tankman)		c1(tank_commander:1) c2(tankman:3))
+("squad_with1types_conquest" side(rus) period(mid) min_stage(3) max_stage(99) name(single_sniper)		c1(sniper:1))
+
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+
+{"inf_crate_rus"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:2))
+	{cost 50}
+}
+{"ap_2"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:3))
+	{cost 150}
+}
+
+;AUTOMATIC WEAPONRY
+{"heavy_mg_maxim"
+	("emplacement" side(rus) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(mg_crew:0) condition(barricade) action(heavy_mg_maxim))
+	{cost 20}{not_for_player_sale 1}
+}
+{"maxim"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew1(mg_crew:1) crew2(mg_crew_asst:1))
+	{cost 20}
+}
+;unsure but this might be the one with the gun shield.
+{"ds39_stand"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew1(mg_crew:1) crew2(mg_crew_asst:1))
+	{cost 45}
+}
+{"sg43_stand"
+	("vehicle2" side(rus) period(mid) min_stage(6) max_stage(99) cw(2) cp(0) crew1(mg_crew:1) crew2(mg_crew_asst:1))
+	{cost 25}
+}
+{"dshk_stan"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(2) crew1(mg_crew:1) crew2(mg_crew_asst:1))
+	{cost 40}
+}
+{"dshk_aa"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(2) crew1(mg_crew:1) crew2(mg_crew_asst:1))
+	{cost 40}
+}
+{"25mm_72k"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(7) cw(1) cp(7) crew(artilleryman:3))
+	{cost 150}
+}
+{"37mm_61k"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(9) crew(artilleryman:3))
+	{cost 220}
+}
+; this is just the /76 gun but on an AA mount. It is not practically capable vs. air.
+{"76mm_m1938"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(8) cw(1) cp(14) crew(artilleryman:4))
+	{cost 300}
+}
+; the /85 gun on an AA mount ofc. Not as much of an asskicker as the 90mm AA the Americans have.
+{"85mm_52k"
+	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(16) crew(artilleryman:4))
+	{cost 350}
+}
+
+; AT WEAPONRY
+;this is incendiary, short range, unreliable
+{"m41_ampulomet"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(4) cw(1) cp(2) crew(artilleryman:2))
+	{cost 130}
+}
+{"37mm_m30"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(2) cw(1) cp(6) crew(artilleryman:4))
+	{cost 80}
+}
+{"45mm_m37"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(5) cw(1) cp(6) crew(artilleryman:4))
+	{cost 100}
+}
+;entire difference is this has APCR
+{"45mm_m42"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(8) crew(artilleryman:4))
+	{cost 120}
+}
+;great gun! no APCR on it for some reason.
+{"57mm_zis2"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(12) crew(artilleryman:4))
+	{cost 150}
+}
+{"76mm_bpk76"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(4) cw(1) cp(8) crew(artilleryman:2))
+	{cost 100}
+}
+{"76mm_m1902"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(4) cw(1) cp(10) crew(artilleryman:4))
+	{cost 130}
+}
+;I have made this thing cost more than it's worth since the later zis3 should be more common.
+{"76mm_m1933"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(5) cw(1) cp(10) crew(artilleryman:4))
+	{cost 230}
+}
+{"76mm_f22"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(6) cw(1) cp(10) crew(artilleryman:4))
+	{cost 240}
+}
+{"76mm_zis3"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(12) crew(artilleryman:4))
+	{cost 260}
+}
+{"100mm_bs3"
+	("vehicle"  side(rus) period(mid) min_stage(6) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	{cost 500}
+}
+
+;HOWITZERS
+{"82mm_bm37"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(6) crew(artilleryman:2))
+	{cost 250}
+}
+{"120mm_pm38"
+	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(12) crew(artilleryman:2))
+	{cost 450}
+}
+;ig with APHE, so 40mm pen
+{"76mm_m1927"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(6) cw(1) cp(10) crew(artilleryman:4))
+	{cost 160}
+}
+;with HEAT, so 76mm
+{"76mm_m43"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(10) crew(artilleryman:4))
+	{cost 210}
+}
+;120mm pen, 400m range, good ROF, what's not to love?
+{"107mm_m1910_30"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	{cost 500}
+}
+;short range
+{"122mm_m1910"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	{cost 450}
+}
+;shortish range
+{"122mm_m30"
+	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(21) crew(artilleryman:4))
+	{cost 500}
+}
+;long range + doubles as literally the IS-2 gun.
+{"122mm_a19"
+	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(25) crew(artilleryman:5))
+	{cost 750}
+}
+{"152mm_ml20"
+	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(25) crew(artilleryman:5))
+	{cost 700}
+}
+;the funny tractor ones. The 152 has Long Tom range but the tractor really doesn't help them in any way except to make them easier to hit and more expensive to drive (fuel).
+{"152mm_br2"
+	("vehicle"  side(rus) period(mid) min_stage(4) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
+	{cost 720}
+}
+{"203mm_b4"
+	("vehicle"  side(rus) period(mid) min_stage(5) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
+	{cost 700}
+}
+;okay this thing is kind of dogshit but the ability to put a 300mm shell on target has its moments.
+{"280mm_br5"
+	("vehicle"  side(rus) period(mid) min_stage(6) max_stage(99) cw(1) cp(30) crew(artilleryman:5))
+	{cost 750}
+}
+;the rocket launchers, 275m range + NO TOWING. On the other hand it is a 300mm rocket launcher.
+{"300mm_m30"
+	("vehicle"  side(rus) period(mid) min_stage(5) max_stage(99) cw(2) cp(31) crew(artilleryman:4))
+	{cost 500}
+}
+;2x the rockets
+{"300mm_m31"
+	("vehicle"  side(rus) period(mid) min_stage(6) max_stage(99) cw(2) cp(36) crew(artilleryman:4))
+	{cost 700}
+}
+
+;_________________________________________________
+;|               Wheeled vehicles                 |
+;|________________________________________________|
+
+{"m72"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew1(rifleman_1:1) crew2(mgun_2:1))
+	{cost 25}
+}
+{"gaz_aaa"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 25} {not_for_player_sale 1}
+}
+{"gaz_aaa_supply"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
+	{cost 190}
+}
+{"gaz_fuel"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew(rifleman_1:1))
+	{cost 90}
+}
+;the fucking Maxim kraut mower, funniest thing istg
+{"gaz_aaa_maximx4"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
+	{cost 50}
+}
+;25mm AA, you actually need 2 in order to take out a plane. Comparable to M15 MGMC in firepower when you have both I suppose, but they're also not armored.
+{"gaz_aaa_72k"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(6) crew(artilleryman:4))
+	{cost 175}
+}
+;again you can't really do AA work with this. It's just a mobile, less durable 76mm AT platform.
+{"yag10_29k"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(2) cp(14) crew(artilleryman:4))
+	{cost 250}
+}
+{"zis5"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifleman_1:1))
+	{cost 20}
+}
+{"zis5eng"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(1) cp(4) crew1(engineer_1:1) crew2(engineer_2:1))
+	{cost 80}
+}
+{"zis5_dshk"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew(artilleryman:3))
+	{cost 50}
+}
+;the Katyushas are all approximately equal, except Andryusha can take out tanks if lucky. They should cost less than Calliope til then.
+{"zis6_bm8_48"
+	("vehicle"  side(rus) period(mid) min_stage(5) max_stage(99) cw(2) cp(33) crew(tankman:2))
+	{cost 850}
+}
+{"zis6_bm13_16"
+	("vehicle"  side(rus) period(mid) min_stage(6) max_stage(99) cw(2) cp(38) crew(tankman:2))
+	{cost 900}
+}
+{"bm13_studebaker"
+	("vehicle"  side(rus) period(mid) min_stage(6) max_stage(99) cw(2) cp(38) crew(tankman:2))
+	{cost 900}
+}
+{"bm31_12"
+	("vehicle"  side(rus) period(mid) min_stage(7) max_stage(99) cw(2) cp(43) crew(tankman:2))
+	{cost 1100}
+}
+{"gaz67"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(99) cw(1) cp(0) crew(rifleman_1:1))
+	{cost 15} {not_for_player_sale 1}
+}
+{"gaz67b"
+	("vehicle"  side(rus) period(mid) min_stage(3) max_stage(99) cw(1) cp(0) crew(mgun_2:2))
+	{cost 25}
+}
+;Absolute Dogshit Armored Car.
+{"fai_m"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(3) cw(2) cp(3) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 100}
+}
+{"ba20"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(3) cw(2) cp(3) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 110}
+}
+;now they come with guns
+{"ba6"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 250}
+}
+{"ba10"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(6) cw(2) cp(10) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 275}
+}
+;yay the BA64. Unlike FAI/BA20 it can see your enemies.
+{"ba64"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 120}
+}
+{"universal_carrier_rus"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew1(rifleman_1:2) crew2(tank_commander:1))
+	{cost 60}
+}
+{"mmg_carrier_rus"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew1(rifleman_1:2) crew2(tank_commander:1))
+	{cost 75}
+}
+{"m3a1e1_scout_mgun"
+	("vehicle"  side(rus) period(mid) min_stage(2) max_stage(99) cw(2) cp(3) crew(rifleman_1:2))
+	{cost 50}
+}
+
+
+;_________________________________________________
+;|        Main Battle Tanks and SPGs              |
+;|________________________________________________|
+
+
+;LIGHT
+;these tankettes are AWFUL since they cost fuel to turn.
+{"t27"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(2) cw(2) cp(3) crew(tankman:2))
+	{cost 50}
+}
+{"t20"
+	("vehicle"  side(rus) period(mid) min_stage(1) max_stage(8) cw(2) cp(3) crew(tankman:2))
+	{cost 50}
+}
+{"t37a"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(2) cw(4) cp(6) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 60}
+}
+;wow it has a .50. See US halftracks. Only benefit here is you can cross water.
+{"t40"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(3) cw(4) cp(8) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 70}
+}
+;this is a T-60 without the armor, the TNSH kicks ass. But it's not equal to a Stuart/T-26.
+{"t30"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(3) cw(4) cp(10) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 220}
+}
+{"t60"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(10) cw(4) cp(12) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 240}
+}
+;single best artillery platform in the game; fully armored, pulls its ammo, really small, rockets. However, the salvo size and range are pitiful.
+{"t60_bm8_24"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(4) cp(28) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 750}
+}
+;inferior to Stuart due to having no top MG, no hull  MG.
+{"t50"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(6) cw(4) cp(16) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 280}
+}
+{"t70"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(8) cw(4) cp(18) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 300}
+}
+;has APCR
+{"t70m"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(99) cw(4) cp(18) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 320}
+}
+{"bt2_da2"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(4) cw(4) cp(6) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 70}
+}
+{"bt2"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(4) cp(9) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 200}
+}
+{"bt5"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(4) cp(11) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+{"bt7"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(99) cw(4) cp(13) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 260}
+}
+{"bt7a"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(8) cw(4) cp(13) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 270}
+}
+;i mean, it does cover 2 arcs at once. Maybe.
+{"t26_31"
+	("vehicle2" side(rus) period(mid) min_stage(1) max_stage(4) cw(4) cp(5) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 80}
+}
+;flamethrower tonk can engage any enemy whatsoever.
+{"kht26"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(4) cp(10) crew1(tankman:1) crew2(tank_commander:1))
+	{cost 300}
+}
+{"t26_33"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(4) cp(11) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+{"t26_38"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(4) cp(11) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+{"t26_39"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(4) cp(11) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 250}
+}
+;another flamethrower t26
+{"kht130"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(5) cw(4) cp(11) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 300}
+}
+{"m3_stuart_late_rus"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(7) cw(4) cp(12) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 310}
+}
+{"m3a1_stuart_rus"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(8) cw(4) cp(14) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 310}
+}
+{"valentine2"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(8) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 330}
+}
+{"valentine7"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(10) cw(4) cp(17) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 330}
+}
+{"valentine9"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(4) cp(22) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 400}
+}
+
+;MEDIUM
+;I mean, the Lee does cover 3 arcs at once with a hell of a lot of anti-infantry firepower.
+{"m3_lee_rus"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(6) cw(6) cp(23) crew1(tankman:6) crew2(tank_commander:1))
+	{cost 430}
+}
+{"m4a2_75_early_rus"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(8) cw(6) cp(25) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 440}
+}
+{"m4a2_75_late_rus"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(99) cw(6) cp(25) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 450}
+}
+{"m4a2_76w_early_rus"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(10) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 590}
+}
+{"m4a2_76w_late_rus"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 610}
+}
+;it's just a tank ace tank.
+{"m4a3e4_rus"
+	("vehicle2" side(rus) period(late) min_stage(6) max_stage(99) cw(6) cp(30) crew1(tankman_ace:4) crew2(tank_commander_ace:1))
+	{cost 640}
+}
+{"t28"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(6) cp(19) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 260}
+}
+{"t28_38"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(6) cp(19) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 260}
+}
+{"t28e"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(5) cw(6) cp(24) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 270}
+}
+;welcome to the single most-produced tank in the world. It also has no APCR, no top MG, no vision.
+{"t3476_40"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(6) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 390}
+}
+{"t3476_41"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(7) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 400}
+}
+{"t3476_41e"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(8) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 450}
+}
+{"t3457_41"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(7) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 410}
+}
+{"t3476_42"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(8) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 410}
+}
+;the '43 variant has APCR.
+{"t3476_43"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 430}
+}
+;pens 190mm armor so yeah, kinda kicks ass.
+{"t3457_43"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(10) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 450}
+}
+;never ever underestimate flamethrower tanks
+{"t3476_43_flame"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 600}
+}
+;similar/inferior to m4(76) as no pintle MG.
+{"t3485_44"
+	("vehicle2" side(rus) period(mid) min_stage(6) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 590}
+}
+{"t3485_44a"
+	("vehicle2" side(rus) period(late) min_stage(7) max_stage(99) cw(6) cp(30) crew1(tankman_ace:4) crew2(tank_commander_ace:1))
+	{cost 610}
+}
+{"t3485_44b"
+	("vehicle2" side(rus) period(late) min_stage(7) max_stage(99) cw(6) cp(30) crew1(tankman_ace:4) crew2(tank_commander_ace:1))
+	{cost 610}
+}
+{"t3485_44_flame"
+	("vehicle2" side(rus) period(mid) min_stage(6) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 700}
+}
+{"t3485_44a_flame"
+	("vehicle2" side(rus) period(late) min_stage(7) max_stage(99) cw(6) cp(30) crew1(tankman_ace:4) crew2(tank_commander_ace:1))
+	{cost 710}
+}
+
+
+
+
+;HEAVY
+{"churchill3"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(99) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 600}
+}
+{"t35"
+	("vehicle2" side(rus) period(mid) min_stage(2) max_stage(4) cw(8) cp(25) crew1(tankman:9) crew2(tank_commander:1))
+	{cost 300}
+}
+{"t35_late"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(5) cw(8) cp(25) crew1(tankman:9) crew2(tank_commander:1))
+	{cost 350}
+}
+;this absolute shitpost has lighter, penetrable armor.
+{"smk"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(5) cw(8) cp(28) crew1(tankman:6) crew2(tank_commander:1))
+	{cost 500}
+}
+{"kv1_39"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(5) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 500}
+}
+{"kv1_40"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(6) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 510}
+}
+;remarkable in that it cannot be killed by almost anything shy of a Pz4. Once those are around there is almost no difference.
+{"kv1_40e"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(8) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 560}
+}
+{"kv1_41"
+	("vehicle2" side(rus) period(mid) min_stage(4) max_stage(8) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 520}
+}
+{"kv8"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(10) cw(8) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 600}
+}
+{"kv1_42"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 540}
+}
+;it's funny but impractical to use. They also made its HE shot not take out king tigers like it historically could.
+{"kv2_40"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(8) cw(8) cp(34) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 520}
+}
+;inferior in practice to KV1_42 EXCEPT it has APCR.
+{"kv1s"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(8) cw(8) cp(30) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 550}
+}
+{"kv85"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(8) cw(8) cp(36) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 650}
+}
+{"is1_43"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(10) cw(8) cp(36) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 700}
+}
+;on the one hand, it can pen everything short of a Tiger II. On the other hand, the AI fucking sucks so it will usually load HE when it doesn't need to and the reload will then screw you.
+{"is2_43"
+	("vehicle2" side(rus) period(mid) min_stage(6) max_stage(10) cw(8) cp(41) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 720}
+}
+;hull armor makes no difference so in practice you just lose the hull MG.
+{"is2_44"
+	("vehicle2" side(rus) period(mid) min_stage(7) max_stage(99) cw(8) cp(46) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 720}
+}
+;now this is pod racing. AA MG, ace crew. But the main gun's obnoxious tendency to wind up with HE still means this should be inexpensive. It was also historically a very common tank; there were 3x more IS-2s than Tigers.
+{"is2_45"
+	("vehicle2" side(rus) period(late) min_stage(8) max_stage(99) cw(8) cp(46) crew1(tankman_ace:3) crew2(tank_commander_ace:1))
+	{cost 850}
+}
+
+;SPG
+{"su26"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(4) cw(4) cp(13) crew1(tankman:2) crew2(tank_commander:1))
+	{cost 280}
+}
+{"zis30"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(6) cw(4) cp(12) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 250}
+}
+{"su76"
+	("vehicle2" side(rus) period(mid) min_stage(3) max_stage(99) cw(4) cp(12) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 240}
+}
+{"su85"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(8) cw(6) cp(26) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 500}
+}
+;uparmored iirc
+{"su85m"
+	("vehicle2" side(rus) period(mid) min_stage(6) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 550}
+}
+;best TD in the russian lineup but it's still a TD in this fuckass game so it will cost like 2x the fuel to use.
+{"su100"
+	("vehicle2" side(rus) period(mid) min_stage(7) max_stage(99) cw(6) cp(36) crew1(tankman:3) crew2(tank_commander:1))
+	{cost 600}
+}
+;it's direct fire, which is fucking stupid
+{"su122"
+	("vehicle2" side(rus) period(mid) min_stage(5) max_stage(99) cw(6) cp(25) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 400}
+}
+{"su152"
+	("vehicle2" side(rus) period(mid) min_stage(6) max_stage(10) cw(8) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 450}
+}
+{"isu122s"
+	("vehicle2" side(rus) period(mid) min_stage(7) max_stage(99) cw(8) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 450}
+}
+;has an AA MG, which is fun, but not as important on this.
+{"isu152"
+	("vehicle2" side(rus) period(mid) min_stage(7) max_stage(99) cw(8) cp(35) crew1(tankman:4) crew2(tank_commander:1))
+	{cost 470}
+}
+;actually kinda neat
+{"su100y"
+	("vehicle2" side(rus) period(mid) min_stage(8) max_stage(99) cw(6) cp(39) crew1(tankman:5) crew2(tank_commander:1))
+	{cost 470}
+}
+{"conquest_blank"
+	("vehicle" 	side(rus) period(mid) min_stage(1) max_stage(99) crew(tankman:0) cw(0) cp(0))
+	{cost 0} {not_for_player_sale 1}
+}
+
+;_______________________________________________
+;|					Aircraft					|
+;|______________________________________________|
+
+
+{"conquest_po2"
+	("squad_vehicle" side(rus) period(mid) min_stage(1) max_stage(99) cw(0) cp(8) crew(pilot:2) vehicle(po2))
+	{cost 1}
+	{round_multiple 1.0}
+	{action "airstrike:reconnaissance_50"}
+}
+{"conquest_yak1"
+	("squad_vehicle" side(rus) period(mid) min_stage(1) max_stage(99) cw(0) cp(9) crew(pilot:1) vehicle(yak1_ser69))
+	{cost 2}
+	{round_multiple 1.0}
+	{action "airstrike:sc_50"}
+}
+{"conquest_il2"
+	("squad_vehicle" side(rus) period(mid) min_stage(1) max_stage(99) cw(0) cp(9) crew(pilot:1) vehicle(il2_mod42))
+	{cost 3}
+	{round_multiple 1.0}
+	{action "airstrike:sc_250"}
+}
+
+{"po2" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
+{"yak1_ser69" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
+{"il2_mod42" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
+
+
+{"82mm_bm37_mortar_barrage"
+	("squad_vehicle" side(rus) period(mid)  min_stage(1) max_stage(99) cw(0) cp(0) crew(artilleryman:0) vehicle(82mm_bm37))
+	{cost -248} ;82mm_bm37 cost 250 - 248 = 2
+	{round_multiple 1.0}
+	{action "airstrike:conquest_mortar_barrage_80"}
+}
+{"120mm_pm38_mortar_barrage"
+	("squad_vehicle" side(rus) period(mid)  min_stage(5) max_stage(99) cw(0) cp(0) crew(artilleryman:0) vehicle(120mm_pm38))
+	{cost -447} ;120mm_pm38 cost 450 - 447 = 3
+	{round_multiple 1.0}
+	{action "airstrike:conquest_mortar_barrage_120"}
+}
+
+{"122mm_m1910_smoke_barrage"
+	("squad_vehicle" side(rus) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(artilleryman:0) vehicle(122mm_m1910))
+	{cost -698} ;122mm_m1910 cost 700 - 698 = 2
+	{round_multiple 1.0}
+	{action "airstrike:conquest_smoke_barrage_122_rus"}
+}
+{"122mm_m1910_artillery_barrage"
+	("squad_vehicle" side(rus) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(artilleryman:0) vehicle(122mm_m1910))
+	{cost -697} ;122mm_m1910 cost 700 - 697 = 3
+	{round_multiple 1.0}
+	{action "airstrike:conquest_artillery_barrage_122_rus"}
+}
+
+{"152mm_ml20_artillery_barrage"
+	("squad_vehicle" side(rus) period(mid)  min_stage(4) max_stage(99) cw(0) cp(0) crew(artilleryman:0) vehicle(152mm_ml20))
+	{cost -996} ;152mm_ml20 cost 100 - 996 = 4
+	{round_multiple 1.0}
+	{action "airstrike:conquest_artillery_barrage_152_rus"}
+}

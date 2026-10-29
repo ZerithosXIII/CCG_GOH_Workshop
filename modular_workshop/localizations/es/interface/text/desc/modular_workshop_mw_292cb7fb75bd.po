@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_292cb7fb75bd"
+msgid "M4E2 'Narwhal'"
+msgstr "M4E2 'Narwhal'"
+
+msgctxt "desc/squad/mw_292cb7fb75bd"
+msgid "M4E2 'Narwhal'"
+msgstr "M4E2 'Narwhal'"

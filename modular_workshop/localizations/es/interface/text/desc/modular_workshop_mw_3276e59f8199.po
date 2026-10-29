@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_3276e59f8199"
+msgid "76mm GMC M18 'Denny's'"
+msgstr "76mm GMC M18 'Denny's'"
+
+msgctxt "desc/squad/mw_3276e59f8199"
+msgid "76mm GMC M18 'Denny's'"
+msgstr "76mm GMC M18 'Denny's'"

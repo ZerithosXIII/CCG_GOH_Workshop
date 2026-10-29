@@ -1,0 +1,370 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "medium"   "smoke" "2in_wp"  "sq_armor_medium" "vision_lev03" "muzzle_37mm_47mm"}
+	
+	{extension "mw_8416aa9bc364.mdl"}
+	(include "mw_8416aa9bc364.ext")
+
+	;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(20))
+	
+
+	
+	
+	
+	("ammo" args "ammo4") ;// flamer fuel
+	("ammo" args "ammo5") ;// flamer fuel
+	("ammo" args "ammo6") ;// flamer fuel
+	("ammo" args "ammo7") ;// flamer fuel
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	{PatherId "m4a3"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	
+{boarder
+		{anm "left"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+	
+{anm "gunner2"
+			{forward {begin "board_HighArmor"} {end "seat_m4a276w_commander"}}
+			{reverse {end "emit_tank_2"}}
+		}
+}
+
+{boarder
+		{door "emit0"}
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+	
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	{boarder
+		
+		
+		{anm "armor"
+			{forward {begin "board_lowArmor"} {end "seat_armor"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		
+		
+	
+{anm "mw_crew_left"
+			{forward {begin "board_m4_crew"} 
+{end "seat_commander_hatch"}
+}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+
+{anm "mw_crew_right"
+			{forward {begin "board_m4_crew"} 
+{end "seat_commander_hatch"}
+}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+}
+	
+{sensor
+		{visor "top"
+			{vision "human"}
+			{bone "mgun_rot"}
+		}
+	}
+{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner3" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner"
+			{group "crew"}
+			{visor "main"}
+		}
+	}
+	{placer
+		{place "commander"
+			{group "crew"}
+			{visor "around"}
+		}
+	}
+	{boarder
+{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+
+{link "emit2" "driver" {anm "left"} {forward putoff} {reverse puton}}
+
+{link "emit3" "driver" {anm "right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner3"  {anm "co_driver"} {forward putoff} {reverse puton}}
+
+{link "emit2" "gunner3" {anm "left"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner" {anm "mw_crew_left"} {forward putoff} {reverse puton}}
+
+{link "emit2" "gunner" {anm "mw_crew_right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "commander" {anm "mw_crew_left"} {forward putoff} {reverse puton}}
+
+{link "emit2" "commander" {anm "mw_crew_right"} {forward putoff} {reverse puton}}
+}
+	{placer
+		{place "gunner2"
+			{group "passenger"}
+			{linkbone "turret"}
+			{visor "top"}
+			;{openForCrush}
+		}
+	}
+{boarder
+		{door "emit4"}
+		{door "emit5"}
+		{link "emit4" "gunner2" {anm "gunner2"} {forward putoff} {reverse puton}}
+		{link "emit5" "gunner2" {anm "gunner2"} {forward putoff} {reverse puton}}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_m4_driver"} {end "seat_m4a276w_commander"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver"}}
+		}
+		{anm "co_driver"
+			{forward {begin "board_m4_crew"} {end "seat_m4a276w_commander"} {base "open_co_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_co_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_m4_crew"} {end "seat_m4a276w_commander"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_m4_crew"} {end "seat_m4a276w_commander"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor2))
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "mortareng_50 sm"}
+	}
+
+	{extender "inventory"
+		{box
+					;104 rounds ;20,70,10% AP,HE,WP
+			
+			
+			{item "ammo hmgun_usa" 500}		;600 rounds
+			{item "ammo mgun_usa belt" 6250}		;6750 rounds
+			{item "mortareng_50 sm" 18}		;2-inch smoke mortar
+			{item "satchel_charge_usa" 1}
+		
+{item "bulletger_37 aphe" 35}
+
+{item "bulletger_37 he" 45}
+
+{item "bulletger_37 apcr" 9}
+
+{item "ammo mgun_ger belt" 2500}
+
+{item "geballteladung_3kg" 1}
+
+{item "nbks grenade" 5}
+}
+	}
+	{Weaponry
+		("restore_ik_time")
+		
+		
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_kwk38t" filling "bulletger_37 aphe" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic_poor"
+				zeroing(2.0)
+				dispersion(0.20)
+			)
+		
+{foresight "foresight1"}
+}
+{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		
+	
+{place "mgun2"
+			{type "coaxial"}
+			{weapon "mg37t" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+}
+
+	{mass 31570}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.3) len(0.7))
+		("mobility_tank"
+			speed(48) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(31.57) ;------Weight in Tonnes.
+			power(450) ;---------Engine Power, in hp.
+			track(4) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(635) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(160) ;---------Range in km, off-road.
+		)
+	}
+
+	
+	
+	
+	
+
+
+
+("ammo" args "module_ammo1")
+
+("ammo" args "module_ammo2")
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "gun_rot"
+		{limits -10 25}
+		{speed2 10}
+	}
+
+{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+
+{props "with_gun"}
+}

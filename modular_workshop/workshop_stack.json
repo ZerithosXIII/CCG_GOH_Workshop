@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "stack": [
+    {
+      "id": "vanilla",
+      "version": "build:25492057",
+      "fingerprint": "980cf4c903c4ec8d9a034c4e4ea81aa3e8cf621b94b600b06c106cfdd27478fa"
+    },
+    {
+      "id": "conquerklayn",
+      "version": "b04966977d3ec1c7",
+      "fingerprint": "4c03f58cee5e4701aaaa649e4725f9c1ca47c87a9238a02223626c56dbf6b31f"
+    }
+  ],
+  "skipped": []
+}

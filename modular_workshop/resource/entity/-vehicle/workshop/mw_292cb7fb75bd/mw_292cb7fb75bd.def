@@ -1,0 +1,605 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "medium"    "sq_armor_medium" "open_top" "with_gun" "muzzle_37mm_40mm_auto" "vision_lev02" "sq_autocannon"}
+	
+	
+	
+	{extension "mw_292cb7fb75bd.mdl"}
+
+
+	
+("ammo" args "ammo1")
+
+("ammo" args "ammo2")
+
+("ammo" args "ammo3")
+
+("ammo" args "ammo4")
+
+("fuel" args "fuel1")
+
+("fuel" args "fuel2")
+
+("fuel" args "fuel3")
+
+("fuel" args "fuel4")
+
+("transmission" args "transmission")
+
+{volume "body1"			; transmission housing, cast
+		{thickness 38.1
+			{front 50.8}	
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body2"			; middle front plate, cast
+		{thickness 38.1
+			{front 50.8}
+			{bottom 12.5}
+			{rear 10}
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body14"		;plate between hatches, RHA
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{rear 10}
+		}
+	}
+
+{volume "body12"		;left superstructure, RHA
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 25.4}
+			{rear 10}
+		}
+	}
+
+{volume "body13"		;right superstructure, RHA 
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 25.4}
+			{rear 10}
+		}
+	}
+
+{volume "body3"			;right transmission, cast
+		{thickness 38.1
+			{front 50.8}
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body4"			;right transmission, cast
+		{thickness 38.1
+			{front 50.8}
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body5"			;co-driver hatch, cast
+		{thickness 50.8}
+		{CastSteel 0.8063}
+	}
+
+{volume "body6"			;driver hatch, cast
+		{thickness 50.8}
+		{CastSteel 0.8063}
+	}
+
+{volume "body7"			;Hull lower middle, RHA
+		{thickness 38.1
+			{front 50.8}
+			{rear 10}
+			{bottom 12.5}
+		}
+	}
+
+{volume "body8"			;left side armor plate, RHA
+		{thickness 63.5}
+	}
+
+{volume "body9"			;right side front armor plate, RHA
+		{thickness 63.5}
+	}
+
+{volume "body10"		;right side rear armor plate, RHA
+		{thickness 63.5}
+	}
+
+{volume "body11"		;hull MG, cast
+		{thickness 50.8}
+		{CastSteel 0.8063}
+	}
+
+{volume "engine1"
+		{thickness 38.1
+			{front 19.5}
+			{bottom 12.7}
+		}
+	}
+
+{volume "engine2"
+		{thickness 38.1
+			{front 10}
+			{top 19.5}
+			{bottom 25.4}
+		}
+		{able {holed}}
+	}
+
+{volume "armor1"	; turret ring armor
+		{thickness 19.5
+			{top 5.9}
+		}
+	}
+
+{volume "armor2"	; +front armor
+		{thickness 25.4}
+	}
+
+{volume "armor3"	; +front armor
+		{thickness 25.4}
+	}
+
+("gun" repair(30) thickness(15))
+
+("turret" repair(45))
+
+{volume "turret1"
+		{thickness 6.4}
+	}
+
+{volume "turret2"
+		{thickness 6.4}
+		{able {holed}}
+	}
+
+{volume "turret3"
+		{thickness 6.4}
+		{able {holed}}
+	}
+
+{volume "turret4"
+		{thickness 6.4}
+	}
+
+{volume "turret5"
+		{thickness 6.4}
+	}
+
+{volume "turret6"
+		{thickness 6.4}
+	}
+
+{volume "turret7"
+		{thickness 6.4}
+	}
+
+{volume "turret8"
+		{thickness 6.4}
+	}
+
+
+	;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(20))
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{PatherId "sherman"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	
+{boarder
+		{anm "left"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+	}
+
+{boarder
+		{door "emit0"}
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+	("gunner_visible2")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_m4_driver"} {end "seat_m4_gunner"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver"}}
+		}
+		{anm "co_driver"
+			{forward {begin "board_m4_crew"} {end "seat_m4_gunner"} {base "open_co_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_co_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_m4_crew"} {end "seat_m4_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_m4_crew"} {end "seat_m4_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+	}
+
+	{boarder
+		
+		
+		{anm "gunner"
+			{forward {begin "board_body"} {end "seat_m15a1_gunner"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_body"} {end "seat_m15a1_gunner2"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "charger"
+			{forward {begin "board_body"} {end "seat_m15a1_charger"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "gunner4"
+			{forward {begin "board_body"} {end "pose_m3a1e1_gunner4"}}
+			{reverse {end "emit_tank_1_hold" 1}}
+		}
+		{anm "passenger"
+			{forward {begin "board_body"} {end "seat_passenger"}}
+			{reverse {end "emit_body" 1}}
+		}
+	}
+	{boarder
+		{door "emit1"}
+		
+	}
+	
+	{boarder
+		{door "emit3"}
+		
+	}
+	
+	{boarder
+		{door "emit4"}
+		
+	}
+	
+	{boarder
+		{door "emit3"}
+		
+	}
+	
+	{boarder
+		{door "emit4"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner3" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner"
+			{group "crew"}
+			{visor "none"}
+			{LinkBone "gunner"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "gunner2"
+			{group "crew"}
+			{visor "none"}
+			{LinkBone "gunner2"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger"
+			{group "crew"}
+			{visor "none"}
+			{LinkBone "charger"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger2"
+			{group "crew"}
+			{visor "none"}
+			{LinkBone "module_seat03"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{boarder
+{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+
+{link "emit2" "driver" {anm "left"} {forward putoff} {reverse puton}}
+
+{link "emit3" "driver" {anm "right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner3"  {anm "co_driver"} {forward putoff} {reverse puton}}
+
+{link "emit2" "gunner3" {anm "left"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit3" "gunner" {anm "gunner"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit4" "gunner2" {anm "gunner2"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit3" "charger" {anm "charger"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit4" "charger2" {anm "passenger"} {forward putoff} {reverse puton}}
+}
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor2))
+
+	{extender "inventory"
+		{box
+			{item "bulletusa_75x350 apcbche" 18}		;97 rounds ;20,70,10% AP,HE,WP
+			{item "bulletusa_75x350 he" 68}
+			{item "bulletusa_75x350 wp" 10}
+						;300 rounds
+						;4750 rounds
+			{item "satchel_charge_usa" 1}
+		
+{item "bulletusa_37_auto apc" 40}
+
+{item "bulletusa_37_auto he" 150}
+
+{item "hmgun_usa api" 800}
+}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		
+		
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_m1a2" filling "ammo bulletusa_37_auto he" 10}
+			{gunner "gunner"}
+			{charger "charger charger2" minWorkers 1}
+			("abm_dymamic_aa"
+				zeroing(1.95)
+				dispersion(0.24)
+			)
+		
+{foresight "foresight1"}
+}
+{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		
+	
+{place "mgun"
+			{type "aa"}
+			{Barrels 2}
+			{weapon "browning_m2_x2" filling "hmgun_usa api" 400}
+			{foresight "foresight14"}
+			{gunner "gunner2"}
+			{charger "charger charger2" minWorkers 1}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+}
+
+	{mass 30300}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.0))
+		("mobility_tank"
+			speed(38) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(6) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(30.3) ;-------Weight in Tonnes.
+			power(350) ;---------Engine Power, in hp.
+			track(4) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(660) ;----------Fuel capacity in Litres.
+			type(fuel) ;-------Fuel type. (diesel OR fuel)
+			range(190) ;---------Range in km, off-road.
+		)
+	}
+
+	
+	
+	
+	
+	
+
+("ammo" args "module_ammo1")
+
+("ammo" args "module_ammo2")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "gun_rot"
+		{limits -5 88}
+		{speed2 20}
+	}
+
+{bone "turret"
+		{speed2 30}
+	}
+
+{props "with_gun"}
+
+{sensor
+		{visor "main"
+			{vision "cannon_main"}
+		}
+	}
+
+{volume "mw_armor_0_v0" {tags "armor"}
+{thickness 6.4}
+
+{material "steel"}
+
+{able {NoWoundDecal}}
+}
+
+{volume "mw_armor_1_v0" {tags "armor"}
+{thickness 6.4}
+
+{material "steel"}
+
+{able {NoWoundDecal}}
+}
+}

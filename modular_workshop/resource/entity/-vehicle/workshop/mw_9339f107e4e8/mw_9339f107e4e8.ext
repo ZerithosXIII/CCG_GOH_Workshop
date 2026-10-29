@@ -1,0 +1,177 @@
+
+("ammo" args "ammo1")
+
+("ammo" args "ammo2")
+
+("ammo" args "ammo3")
+
+("ammo" args "ammo4")
+
+("fuel" args "fuel1")
+
+("fuel" args "fuel2")
+
+("fuel" args "fuel3")
+
+("fuel" args "fuel4")
+
+("transmission" args "transmission")
+
+{volume "body1"			; transmission housing, cast
+		{thickness 38.1
+			{front 50.8}	
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body2"			; middle front plate, cast
+		{thickness 38.1
+			{front 50.8}
+			{bottom 12.5}
+			{rear 10}
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body14"		;plate between hatches, RHA
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{rear 10}
+		}
+	}
+
+{volume "body12"		;left superstructure, RHA
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 25.4}
+			{rear 10}
+		}
+	}
+
+{volume "body13"		;right superstructure, RHA 
+		{thickness 38.1
+			{front 50.8}
+			{top 19.5}
+			{bottom 25.4}
+			{rear 10}
+		}
+	}
+
+{volume "body3"			;right transmission, cast
+		{thickness 38.1
+			{front 50.8}
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body4"			;right transmission, cast
+		{thickness 38.1
+			{front 50.8}
+		}
+		{CastSteel 0.8063}
+	}
+
+{volume "body5"			;co-driver hatch, cast
+		{thickness 50.8}
+		{CastSteel 0.8063}
+	}
+
+{volume "body6"			;driver hatch, cast
+		{thickness 50.8}
+		{CastSteel 0.8063}
+	}
+
+{volume "body7"			;Hull lower middle, RHA
+		{thickness 38.1
+			{front 50.8}
+			{rear 10}
+			{bottom 12.5}
+		}
+	}
+
+{volume "body8"			;left side armor plate, RHA
+		{thickness 63.5}
+	}
+
+{volume "body9"			;right side front armor plate, RHA
+		{thickness 63.5}
+	}
+
+{volume "body10"		;right side rear armor plate, RHA
+		{thickness 63.5}
+	}
+
+{volume "body11"		;hull MG, cast
+		{thickness 50.8}
+		{CastSteel 0.8063}
+	}
+
+{volume "engine1"
+		{thickness 38.1
+			{front 19.5}
+			{bottom 12.7}
+		}
+	}
+
+{volume "engine2"
+		{thickness 38.1
+			{front 10}
+			{top 19.5}
+			{bottom 25.4}
+		}
+		{able {holed}}
+	}
+
+{volume "armor1"	; turret ring armor
+		{thickness 19.5
+			{top 5.9}
+		}
+	}
+
+{volume "armor2"	; +front armor
+		{thickness 25.4}
+	}
+
+{volume "armor3"	; +front armor
+		{thickness 25.4}
+	}
+
+("gun" repair(30) thickness(15))
+
+("turret" repair(45))
+
+{volume "turret1"
+		{thickness 6.4}
+	}
+
+{volume "turret2"
+		{thickness 6.4}
+		{able {holed}}
+	}
+
+{volume "turret3"
+		{thickness 6.4}
+		{able {holed}}
+	}
+
+{volume "turret4"
+		{thickness 6.4}
+	}
+
+{volume "turret5"
+		{thickness 6.4}
+	}
+
+{volume "turret6"
+		{thickness 6.4}
+	}
+
+{volume "turret7"
+		{thickness 6.4}
+	}
+
+{volume "turret8"
+		{thickness 6.4}
+	}

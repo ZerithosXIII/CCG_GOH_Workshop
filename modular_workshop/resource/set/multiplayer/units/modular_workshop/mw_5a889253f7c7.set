@@ -1,0 +1,20 @@
+{"mw_5a889253f7c7"
+	
+	
+	{score_factor 0.05}
+	{tags "conquest conquestonly mid"}
+	{charge {delay 0}{interval 0}}
+	{cw 8}
+	{cp 30}
+	{research_stage 1}
+	{research_stage_max 99}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+	{level 1}
+	{button "vehicles"}
+
+	{content "* ( mp/rus/mid/tankman:4 mp/rus/mid/tank_commander:1 )"}
+	{button "vehicles"}
+
+	{cost 560}
+}

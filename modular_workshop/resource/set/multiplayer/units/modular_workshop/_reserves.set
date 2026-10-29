@@ -1,0 +1,11 @@
+{"mw_reserve_e8ee90c7a999(usa)"
+		{charge {delay 0}{interval 0}}
+		{content "mp/usa/early/tankman:4"}
+		{tags "conquest conquestonly early"}
+		{level 1}
+		{cost 0}
+		{research_stage 1}
+		{research_stage_max 99}
+		{squad_cost_factor 1}
+		{button "inf1"}
+	}
