@@ -23,22 +23,11 @@
       "require": [],
       "priority": 1,
       "fingerprint": "4c03f58cee5e4701aaaa649e4725f9c1ca47c87a9238a02223626c56dbf6b31f"
-    },
-    {
-      "id": "modular_workshop",
-      "name": "Cursed Workshop - Built Vehicles",
-      "root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-      "description": "Vehículos: 76mm GMC M18 'Denny's'; M4A3(38)W; M4 Narwhal; 150mm GMC M18 \\",
-      "version": "5cb63950f6008457",
-      "require": [],
-      "priority": 2,
-      "fingerprint": "ab213b9d19d593939e99881c60c8987f3f5629d87a7b989c6f16f84e00d267ab"
     }
   ],
   "source_order": [
     "vanilla",
-    "conquerklayn",
-    "modular_workshop"
+    "conquerklayn"
   ],
   "recipient": {
     "id": "m5a1_stuart_late",
@@ -366,96 +355,6 @@
         "archive_member": "set/multiplayer/units/conquest/units_eng.set",
         "crc": 2252978720,
         "modified_ns": null
-      }
-    },
-    {
-      "path": "set/multiplayer/units/modular_workshop/mw_8416aa9bc364.set",
-      "sha256": "0c548193edcf64fc594415ccbe6c7affd23dc341a2b9ff9471d557b2f92b46c6",
-      "source": {
-        "path": "set/multiplayer/units/modular_workshop/mw_8416aa9bc364.set",
-        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-        "origin": "Cursed Workshop - Built Vehicles",
-        "source_id": "modular_workshop",
-        "version": "5cb63950f6008457",
-        "size": 399,
-        "priority": 2,
-        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_8416aa9bc364.set",
-        "archive_path": null,
-        "archive_member": null,
-        "crc": null,
-        "modified_ns": 1793219864511849300
-      }
-    },
-    {
-      "path": "set/multiplayer/units/modular_workshop/mw_e0dcc79a529a.set",
-      "sha256": "5ab1604fb1f7c89faf58592c118e4213922e568ce77d313701e57ee02e4d24b0",
-      "source": {
-        "path": "set/multiplayer/units/modular_workshop/mw_e0dcc79a529a.set",
-        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-        "origin": "Cursed Workshop - Built Vehicles",
-        "source_id": "modular_workshop",
-        "version": "5cb63950f6008457",
-        "size": 400,
-        "priority": 2,
-        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_e0dcc79a529a.set",
-        "archive_path": null,
-        "archive_member": null,
-        "crc": null,
-        "modified_ns": 1793223288938416400
-      }
-    },
-    {
-      "path": "set/multiplayer/units/modular_workshop/_reserves.set",
-      "sha256": "def81d2f798d1b83f2d26f821c9993c9ff3e9012a56751a763a69070798eca36",
-      "source": {
-        "path": "set/multiplayer/units/modular_workshop/_reserves.set",
-        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-        "origin": "Cursed Workshop - Built Vehicles",
-        "source_id": "modular_workshop",
-        "version": "5cb63950f6008457",
-        "size": 266,
-        "priority": 2,
-        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\_reserves.set",
-        "archive_path": null,
-        "archive_member": null,
-        "crc": null,
-        "modified_ns": 1793224128328161900
-      }
-    },
-    {
-      "path": "set/multiplayer/units/modular_workshop/mw_9339f107e4e8.set",
-      "sha256": "d620f83bc76ad180148019df792b92a062950c829df7c0a7604966ce9db6bdf0",
-      "source": {
-        "path": "set/multiplayer/units/modular_workshop/mw_9339f107e4e8.set",
-        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-        "origin": "Cursed Workshop - Built Vehicles",
-        "source_id": "modular_workshop",
-        "version": "5cb63950f6008457",
-        "size": 399,
-        "priority": 2,
-        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_9339f107e4e8.set",
-        "archive_path": null,
-        "archive_member": null,
-        "crc": null,
-        "modified_ns": 1793223829552609100
-      }
-    },
-    {
-      "path": "set/multiplayer/units/modular_workshop/mw_3276e59f8199.set",
-      "sha256": "2ebf9fc715e2b6af4cfddec8a279ddd7bc7c202b5405e04d9c99ee70976f30db",
-      "source": {
-        "path": "set/multiplayer/units/modular_workshop/mw_3276e59f8199.set",
-        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-        "origin": "Cursed Workshop - Built Vehicles",
-        "source_id": "modular_workshop",
-        "version": "5cb63950f6008457",
-        "size": 399,
-        "priority": 2,
-        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_3276e59f8199.set",
-        "archive_path": null,
-        "archive_member": null,
-        "crc": null,
-        "modified_ns": 1793224128324660200
       }
     }
   ],
@@ -1256,78 +1155,6 @@
           "crc": 3032388033,
           "modified_ns": null
         }
-      },
-      {
-        "path": "set/interaction_entity/modular_workshop/mw_8416aa9bc364.inc",
-        "sha256": "9f3a74c194c8e76a4264890065350909ae4a6cbfd75f36eb518272cfec974eda",
-        "source": {
-          "path": "set/interaction_entity/modular_workshop/mw_8416aa9bc364.inc",
-          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-          "origin": "Cursed Workshop - Built Vehicles",
-          "source_id": "modular_workshop",
-          "version": "5cb63950f6008457",
-          "size": 739,
-          "priority": 2,
-          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_8416aa9bc364.inc",
-          "archive_path": null,
-          "archive_member": null,
-          "crc": null,
-          "modified_ns": 1793219864505141200
-        }
-      },
-      {
-        "path": "set/interaction_entity/modular_workshop/mw_e0dcc79a529a.inc",
-        "sha256": "1ee548dd8557bf24b684de93be7eebda99fa034034ebad208455e09b61a43c57",
-        "source": {
-          "path": "set/interaction_entity/modular_workshop/mw_e0dcc79a529a.inc",
-          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-          "origin": "Cursed Workshop - Built Vehicles",
-          "source_id": "modular_workshop",
-          "version": "5cb63950f6008457",
-          "size": 1685,
-          "priority": 2,
-          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_e0dcc79a529a.inc",
-          "archive_path": null,
-          "archive_member": null,
-          "crc": null,
-          "modified_ns": 1793223288936418300
-        }
-      },
-      {
-        "path": "set/interaction_entity/modular_workshop/mw_9339f107e4e8.inc",
-        "sha256": "44726faac20380688ef34216f78dbc7593cd45f99898d0a2b5b8d84e33dae91e",
-        "source": {
-          "path": "set/interaction_entity/modular_workshop/mw_9339f107e4e8.inc",
-          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-          "origin": "Cursed Workshop - Built Vehicles",
-          "source_id": "modular_workshop",
-          "version": "5cb63950f6008457",
-          "size": 777,
-          "priority": 2,
-          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_9339f107e4e8.inc",
-          "archive_path": null,
-          "archive_member": null,
-          "crc": null,
-          "modified_ns": 1793223829548104900
-        }
-      },
-      {
-        "path": "set/interaction_entity/modular_workshop/mw_3276e59f8199.inc",
-        "sha256": "021613163aa667113141c65918fa2af9461ef09c581e8f36bf9e6b393e8ea165",
-        "source": {
-          "path": "set/interaction_entity/modular_workshop/mw_3276e59f8199.inc",
-          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
-          "origin": "Cursed Workshop - Built Vehicles",
-          "source_id": "modular_workshop",
-          "version": "5cb63950f6008457",
-          "size": 789,
-          "priority": 2,
-          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_3276e59f8199.inc",
-          "archive_path": null,
-          "archive_member": null,
-          "crc": null,
-          "modified_ns": 1793224128320662500
-        }
       }
     ],
     "chassis_events": [
@@ -1565,36 +1392,7 @@
     "El retrato armado todavía no está renderizado; se usó el retrato de respaldo si estaba disponible. Regenerá los retratos."
   ],
   "runtime_verified": false,
-  "shop": {
-    "parts": [
-      "m5a1_stuart_late",
-      "m24_chaffee"
-    ],
-    "share": 0.75,
-    "offer": {
-      "cost": 520,
-      "stage": 5,
-      "share": 0.75,
-      "parts": [
-        {
-          "template": "m5a1_stuart_late",
-          "cost": 310.0,
-          "stage": 4
-        },
-        {
-          "template": "m24_chaffee",
-          "cost": 380.0,
-          "stage": 5
-        }
-      ],
-      "unpriced": []
-    }
-  },
-  "portraits": [
-    "portrait_squad",
-    "unit_icon",
-    "unit_icon_small"
-  ],
+  "portraits": [],
   "portrait": {
     "schema_version": 1,
     "id": "mw_e5ee481f8031",

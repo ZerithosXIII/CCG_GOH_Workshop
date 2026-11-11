@@ -1,0 +1,116 @@
+
+("fuel" args "fuel1")
+
+("fuel" args "fuel2")
+
+("ammo" args "ammo1")
+
+("ammo" args "ammo2")
+
+("transmission" args "transmission")
+
+("shield_tear" args "shieldl1" 5)
+
+("shield_tear" args "shieldl2" 5)
+
+("shield_tear" args "shieldl3" 5)
+
+("shield_tear" args "shieldr1" 5)
+
+("shield_tear" args "shieldr2" 5)
+
+("shield_tear" args "shieldr3" 5)
+
+{volume "body1"			; Hull
+		{thickness 28.5
+			{top 28.5}			;front upper
+			{front 63.5}			;front lower
+			{rear 10}
+			{bottom 12.7}
+		}
+	}
+
+{volume "body2"			; hull upper
+		{thickness 28.5
+			{top 12.7}
+			{front 28.5}
+			{rear 10}
+		}
+	}
+
+{volume "body3"			; turret ring
+		{thickness 28.5
+			{top 12.7}
+		}
+	}
+
+{volume "engine1"
+		{thickness 28.5
+			{front 10}
+			{bottom 12.7}
+			{rear 25.4}
+		}
+	}
+
+{volume "engine2"
+		{thickness 28.5
+			{bottom 12.7}
+			{top 12.7}
+		}
+	}
+
+{volume "engine3"
+		{thickness 28.5
+			{bottom 12.7}
+		}
+	}
+
+{volume "basket"
+		{thickness 5}
+		{tags "armor"}
+		{tags "no_target"}
+	}
+
+{volume "grill"
+		{thickness 5}
+		{tags "armor"}
+	}
+
+{volume "turret1"		; Turret Ring
+		{thickness 53}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+
+{volume "turret2"		; Turret
+		{thickness 53
+			{top 15}
+			{bottom 53}
+		}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+
+{volume "turret3"		; Turret
+		{thickness 53}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+
+{volume "mantlet"
+		{thickness 45}
+		{HighHardness}
+	}
+
+{volume "barrel2"
+		{thickness 20
+			{front 45}
+		}
+		{HighHardness}
+	}
+
+{volume "module_body"
+{component "body"}
+
+{tags "body"}
+}

@@ -1,0 +1,1857 @@
+{
+  "schema": 1,
+  "id": "mw_e59f40e33576",
+  "display_name": "X1A5",
+  "mod_id": "modular_workshop",
+  "active_sources": [
+    {
+      "id": "vanilla",
+      "name": "Gates of Hell",
+      "root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+      "description": "",
+      "version": "build:25492057",
+      "require": [],
+      "priority": 0,
+      "fingerprint": "980cf4c903c4ec8d9a034c4e4ea81aa3e8cf621b94b600b06c106cfdd27478fa"
+    },
+    {
+      "id": "conquerklayn",
+      "name": "Conquest Klayn Mode",
+      "root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+      "description": "Conquest w lower enemy counts + factions unlocked",
+      "version": "b04966977d3ec1c7",
+      "require": [],
+      "priority": 1,
+      "fingerprint": "4c03f58cee5e4701aaaa649e4725f9c1ca47c87a9238a02223626c56dbf6b31f"
+    },
+    {
+      "id": "modular_workshop",
+      "name": "Cursed Workshop - Built Vehicles",
+      "root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+      "description": "Vehículos: X1A [WW2 2026]; X1A2 Prototype; M21 Jackrabbit; M4E2 'Narwhal' [WW2 2026]; 76mm GMC M18 'Denny's'; X1A3; M4A3(38)W; M4 Narwhal; X1A2 [WW2 2026]; 150mm GMC M18 \\",
+      "version": "c09fffdfc867944e",
+      "require": [],
+      "priority": 2,
+      "fingerprint": "f325b8814d943dd751ac83fe098ee7cf15e9e72b6c23dd2a59862765799eee78"
+    }
+  ],
+  "source_order": [
+    "vanilla",
+    "conquerklayn",
+    "modular_workshop"
+  ],
+  "recipient": {
+    "id": "m5a1_stuart_late",
+    "label": "M5A1 Stuart (Late)",
+    "kind": "tank_light",
+    "props": [
+      "light",
+      "vision_lev03",
+      "muzzle_37mm_47mm",
+      "detect_tank_light",
+      "tractor",
+      "tractor_light",
+      "sq_armor_light"
+    ],
+    "definition_path": "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.def",
+    "model_path": "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.mdl",
+    "extension_path": "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.ext",
+    "extension_paths": [
+      "properties/tank.ext",
+      "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.ext"
+    ],
+    "origin": "Gates of Hell",
+    "source_id": "vanilla",
+    "version": "build:25492057",
+    "files": [
+      "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.def",
+      "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.mdl",
+      "properties/tank.ext",
+      "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.ext"
+    ],
+    "provenance": {
+      "path": "entity/-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.def",
+      "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+      "origin": "Gates of Hell",
+      "source_id": "vanilla",
+      "version": "build:25492057",
+      "size": 3855,
+      "priority": 0,
+      "physical_path": null,
+      "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\entity\\-vehicle.pak",
+      "archive_member": "-vehicle/usa/tank_light/m5a1_stuart_late/m5a1_stuart_late.def",
+      "crc": 3189166749,
+      "modified_ns": null
+    }
+  },
+  "donor": {
+    "id": "m18_hellcat_late",
+    "label": "76mm GMC M18 'Hellcat' (Late)",
+    "kind": "tank_light",
+    "props": [
+      "td",
+      "light",
+      "vision_lev03",
+      "muzzle_75mm_76mm_sides",
+      "shell_eject",
+      "open_top",
+      "detect_tank_light",
+      "tractor",
+      "tractor_light",
+      "muzzle_hmg_m2hb",
+      "ammo_open_top_turret",
+      "sq_at_gun"
+    ],
+    "definition_path": "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.def",
+    "model_path": "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.mdl",
+    "extension_path": "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.ext",
+    "extension_paths": [
+      "properties/tank.ext",
+      "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.ext"
+    ],
+    "origin": "Gates of Hell",
+    "source_id": "vanilla",
+    "version": "build:25492057",
+    "files": [
+      "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.def",
+      "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.mdl",
+      "properties/tank.ext",
+      "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.ext"
+    ],
+    "provenance": {
+      "path": "entity/-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.def",
+      "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+      "origin": "Gates of Hell",
+      "source_id": "vanilla",
+      "version": "build:25492057",
+      "size": 5067,
+      "priority": 0,
+      "physical_path": null,
+      "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\entity\\-vehicle.pak",
+      "archive_member": "-vehicle/usa/tank_light/m18_hellcat_late/m18_hellcat_late.def",
+      "crc": 2285456186,
+      "modified_ns": null
+    }
+  },
+  "roster_source": "set/multiplayer/units/conquest/units_usa.set",
+  "registration_source_hashes": [
+    {
+      "path": "set/multiplayer/units/roster_conquest.set",
+      "sha256": "45a642bb628d165a272cd121fc5fcf55b0665fd2f9b56d141f6e2a73ac0f87dc",
+      "source": {
+        "path": "set/multiplayer/units/roster_conquest.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+        "origin": "Gates of Hell",
+        "source_id": "vanilla",
+        "version": "build:25492057",
+        "size": 1310,
+        "priority": 0,
+        "physical_path": null,
+        "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+        "archive_member": "set/multiplayer/units/roster_conquest.set",
+        "crc": 1876416144,
+        "modified_ns": null
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/settings.set",
+      "sha256": "195b9cf743ef0af3087082a3e258ef28b53e0d6c9733b99833adbffb259c8499",
+      "source": {
+        "path": "set/multiplayer/units/conquest/settings.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+        "origin": "Gates of Hell",
+        "source_id": "vanilla",
+        "version": "build:25492057",
+        "size": 21731,
+        "priority": 0,
+        "physical_path": null,
+        "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+        "archive_member": "set/multiplayer/units/conquest/settings.set",
+        "crc": 3942472197,
+        "modified_ns": null
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/settings_inf.set",
+      "sha256": "7652e9eb2a5dc395bea72b40b2010546f7fe0dab469ea1aa78d2a7804eceaa34",
+      "source": {
+        "path": "set/multiplayer/units/conquest/settings_inf.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+        "origin": "Gates of Hell",
+        "source_id": "vanilla",
+        "version": "build:25492057",
+        "size": 2624,
+        "priority": 0,
+        "physical_path": null,
+        "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+        "archive_member": "set/multiplayer/units/conquest/settings_inf.set",
+        "crc": 1677275195,
+        "modified_ns": null
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/inf_ger.set",
+      "sha256": "ef80aae3a30b5092410ada591cd3618ce1fd241550d405037959590aed7601ab",
+      "source": {
+        "path": "set/multiplayer/units/conquest/inf_ger.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 36074,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\inf_ger.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1759583352829903000
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/inf_rus.set",
+      "sha256": "4edd86d11a89cbf417b83336960abca244269006d56399d14e40929e6b6e2938",
+      "source": {
+        "path": "set/multiplayer/units/conquest/inf_rus.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 32491,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\inf_rus.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1791789106351128000
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/inf_fin.set",
+      "sha256": "51d228fef80d3bb3b3fae77bf73ab44b28c5da8ab97f21fcf3b08e45176ec44b",
+      "source": {
+        "path": "set/multiplayer/units/conquest/inf_fin.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 38585,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\inf_fin.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1759583353094630300
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/inf_usa.set",
+      "sha256": "64255aa73768997f014bee9c1faab7ec3e556ad7a7a7f910e57dd289fdd80aca",
+      "source": {
+        "path": "set/multiplayer/units/conquest/inf_usa.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 59868,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\inf_usa.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1791446629612814000
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/inf_eng.set",
+      "sha256": "ead0bf486435c5a17870807492cb19de00ec9fd02b8d9459cc7bc9dc8e30e8a5",
+      "source": {
+        "path": "set/multiplayer/units/conquest/inf_eng.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+        "origin": "Gates of Hell",
+        "source_id": "vanilla",
+        "version": "build:25492057",
+        "size": 51447,
+        "priority": 0,
+        "physical_path": null,
+        "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+        "archive_member": "set/multiplayer/units/conquest/inf_eng.set",
+        "crc": 14100807,
+        "modified_ns": null
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/units_rus.set",
+      "sha256": "b29f5aca0722e0f94a325085c0cd9cd72edacbec028e8e1862990723774660e9",
+      "source": {
+        "path": "set/multiplayer/units/conquest/units_rus.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 40392,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\units_rus.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1792763296111476700
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/units_ger.set",
+      "sha256": "549b0bf5090c75685d5bfa5835e8c689007f51d3d97032cf494fbe03da9162fc",
+      "source": {
+        "path": "set/multiplayer/units/conquest/units_ger.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 39619,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\units_ger.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1791786843677984400
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/units_fin.set",
+      "sha256": "575b475b20776c368eb7b9875ef3597ed24b755538b1a2756fec78a32f9b16e6",
+      "source": {
+        "path": "set/multiplayer/units/conquest/units_fin.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 33076,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\units_fin.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1759583353093632000
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/units_usa.set",
+      "sha256": "188e8fbe87e1af2b7f39d000a81bbed2d69a7cf984b8990b2df735551779d3d4",
+      "source": {
+        "path": "set/multiplayer/units/conquest/units_usa.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn",
+        "origin": "Conquest Klayn Mode",
+        "source_id": "conquerklayn",
+        "version": "b04966977d3ec1c7",
+        "size": 39767,
+        "priority": 1,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\conquerklayn\\resource\\set\\multiplayer\\units\\conquest\\units_usa.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1792761457763360900
+      }
+    },
+    {
+      "path": "set/multiplayer/units/conquest/units_eng.set",
+      "sha256": "68b2de7d91b52652d3990d46df96e00fee8d3ead6defcf92a15cc2158161559c",
+      "source": {
+        "path": "set/multiplayer/units/conquest/units_eng.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+        "origin": "Gates of Hell",
+        "source_id": "vanilla",
+        "version": "build:25492057",
+        "size": 53814,
+        "priority": 0,
+        "physical_path": null,
+        "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+        "archive_member": "set/multiplayer/units/conquest/units_eng.set",
+        "crc": 2252978720,
+        "modified_ns": null
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_8416aa9bc364.set",
+      "sha256": "0c548193edcf64fc594415ccbe6c7affd23dc341a2b9ff9471d557b2f92b46c6",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_8416aa9bc364.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 399,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_8416aa9bc364.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793219864511849300
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_e0dcc79a529a.set",
+      "sha256": "5ab1604fb1f7c89faf58592c118e4213922e568ce77d313701e57ee02e4d24b0",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_e0dcc79a529a.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 400,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_e0dcc79a529a.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793223288938416400
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/_reserves.set",
+      "sha256": "258f67877290f622925c7c8ba7ff81bd4cf35944485445899c8b8de4811657bb",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/_reserves.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 1069,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\_reserves.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1794207187305738700
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_9339f107e4e8.set",
+      "sha256": "d620f83bc76ad180148019df792b92a062950c829df7c0a7604966ce9db6bdf0",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_9339f107e4e8.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 399,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_9339f107e4e8.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793223829552609100
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_3276e59f8199.set",
+      "sha256": "2ebf9fc715e2b6af4cfddec8a279ddd7bc7c202b5405e04d9c99ee70976f30db",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_3276e59f8199.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 399,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_3276e59f8199.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793224128324660200
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_292cb7fb75bd.set",
+      "sha256": "2975d0ddcc37035fb0e50fda42ef48e79ccb36140a803d23a2b21477d45d89f5",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_292cb7fb75bd.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 399,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_292cb7fb75bd.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793231716170118300
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_0ef04b0ad273.set",
+      "sha256": "d50e660ea2e8e69c4d69e8d008875a85527dd6f256d36ca8a0dd03a0b9024b9a",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_0ef04b0ad273.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 399,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_0ef04b0ad273.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793236193391412400
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_bb728f966583.set",
+      "sha256": "b639f4005270018769a701b5dbfdd818ba6c7cf83eb5476ba0d0156819acf412",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_bb728f966583.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 399,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_bb728f966583.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1793238383398497900
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_3609a9ce7ec0.set",
+      "sha256": "ca028e671e403f830ac78d6c54aeb0b51c88746b98d2bf6017e539a9e8fa1542",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_3609a9ce7ec0.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 402,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_3609a9ce7ec0.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1794206277815117000
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_19323bd73bea.set",
+      "sha256": "70a719264d923d15b924d7e45ea0ce5b517cadf2816a27b73365fc603274724f",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_19323bd73bea.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 381,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_19323bd73bea.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1794207087029266100
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_11d995df9c18.set",
+      "sha256": "6649f6e24610e7991c8afc1ccd0a2473cfa8fe3213ed9f437c35c4393e71d0cd",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_11d995df9c18.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 395,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_11d995df9c18.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1794207186181833900
+      }
+    },
+    {
+      "path": "set/multiplayer/units/modular_workshop/mw_e5ee481f8031.set",
+      "sha256": "7221a176e78f6ffb520e81cc40ff846c98f4769fb7fbd69a2c56d9adfc289210",
+      "source": {
+        "path": "set/multiplayer/units/modular_workshop/mw_e5ee481f8031.set",
+        "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+        "origin": "Cursed Workshop - Built Vehicles",
+        "source_id": "modular_workshop",
+        "version": "c09fffdfc867944e",
+        "size": 395,
+        "priority": 2,
+        "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\multiplayer\\units\\modular_workshop\\mw_e5ee481f8031.set",
+        "archive_path": null,
+        "archive_member": null,
+        "crc": null,
+        "modified_ns": 1794207187300734500
+      }
+    }
+  ],
+  "sound_authority": {
+    "chassis": "set/interaction_entity/tank/tank-specifics.inc",
+    "turret": "set/interaction_entity/tank/tank-specifics.inc",
+    "weapon_playback": "vehicle_event",
+    "native_weapons": [],
+    "source_hashes": [
+      {
+        "path": "set/interaction_entity/entity.set",
+        "sha256": "20b0ce2bad5bc08e848333a2121d85b9506c54c1e6d64ec7d3afe3649626f429",
+        "source": {
+          "path": "set/interaction_entity/entity.set",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 1408,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/entity.set",
+          "crc": 2565053536,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/vehicle/animation-defines.inc",
+        "sha256": "beaa6714fac95db912dee5a16b1ac620b54c316cd3007426ba1dfb375fae65b0",
+        "source": {
+          "path": "set/interaction_entity/vehicle/animation-defines.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 887,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/vehicle/animation-defines.inc",
+          "crc": 156560786,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/debug.inc",
+        "sha256": "9bf43cadcb289a95720dc3b43db90087b6824ecbe85af843c478ccc0f6414bd4",
+        "source": {
+          "path": "set/interaction_entity/debug.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 132,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/debug.inc",
+          "crc": 1400820507,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/generic.inc",
+        "sha256": "fa3776da9070022fca04f398a994ebd73ebce6ab3493640ff48c97421f391eaf",
+        "source": {
+          "path": "set/interaction_entity/generic.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 67472,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/generic.inc",
+          "crc": 3821042289,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/dummy.inc",
+        "sha256": "ee4ad6104198a067ae8d36e78451bb203357e8cc459f00627461ccd357d0288c",
+        "source": {
+          "path": "set/interaction_entity/dummy.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 43143,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/dummy.inc",
+          "crc": 849149054,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/explosive.inc",
+        "sha256": "0ec16d4e0e8fe0d213cef4873e282b7656a266bf848f276f223ff233995df71f",
+        "source": {
+          "path": "set/interaction_entity/explosive.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 33126,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/explosive.inc",
+          "crc": 1107988355,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/grenade.inc",
+        "sha256": "fd85b8fa25ce29238c4bd0384a087c43ca69aa0f355e46ceb4183f030fccefd5",
+        "source": {
+          "path": "set/interaction_entity/grenade.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 16039,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/grenade.inc",
+          "crc": 2485174336,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/flora.inc",
+        "sha256": "67752a1a60e9b19729214f563de1f4cce4e2d5dcc641915ea0b20dca95713064",
+        "source": {
+          "path": "set/interaction_entity/flora.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 18041,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/flora.inc",
+          "crc": 125501483,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/fauna.inc",
+        "sha256": "1477c08725c6a45090ef75d435ec26d0a61091d2128eb40dfe4c1dacc96b6840",
+        "source": {
+          "path": "set/interaction_entity/fauna.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 8517,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/fauna.inc",
+          "crc": 2354427675,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/human.inc",
+        "sha256": "c5e3d4e9fcc4e37eb671826e77d80a55149b4c7a03a06a2ce59243a474633441",
+        "source": {
+          "path": "set/interaction_entity/human.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 37772,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/human.inc",
+          "crc": 3118900972,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/weapons-defines.inc",
+        "sha256": "2a48c772a7e98a28ef162875271bad5ca4a49b075624889c87e5a3783997fac4",
+        "source": {
+          "path": "set/interaction_entity/weapons-defines.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 25162,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/weapons-defines.inc",
+          "crc": 1987013038,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/icon.inc",
+        "sha256": "344175cbfba1d24e7854bead5ea575d77892b73871d46a3541f5ed4fa35527b1",
+        "source": {
+          "path": "set/interaction_entity/icon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 2299,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/icon.inc",
+          "crc": 2436381417,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/tank/sound-defines.inc",
+        "sha256": "b3863178827fdac2b3c6ee37a42bcbab932ebefa2a26c0cc7518e97963bac267",
+        "source": {
+          "path": "set/interaction_entity/tank/sound-defines.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 63492,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/tank/sound-defines.inc",
+          "crc": 3017971269,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/vehicle/vehicle-main.inc",
+        "sha256": "855f2f980870e952fecb17fd1d668385fcd3f6392cbc3fd13526350239525283",
+        "source": {
+          "path": "set/interaction_entity/vehicle/vehicle-main.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 49004,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/vehicle/vehicle-main.inc",
+          "crc": 4141120850,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/vehicle/car-main.inc",
+        "sha256": "fdc4c5e8d03e02fc049f240511654dd8e3dc9c3c1e9949f4322b98daeba1a19e",
+        "source": {
+          "path": "set/interaction_entity/vehicle/car-main.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 54105,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/vehicle/car-main.inc",
+          "crc": 835004866,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/vehicle/moto.inc",
+        "sha256": "b08f3c5a5909a6adf15620abd2ec7a0eb5afabd4f84428262c988c5b3fbbd36b",
+        "source": {
+          "path": "set/interaction_entity/vehicle/moto.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 13300,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/vehicle/moto.inc",
+          "crc": 1681450909,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/tank/tank-main.inc",
+        "sha256": "05953aa2a2c95b5d59856cc9105deaa3bc12f4f0c25d8fc78cb6ce53604ad221",
+        "source": {
+          "path": "set/interaction_entity/tank/tank-main.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 67055,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/tank/tank-main.inc",
+          "crc": 3893541143,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/tank/tank-specifics.inc",
+        "sha256": "6f6114e0bd1143a7ce206c4acd2630a3446a0e25a9382351359ea0082d6881e8",
+        "source": {
+          "path": "set/interaction_entity/tank/tank-specifics.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 121115,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/tank/tank-specifics.inc",
+          "crc": 3391323967,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/cannon.inc",
+        "sha256": "8b474b57f4ca89c19806b2d7cf7858d88aa671daaeca61d83cbc109c38315797",
+        "source": {
+          "path": "set/interaction_entity/cannon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 99404,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/cannon.inc",
+          "crc": 2003810085,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/airborne.inc",
+        "sha256": "8442bcb6ba12d50a17d05cd232abbc069763aa189f9c86957f33a562a23e419d",
+        "source": {
+          "path": "set/interaction_entity/airborne.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 62767,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/airborne.inc",
+          "crc": 3907043216,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/marine.inc",
+        "sha256": "516f130157b503aabc8b1f6bc1929359bbd22b23f7e3cf6319938bef1914b780",
+        "source": {
+          "path": "set/interaction_entity/marine.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 41536,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/marine.inc",
+          "crc": 384785781,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/railway.inc",
+        "sha256": "1ac4f001390fe6508c9fe1f26041d72ca26db1cbb4f2795d4b5bddebb7d25259",
+        "source": {
+          "path": "set/interaction_entity/railway.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 20140,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/railway.inc",
+          "crc": 3055740480,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/dogs.inc",
+        "sha256": "72337c7803ad2cae7d15b43c2c57adc6a1ca0f681474ce65638a430b62bfd799",
+        "source": {
+          "path": "set/interaction_entity/dogs.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 1657,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/dogs.inc",
+          "crc": 3886585382,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/skirmish.inc",
+        "sha256": "ee624ab1d3b75d451611dd412667fabfe51463dc8376cbbe3aa40c7cf0cf8f7a",
+        "source": {
+          "path": "set/interaction_entity/skirmish.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 1940,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/skirmish.inc",
+          "crc": 3401640256,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/stuff.inc",
+        "sha256": "e59f50e986dcbf34ff9bc4cd472aa025f5d25f3ff2c091ca762899a5b624d37b",
+        "source": {
+          "path": "set/interaction_entity/stuff.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 53852,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/stuff.inc",
+          "crc": 1598117714,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/multiplayer.inc",
+        "sha256": "fb3fb633c1918f41a856d16dedf02cc92e9b925c637007c374ea0f0ef436c2ea",
+        "source": {
+          "path": "set/interaction_entity/multiplayer.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 6074,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/multiplayer.inc",
+          "crc": 918884270,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/muzzle.inc",
+        "sha256": "e753afe7d947e385182e313556deb0bbf5cf160be8902a141a98df336d957f16",
+        "source": {
+          "path": "set/interaction_entity/muzzle.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 20342,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/muzzle.inc",
+          "crc": 1396813363,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/shell.inc",
+        "sha256": "86ee4cca026f2628c5e97e97805da95c2b83530410fa2157aea779678fd97a4d",
+        "source": {
+          "path": "set/interaction_entity/shell.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 7452,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/shell.inc",
+          "crc": 475179929,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/post.inc",
+        "sha256": "ec4d0c2a242178e59e4c21f3d0d057d9a3605f00ec8cca3bc0c68d7ba2a792c4",
+        "source": {
+          "path": "set/interaction_entity/construction/post.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 4143,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/post.inc",
+          "crc": 792944408,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/fence.inc",
+        "sha256": "54ae5c47754e634ec03f8766b760ec6db38a51551d62b8c28f188b7350b09158",
+        "source": {
+          "path": "set/interaction_entity/construction/fence.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 2891,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/fence.inc",
+          "crc": 3150571899,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/target.inc",
+        "sha256": "a3b4e8ec17230ccdeeffcded5d50cb32bb2faf9ed4e7d342da98f49335592f54",
+        "source": {
+          "path": "set/interaction_entity/construction/target.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 1091,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/target.inc",
+          "crc": 742821782,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/shed.inc",
+        "sha256": "4c57f6d384a5a5a02983f33c41dc5e80eb1bbd5d704a778ee31a698866af881a",
+        "source": {
+          "path": "set/interaction_entity/construction/shed.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 5063,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/shed.inc",
+          "crc": 2941624170,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/dummy.inc",
+        "sha256": "2408a0db841b5e00a0509c70d5781bd2ec7a33e2638e999e3699958476087c1c",
+        "source": {
+          "path": "set/interaction_entity/construction/dummy.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 9479,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/dummy.inc",
+          "crc": 866661786,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/generic.inc",
+        "sha256": "6de38c096b00a20a9004f8ac79ee3b89c9cdaaaf89453bde6ddeaa870ba9f1bf",
+        "source": {
+          "path": "set/interaction_entity/construction/generic.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 3948,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/generic.inc",
+          "crc": 1811731837,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/windows.inc",
+        "sha256": "a048ba9f9b82688dc15dce4fc0987020f5d50f0e43c8e4cd76c5ad107ca3e1c0",
+        "source": {
+          "path": "set/interaction_entity/construction/windows.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 7219,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/windows.inc",
+          "crc": 582695706,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/parts.inc",
+        "sha256": "f042b04ba6660f5e76f9c48e2449ac31872855cc19658d9f5f8a7dad8bb01360",
+        "source": {
+          "path": "set/interaction_entity/construction/parts.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 19042,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/parts.inc",
+          "crc": 4190344613,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/foxhole.inc",
+        "sha256": "90752c36624c81d35e9584d045dc0efe7db111a6efd3da26cefb35062a496fd5",
+        "source": {
+          "path": "set/interaction_entity/construction/foxhole.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 8351,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/foxhole.inc",
+          "crc": 201305013,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/sandbag.inc",
+        "sha256": "29aa5399688f7b96405080006bab278d0e0b7229dd7bf2cf8a2f322e4fc452d9",
+        "source": {
+          "path": "set/interaction_entity/construction/sandbag.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 9952,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/sandbag.inc",
+          "crc": 3604529193,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/staged.inc",
+        "sha256": "31dd6915245fa6cbefeb36380904155533cbb68de275f9146afc8fb01be3674a",
+        "source": {
+          "path": "set/interaction_entity/construction/staged.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 3436,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/staged.inc",
+          "crc": 2826077806,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/special.inc",
+        "sha256": "a9cce8437fbaedd4e167851521d5762a4fd5b02e5ffb6176652a461d20b68f46",
+        "source": {
+          "path": "set/interaction_entity/construction/special.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 9959,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/special.inc",
+          "crc": 2986427862,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/building.inc",
+        "sha256": "aa34402d3f678016230d561cf05a56cd0bd202c00b050b315c2df1b022caebdc",
+        "source": {
+          "path": "set/interaction_entity/construction/building.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 8012,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/building.inc",
+          "crc": 1271085827,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/burning.inc",
+        "sha256": "cbd5f8070aded83141127bf445590e374de73417119f04e9ef6d581c1e5714d8",
+        "source": {
+          "path": "set/interaction_entity/construction/burning.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 4204,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/burning.inc",
+          "crc": 1645418162,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/bridge.inc",
+        "sha256": "35fb3a57dbb27cb80b5017e4d6eef990a1d8241b4241680c57e75f47dcade158",
+        "source": {
+          "path": "set/interaction_entity/construction/bridge.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 42,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/bridge.inc",
+          "crc": 3133791761,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/construction/placement.inc",
+        "sha256": "66658400c3d64d65dd5fcdcc9dd41d5b6f48ce6037cd701658007d1a56ea372f",
+        "source": {
+          "path": "set/interaction_entity/construction/placement.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 5378,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/interaction_entity/construction/placement.inc",
+          "crc": 3032388033,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_8416aa9bc364.inc",
+        "sha256": "9f3a74c194c8e76a4264890065350909ae4a6cbfd75f36eb518272cfec974eda",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_8416aa9bc364.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 739,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_8416aa9bc364.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793219864505141200
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_e0dcc79a529a.inc",
+        "sha256": "1ee548dd8557bf24b684de93be7eebda99fa034034ebad208455e09b61a43c57",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_e0dcc79a529a.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 1685,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_e0dcc79a529a.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793223288936418300
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_9339f107e4e8.inc",
+        "sha256": "44726faac20380688ef34216f78dbc7593cd45f99898d0a2b5b8d84e33dae91e",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_9339f107e4e8.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 777,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_9339f107e4e8.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793223829548104900
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_3276e59f8199.inc",
+        "sha256": "021613163aa667113141c65918fa2af9461ef09c581e8f36bf9e6b393e8ea165",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_3276e59f8199.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 789,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_3276e59f8199.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793224128320662500
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_292cb7fb75bd.inc",
+        "sha256": "7bb20fbd473444e771d3dd1d19d89297946ca92d4a3b244b8dd942814b964006",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_292cb7fb75bd.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 779,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_292cb7fb75bd.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793231716163618100
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_0ef04b0ad273.inc",
+        "sha256": "0e41a39d86038fe5fc2cdbdeb38b967903379c044e8b9dd8a8e790491e45d974",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_0ef04b0ad273.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 1848,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_0ef04b0ad273.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793236193378033900
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_bb728f966583.inc",
+        "sha256": "b94297775a85838066c9a17f0379048ff7a018f7806418c32f4757d603422129",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_bb728f966583.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 1846,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_bb728f966583.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1793238383384240600
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_3609a9ce7ec0.inc",
+        "sha256": "e3935fd743327a88780cf0f1472ceb3dcd5b0d167cd48663dfeb3020bfbf49ed",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_3609a9ce7ec0.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 1674,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_3609a9ce7ec0.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1794206277812118600
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_19323bd73bea.inc",
+        "sha256": "7081216e104d826816824e94f61fbe880758f2a9243375dda8cfb4c7d5bed0a9",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_19323bd73bea.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 1434,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_19323bd73bea.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1794207087022266300
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_11d995df9c18.inc",
+        "sha256": "5896e95c8503b028113825bb15100bb2a17de90d6371ee2aac39a5d7618ac62d",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_11d995df9c18.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 683,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_11d995df9c18.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1794207186173330800
+        }
+      },
+      {
+        "path": "set/interaction_entity/modular_workshop/mw_e5ee481f8031.inc",
+        "sha256": "b844058d3265fcb19636ea9df0f879a1200207baed511df718c64a813e43ac60",
+        "source": {
+          "path": "set/interaction_entity/modular_workshop/mw_e5ee481f8031.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop",
+          "origin": "Cursed Workshop - Built Vehicles",
+          "source_id": "modular_workshop",
+          "version": "c09fffdfc867944e",
+          "size": 685,
+          "priority": 2,
+          "physical_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\mods\\modular_workshop\\resource\\set\\interaction_entity\\modular_workshop\\mw_e5ee481f8031.inc",
+          "archive_path": null,
+          "archive_member": null,
+          "crc": null,
+          "modified_ns": 1794207187298231900
+        }
+      }
+    ],
+    "chassis_events": [
+      "on gunner2_hatch_open overload",
+      "on gunner2_hatch_close overload"
+    ]
+  },
+  "reserve_squads": [],
+  "camera_authority": {
+    "chassis": "m5a1_stuart_late",
+    "turret": "m18_hellcat_late",
+    "aiming_transferred": true,
+    "source_hashes": [
+      {
+        "path": "set/third_person/vehicle.inc",
+        "sha256": "c39cb607623dc94e242e4ed3ce7e0abc3731a068e9eed90f87c3150cab94e0e3",
+        "source": {
+          "path": "set/third_person/vehicle.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 28342,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle.inc",
+          "crc": 1631577730,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_ger_tank.inc",
+        "sha256": "0617eda84436be19b02a5567be96134ae5dec8b40a665a709d79375f04ba2b81",
+        "source": {
+          "path": "set/third_person/vehicle_specific_ger_tank.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 72794,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_ger_tank.inc",
+          "crc": 2954388422,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_ger_cannon.inc",
+        "sha256": "1f4b7b63b17e2b6e23e4452e63a0c2f5d5e841602b804d1ef73dc7da018a19ee",
+        "source": {
+          "path": "set/third_person/vehicle_specific_ger_cannon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 25001,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_ger_cannon.inc",
+          "crc": 2766913914,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_rus_tank.inc",
+        "sha256": "1e2daddf39e6d84e116951acb04c55231594d95994b23c12021fb40bf8232933",
+        "source": {
+          "path": "set/third_person/vehicle_specific_rus_tank.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 38298,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_rus_tank.inc",
+          "crc": 2339981105,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_rus_cannon.inc",
+        "sha256": "0c8687bc27280bb9ac1139c40b6e55115396e6983a5f8f48b7e180d728eef018",
+        "source": {
+          "path": "set/third_person/vehicle_specific_rus_cannon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 15848,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_rus_cannon.inc",
+          "crc": 3201175077,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_fin_tank.inc",
+        "sha256": "257e7c253cab2e15c65434ed24a25aa63f762ca748c2e6d317042704c3073c18",
+        "source": {
+          "path": "set/third_person/vehicle_specific_fin_tank.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 2235,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_fin_tank.inc",
+          "crc": 1765766358,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_fin_cannon.inc",
+        "sha256": "743b5d7a03003d9b3c3a55bf0ace81e574826871014884523c1347b96429228b",
+        "source": {
+          "path": "set/third_person/vehicle_specific_fin_cannon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 10958,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_fin_cannon.inc",
+          "crc": 36524760,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_eng_cannon.inc",
+        "sha256": "4a98a00146d40a060cd14fcaa5fac9f47a5e1cac10d74f5cb545e9266c60f59f",
+        "source": {
+          "path": "set/third_person/vehicle_specific_eng_cannon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 8207,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_eng_cannon.inc",
+          "crc": 244649494,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_eng_tank.inc",
+        "sha256": "723c2d108ef76d6d901e3941c70b0acaf936b2c4e79810525fc9cc1fab200fa7",
+        "source": {
+          "path": "set/third_person/vehicle_specific_eng_tank.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 56898,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_eng_tank.inc",
+          "crc": 89377874,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_usa_cannon.inc",
+        "sha256": "31f3f303828a92ecbc825b64ad9bbbd188701f0a0e500a3c49b17ee5c8a362f0",
+        "source": {
+          "path": "set/third_person/vehicle_specific_usa_cannon.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 8092,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_usa_cannon.inc",
+          "crc": 794593095,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_usa_tank.inc",
+        "sha256": "7c8916a159cf75340802b3f918405c3260dfd1e51de2c48344a257972e643bb2",
+        "source": {
+          "path": "set/third_person/vehicle_specific_usa_tank.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 38883,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_usa_tank.inc",
+          "crc": 3235797643,
+          "modified_ns": null
+        }
+      },
+      {
+        "path": "set/third_person/vehicle_specific_marine.inc",
+        "sha256": "44adf39da68741faa67da384a9d94ddcd0daea486648065e32fd31fb21da13ef",
+        "source": {
+          "path": "set/third_person/vehicle_specific_marine.inc",
+          "source_root": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell",
+          "origin": "Gates of Hell",
+          "source_id": "vanilla",
+          "version": "build:25492057",
+          "size": 4366,
+          "priority": 0,
+          "physical_path": null,
+          "archive_path": "C:\\STEAM\\steamapps\\common\\Call to Arms - Gates of Hell\\resource\\gamelogic.pak",
+          "archive_member": "set/third_person/vehicle_specific_marine.inc",
+          "crc": 3592869910,
+          "modified_ns": null
+        }
+      }
+    ]
+  },
+  "warnings": [
+    "Donor-specific non-sound interaction events require game acceptance; they were not copied across unrelated chassis bones.",
+    "Verify transplanted optics and aiming in-game.",
+    "El retrato armado todavía no está renderizado; se usó el retrato de respaldo si estaba disponible. Regenerá los retratos."
+  ],
+  "runtime_verified": false,
+  "shop": {
+    "parts": [
+      "m5a1_stuart_late",
+      "m18_hellcat_late"
+    ],
+    "share": 0.75,
+    "offer": {
+      "cost": 580,
+      "stage": 6,
+      "share": 0.75,
+      "parts": [
+        {
+          "template": "m5a1_stuart_late",
+          "cost": 310.0,
+          "stage": 4
+        },
+        {
+          "template": "m18_hellcat_late",
+          "cost": 460.0,
+          "stage": 6
+        }
+      ],
+      "unpriced": []
+    }
+  },
+  "portraits": [
+    "portrait_squad",
+    "unit_icon",
+    "unit_icon_small"
+  ],
+  "portrait": {
+    "schema_version": 1,
+    "id": "mw_e59f40e33576",
+    "source": "chassis_fallback",
+    "template": "m5a1_stuart_late"
+  }
+}

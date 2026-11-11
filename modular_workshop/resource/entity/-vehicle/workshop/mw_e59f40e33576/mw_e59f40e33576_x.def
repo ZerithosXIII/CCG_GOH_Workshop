@@ -1,0 +1,11 @@
+{game_entity
+	
+	{extension "mw_e59f40e33576_x.mdl"}
+ {RimLight}
+
+{volume "module_body"
+{component "body"}
+
+{tags "body"}
+}
+}

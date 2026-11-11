@@ -1,0 +1,366 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "light"   "detect_tank_light" "tractor" "tractor_light" "sq_armor_light" "vision_lev04" "muzzle_85mm_93mm"}
+	
+	{extension "mw_696ec999ad5f.mdl"}
+	(include "mw_696ec999ad5f.ext")
+
+	;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier2")
+
+	("tracks" repair(30) thickness(15))
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "stuart"}
+	{collider "tank.light"}
+
+	
+{boarder
+		{anm "left"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+	
+{anm "gunner2"
+			{forward {begin "board_HighArmor"} {end "pose_m5a1_late_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+}
+
+{boarder
+		{door "emit0"}
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+
+{boarder
+		{door "emit2"}
+		{door "emit3"}
+		
+		
+	}
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+		
+	}
+	
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	{boarder
+		
+		
+		
+		{anm "armor"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		
+	
+{anm "mw_crew_left"
+			{forward {begin "board_tank_left"}
+{end "seat_commander_hatch"}
+}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+
+{anm "mw_crew_right"
+			{forward {begin "board_tank_right"}
+{end "seat_commander_hatch"}
+}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+}
+	
+{sensor
+		{visor "top"
+			{vision "human"}
+			{bone "turret"}
+		}
+	}
+{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner3" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner"
+			{group "crew"}
+			{visor "main"}
+		}
+	}
+	{placer
+		{place "charger"
+			{group "crew"}
+			{visor "none"}
+		}
+	}
+	{boarder
+{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+
+{link "emit2" "driver" {anm "left"} {forward putoff} {reverse puton}}
+
+{link "emit3" "driver" {anm "right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner3"  {anm "co_driver"} {forward putoff} {reverse puton}}
+
+{link "emit2" "gunner3" {anm "left"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner" {anm "mw_crew_left"} {forward putoff} {reverse puton}}
+
+{link "emit2" "gunner" {anm "mw_crew_right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "charger" {anm "mw_crew_left"} {forward putoff} {reverse puton}}
+
+{link "emit2" "charger" {anm "mw_crew_right"} {forward putoff} {reverse puton}}
+}
+	{placer
+		{place "gunner2"
+			{group "passenger"}
+			{linkbone "turret"}
+			{visor "top"}
+			;{openForCrush}
+		}
+	}
+{boarder
+		{door "emit4"}
+		{door "emit5"}
+		{link "emit4" "gunner2" {anm "gunner2"} {forward putoff} {reverse puton}}
+		{link "emit5" "gunner2" {anm "gunner2"} {forward putoff} {reverse puton}}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "co_driver"
+			{forward {begin "board_tank_right"}{base "open_co_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_co_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	
+	
+	
+	
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		
+		{box
+					;147 rounds ;30/70% AP/HE		;historical 30% AP, 60% HE, 10% CAN
+			
+			{item "ammo mgun_usa belt" 6250}		;6750 rounds
+			{item "satchel_charge_usa" 1}
+			{item "browning_m19a4" filling "ammo mgun_usa belt" 250 }
+		
+{item "bulletrus_85 aphebc" 14}
+
+{item "bulletrus_85 apcr" 5}
+
+{item "bulletrus_85 he" 36}
+
+{item "ammo mgun_rus dt" 2394}
+
+{item "satchel_charge_rus" 1}
+}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		
+		
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "85mm_zis53" filling "bulletrus_85 aphebc" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(3.0)
+				dispersion(0.20)
+			)
+		
+{foresight "foresight1"}
+}
+{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		
+	
+{place "mgun2"
+			{type "coaxial"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+}
+
+	{mass 15200}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(0.59))
+		("mobility_tank"
+			speed(58) ;-----------Max speed when fully accelerated on road, km/h.
+			reverse(24) ;---------Max speed in reverse on road, km/h.
+			traverse(37) ;--------Track traverse, per second, in degrees.
+			weight(15.2) ;--------Weight in Tonnes.
+			power(220) ;----------Engine Power, in hp.
+			track(3.5) ;----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(340) ;-----------Fuel capacity in Litres.
+			type(fuel) ;----------Fuel type. (diesel OR fuel)
+			range(160) ;----------Range in km, off-road.
+		)
+	}
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+("ammo" args "module_ammo2")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "gun_rot"
+		{limits -5 20}
+		{speed2 5}
+	}
+
+{bone "turret" 
+		("turret_medium" power_traverse(19))
+	}
+
+{props "with_gun"}
+}

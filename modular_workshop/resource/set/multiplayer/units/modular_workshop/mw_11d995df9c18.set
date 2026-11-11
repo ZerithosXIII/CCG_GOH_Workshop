@@ -2,11 +2,11 @@
 	
 	
 	{score_factor 0.05}
-	{tags "conquest conquestonly usa late"}
+	{tags "conquest conquestonly late"}
 	{charge {delay 0}{interval 0}}
 	{cw 4}
 	{cp 16}
-	{research_stage 4}
+	{research_stage 1}
 	{research_stage_max 99}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -16,5 +16,5 @@
 	{content "* ( mp/usa/late/tankman_m3:4 mp/usa/late/tank_com_m3:1 )"}
 	{button "vehicles"}
 
-	{cost 570} ;// +25 for crew
+	{cost 310} ;// +25 for crew
 }

@@ -1,0 +1,160 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	
+	{extension "mw_19323bd73bea_xx.mdl"}
+
+
+	
+	
+	{volume "body1"
+		{thickness 9.5
+			{front 16}
+			{top 12.7}
+			{bottom 6.4}
+		}
+	}
+	{volume "body2"
+		{thickness 9.5
+			{front 16}
+			{top 12.7}
+			{bottom 6.4}
+		}
+	}
+	{volume "body3"
+		{thickness 9.5
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{volume "body4"
+		{thickness 9.5
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{volume "body5"
+		{thickness 9.5
+			{top 6.4}
+			{front 19.1}
+		}
+	}
+	
+	
+	
+	{volume "engine"
+		{thickness 9.5
+			{top 6.4}
+			{bottom 6.4}
+		}
+	}
+	{volume "armor1"
+		{thickness 16}
+	}
+	{volume "armor2"
+		{thickness 16}
+	}
+	{volume "armor3"
+		{thickness 6.4}
+	}
+	{volume "armor4"
+		{thickness 6.4}
+	}
+	{volume "armor5"
+		{thickness 6.4}
+	}
+	{volume "armor6"
+		{thickness 6.4}
+	}
+	{volume "armor7"
+		{thickness 6.4}
+	}
+	{volume "armor8"
+		{thickness 6.4}
+	}
+	{volume "armor9"
+		{thickness 6.4}
+	}
+	{volume "armor10"
+		{thickness 6.4}
+	}
+	
+	{volume "part1"
+		{thickness 6.4}
+	}
+	{volume "shieldl1"
+		{thickness 6.4}
+	}
+	{volume "shieldl2"
+		{thickness 6.4}
+	}
+	{volume "shieldl3"
+		{thickness 6.4}
+	}
+	{volume "shieldr1"
+		{thickness 6.4}
+	}
+	{volume "shieldr2"
+		{thickness 6.4}
+	}
+	{volume "shieldr3"
+		{thickness 6.4}
+	}
+	{volume "wheelleft1"
+		{thickness 2}
+	}
+	{volume "wheelleft2"
+		{thickness 2}
+	}
+	{volume "wheelleft3"
+		{thickness 2}
+	}
+	{volume "wheelright1"
+		{thickness 2}
+	}
+	{volume "wheelright2"
+		{thickness 2}
+	}
+	{volume "wheelright3"
+		{thickness 2}
+	}
+
+{volume "turret1"		; main part
+		{thickness 12.7
+			{front 25.4}
+			{top 8}
+		}
+		{able {holed}}
+	}
+
+{volume "turret2"		; back part
+		{thickness 12.7
+			{top 13}
+		}
+		{able {holed}}
+	}
+
+{volume "turret3"		; mgun mount place
+		{thickness 12.7}
+		{able {holed}}
+	}
+
+{volume "turret4"		; 
+		{thickness 25.4}
+	}
+
+{volume "barrel1"
+		{thickness 25}
+	}
+
+{volume "barrel2"
+		{thickness 25}
+	}
+
+{volume "barrel3"
+		{thickness 25}
+	}
+
+{volume "barrel4"
+		{thickness 25}
+	}
+}

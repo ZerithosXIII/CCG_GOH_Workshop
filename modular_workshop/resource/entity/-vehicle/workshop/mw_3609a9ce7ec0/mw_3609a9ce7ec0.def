@@ -1,0 +1,400 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "light" "vision_lev03" "shell_eject" "muzzle_75mm_76mm" "detect_tank_light" "tractor" "tractor_light" "muzzle_hmg_m2hb" "ammo_open_top_turret" "sq_he_medium"}
+	
+	{extension "mw_3609a9ce7ec0.mdl"}
+
+	;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier2")
+
+	("shield_tear" args "shieldl1" 5)
+	("shield_tear" args "shieldl2" 5)
+	("shield_tear" args "shieldl3" 5)
+	("shield_tear" args "shieldr1" 5)
+	("shield_tear" args "shieldr2" 5)
+	("shield_tear" args "shieldr3" 5)
+	("shield_track" args "shield1" 15)
+	("shield_track" args "shield2" 15)
+	("shield_track" args "shield3" 15)
+	("shield_track" args "shield4" 15)
+	("shield_track" args "shield5" 15)
+	("shield_track" args "shield6" 15)
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(25))
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 28.5
+			{top 28.5}			;front upper
+			{front 63.5}			;front lower
+			{rear 10}
+			{bottom 12.7}
+		}
+	}
+	{volume "body2"			; hull upper
+		{thickness 28.5
+			{top 12.7}
+			{front 28.5}
+			{rear 10}
+		}
+	}
+	{volume "body3"			; turret ring
+		{thickness 28.5
+			{top 12.7}
+		}
+	}
+	{volume "engine1"
+		{thickness 28.5
+			{front 10}
+			{bottom 12.7}
+			{rear 25.4}
+		}
+	}
+	{volume "engine2"
+		{thickness 28.5
+			{bottom 12.7}
+			{top 12.7}
+		}
+	}
+	{volume "engine3"
+		{thickness 28.5
+			{bottom 12.7}
+		}
+	}
+	{volume "turret1"		; Turret main
+		{thickness 25.4
+			{top 12.7}
+			{front 38.1}
+		}
+		{able {holed}}
+	}
+	{volume "turret2"		; Turret ring
+		{thickness 25.4}
+	}
+	{volume "turret3"		; top_front
+		{thickness 38.1
+			{top 12.7}
+		}
+		{able {holed}}
+	}
+	{volume "turret4"		;back part
+		{thickness 25.4
+			{top 12.7}
+		}
+		{able {holed}}
+	}
+	{volume "turret5"		; front
+		{thickness 38.1}
+	}
+	{volume "turret6"		; front
+		{thickness 38.1}
+	}
+	
+	{volume "basket"
+		{thickness 5}
+		{tags "armor"}
+		{tags "no_target"}
+	}
+	{volume "grill"
+		{thickness 5}
+		{tags "armor"}
+	}
+
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "stuart"}
+	{collider "tank.light"}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_tank_left"} {end "seat_m8_scott_driver"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "seat_m8_scott_charger"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "seat_m8_scott_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "charger_l"
+			{forward {begin "board_tank_left"} {end "seat_m8_scott_charger"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "charger_r"
+			{forward {begin "board_tank_right"} {end "seat_m8_scott_charger"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner_l"
+			{forward {begin "board_tank_left"} {end "seat_m8_scott_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner_r"
+			{forward {begin "board_tank_right"} {end "seat_m8_scott_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "commander_l"
+			{forward {begin "board_tank_left"} {end "seat_m18_commander"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "commander_r"
+			{forward {begin "board_tank_right"} {end "seat_m18_commander"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	
+
+{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+		
+	}
+	
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner"
+			{group "crew"}
+			{visor "main"}
+			{linkbone "gunner"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger"
+			{group "crew"}
+			{visor "none"}
+			{linkbone "charger"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "commander"
+			{group "crew"}
+			{visor "around"}
+			{linkbone "commander"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{boarder
+{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+
+{link "emit1" "driver" {anm "left"} {forward putoff} {reverse puton}}
+
+{link "emit2" "driver" {anm "right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner" {anm "gunner_l"} {forward putoff} {reverse puton}}
+
+{link "emit2" "gunner" {anm "gunner_r"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "charger" {anm "charger_l"} {forward putoff} {reverse puton}}
+
+{link "emit2" "charger" {anm "charger_r"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "commander" {anm "commander_l"} {forward putoff} {reverse puton}}
+
+{link "emit2" "commander" {anm "commander_r"} {forward putoff} {reverse puton}}
+}
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{sensor
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+				;46 rounds, 70/15/15%, HE/HEAT/WP
+			
+			
+			{item "ammo hmgun_usa" 300}				; 4 belts (100 rounds each)
+			{item "satchel_charge_usa" 1}
+		
+{item "bulletusa_76x585 apcbche" 35}
+
+{item "bulletusa_76x585 he" 13}
+
+{item "bulletusa_76x585 sm" 3}
+
+{item "bulletusa_76x585 hvap" 2}
+}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_m7" filling "bulletusa_76x585 apcbche" 1}
+			
+			
+				; general setting used by Tank Destroyers, which conserves more accuracy on the rotation of the main gun
+	 ; 	spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+		{MaxLinearSpeed 10}				;km/h
+		{ByLinearSpeed 0.4}
+		{MaxAngularSpeed 8}				;deg/s
+		{ByAngularSpeed 0.50}
+		{DisorderTime 0.25}				;s
+		{OrderTime 2.5}						;s
+	}
+
+
+		
+{gunner "gunner"}
+
+{charger "charger" minWorkers 1}
+
+{foresight "foresight1"}
+
+{LinkBone "gun"}
+}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{ai_in_manual}
+			{basic}
+		}
+	}
+
+	{mass 15700}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(0.59))
+		("mobility_tank"
+			speed(58) ;-----------Max speed when fully accelerated on road, km/h.
+			reverse(24) ;---------Max speed in reverse on road, km/h.
+			traverse(37) ;--------Track traverse, per second, in degrees.
+			weight(15.7) ;--------Weight in Tonnes.
+			power(220) ;----------Engine Power, in hp.
+			track(4) ;------------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(340) ;-----------Fuel capacity in Litres.
+			type(fuel) ;----------Fuel type. (diesel OR fuel)
+			range(160) ;----------Range in km, off-road.
+		)
+	}
+
+	
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+	{bone "mgun_a_rot1"
+		{speed2 30}
+	}
+	{bone "mgun_a_rot2"
+		{limits -13 85}
+		{speed2 60}
+	}
+
+{volume "module_turret4"		; mantlet
+		{thickness 57.15}
+	
+{component "turret"}
+
+{tags "turret"}
+}
+
+{volume "module_turret5"		; mantlet
+		{thickness 57.15}
+	
+{component "turret"}
+
+{tags "turret"}
+}
+
+{bone "gun_rot"
+		{limits -10 30}
+		{speed2 5}
+	}
+
+{volume "module_turret"
+{component "turret"}
+
+{tags "turret"}
+}
+
+{volume "mw_armor_0_v0" {tags "armor"}
+{thickness 6}
+
+{material "steel"}
+
+{able {NoWoundDecal}}
+}
+
+{volume "mw_armor_1_v0" {tags "armor"}
+{thickness 5}
+
+{material "steel"}
+
+{able {NoWoundDecal}}
+}
+
+{volume "mw_armor_2_v0" {tags "armor"}
+{thickness 5}
+
+{material "steel"}
+
+{able {NoWoundDecal}}
+}
+}

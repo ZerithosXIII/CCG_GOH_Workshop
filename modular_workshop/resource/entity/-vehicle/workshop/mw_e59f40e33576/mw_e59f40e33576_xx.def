@@ -1,0 +1,121 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	
+	{extension "mw_e59f40e33576_xx.mdl"}
+
+
+	{volume "body1"			; Hull
+		{thickness 28.5
+			{top 28.5}			;front upper
+			{front 63.5}			;front lower
+			{rear 10}
+			{bottom 12.7}
+		}
+	}
+	{volume "body2"			; hull upper
+		{thickness 28.5
+			{top 12.7}
+			{front 28.5}
+			{rear 10}
+		}
+	}
+	{volume "body3"			; turret ring
+		{thickness 28.5
+			{top 12.7}
+		}
+	}
+	{volume "engine1"
+		{thickness 28.5
+			{front 10}
+			{bottom 12.7}
+			{rear 25.4}
+		}
+	}
+	{volume "engine2"
+		{thickness 28.5
+			{bottom 12.7}
+			{top 12.7}
+		}
+	}
+	{volume "engine3"
+		{thickness 28.5
+			{bottom 12.7}
+		}
+	}
+	
+	
+	
+	
+	{volume "basket"
+		{thickness 5}
+	}
+	{volume "grill"
+		{thickness 5}
+	}
+	
+	
+	
+	
+	{volume "shieldl1"
+		{thickness 5}
+	}
+	{volume "shieldl2"
+		{thickness 5}
+	}
+	{volume "shieldl3"
+		{thickness 5}
+	}
+	{volume "shieldr1"
+		{thickness 5}
+	}
+	{volume "shieldr2"
+		{thickness 5}
+	}
+	{volume "shieldr3"
+		{thickness 5}
+	}
+	
+	
+
+	("tracks" thickness(15))
+
+{volume "turret1"		; main part
+		{thickness 12.7
+			{front 25.4}
+			{top 8}
+		}
+		{able {holed}}
+	}
+
+{volume "turret2"		; back part
+		{thickness 12.7
+			{top 13}
+		}
+		{able {holed}}
+	}
+
+{volume "turret3"		; mgun mount place
+		{thickness 12.7}
+		{able {holed}}
+	}
+
+{volume "turret4"		; 
+		{thickness 25.4}
+	}
+
+{volume "barrel1"
+		{thickness 25}
+	}
+
+{volume "barrel2"
+		{thickness 25}
+	}
+
+{volume "barrel3"
+		{thickness 25}
+	}
+
+{volume "barrel4"
+		{thickness 25}
+	}
+}
