@@ -2603,4 +2603,8 @@
 {"mw_696ec999ad5f"
 		{vehicle_view "m5a1_stuart_late"}
 	}
+
+{"mw_b14a2602a1b1"
+		{vehicle_view "su100y"}
+	}
 }

@@ -1,0 +1,23 @@
+{game_entity
+	
+	
+	
+	
+	{extension "mw_b14a2602a1b1_x.mdl"}
+
+
+
+ {RimLight}
+
+{volume "module_body"
+{component "body"}
+
+{tags "body"}
+}
+
+{volume "aux_turret1"
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+}

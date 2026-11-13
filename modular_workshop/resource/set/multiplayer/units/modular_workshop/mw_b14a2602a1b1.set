@@ -1,0 +1,24 @@
+{"mw_b14a2602a1b1"
+	
+	
+	{score_factor 0.05}
+	{tags "conquest conquestonly rus mid can eng fin ger pol usa early late"}
+	{charge {delay 0}{interval 0}}
+	{cw 6}
+	{cp 39}
+	{research_stage 1}
+	{research_stage_max 99}
+	{squad_cost_factor 1}
+	{round_multiple 1}
+	{level 1}
+	{button "vehicles"}
+
+	{content "* ( mp/rus/mid/tankman:10 mp/rus/mid/tank_commander:1 )"}
+	{button "vehicles"}
+
+	{cost 2570}
+
+{not_for_player_sale 0}
+
+{not_for_sale 0}
+}
