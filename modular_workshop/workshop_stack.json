@@ -3,13 +3,18 @@
   "stack": [
     {
       "id": "vanilla",
-      "version": "build:25492057",
-      "fingerprint": "980cf4c903c4ec8d9a034c4e4ea81aa3e8cf621b94b600b06c106cfdd27478fa"
+      "version": "build:26706906",
+      "fingerprint": "47b2ffb5088f1ef75fae7cb2e53e463f08b52c586b95d470ae360f6807c74f19"
     },
     {
       "id": "conquerklayn",
       "version": "b04966977d3ec1c7",
       "fingerprint": "4c03f58cee5e4701aaaa649e4725f9c1ca47c87a9238a02223626c56dbf6b31f"
+    },
+    {
+      "id": "3114487841",
+      "version": "aff539f4eb9e2f06:workshop:6864011626489093424",
+      "fingerprint": "914647a7863394f7d5d490ab6ce42be529dca10e82b55d1e295477fc3a8fed26"
     }
   ],
   "skipped": []

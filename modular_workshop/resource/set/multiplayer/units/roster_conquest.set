@@ -29,35 +29,39 @@
 	(include "conquest/units_usa.set")
 	(include "conquest/units_eng.set")
 
-(include "modular_workshop/mw_8416aa9bc364.set")
-
-(include "modular_workshop/mw_e0dcc79a529a.set")
+(include "modular_workshop/mw_0ef04b0ad273.set")
 
 (include "modular_workshop/_reserves.set")
 
-(include "modular_workshop/mw_9339f107e4e8.set")
-
-(include "modular_workshop/mw_3276e59f8199.set")
-
-(include "modular_workshop/mw_292cb7fb75bd.set")
-
-(include "modular_workshop/mw_0ef04b0ad273.set")
-
-(include "modular_workshop/mw_bb728f966583.set")
-
-(include "modular_workshop/mw_3609a9ce7ec0.set")
+(include "modular_workshop/mw_11d995df9c18.set")
 
 (include "modular_workshop/mw_19323bd73bea.set")
 
-(include "modular_workshop/mw_11d995df9c18.set")
+(include "modular_workshop/mw_292cb7fb75bd.set")
 
-(include "modular_workshop/mw_e5ee481f8031.set")
+(include "modular_workshop/mw_3276e59f8199.set")
 
-(include "modular_workshop/mw_e59f40e33576.set")
+(include "modular_workshop/mw_3609a9ce7ec0.set")
 
-(include "modular_workshop/mw_781c6fcf0720.set")
+(include "modular_workshop/mw_4ab2bb47016f.set")
 
 (include "modular_workshop/mw_696ec999ad5f.set")
 
+(include "modular_workshop/mw_781c6fcf0720.set")
+
+(include "modular_workshop/mw_8416aa9bc364.set")
+
+(include "modular_workshop/mw_9339f107e4e8.set")
+
 (include "modular_workshop/mw_b14a2602a1b1.set")
+
+(include "modular_workshop/mw_bb728f966583.set")
+
+(include "modular_workshop/mw_e0dcc79a529a.set")
+
+(include "modular_workshop/mw_e59f40e33576.set")
+
+(include "modular_workshop/mw_e5ee481f8031.set")
+
+(include "modular_workshop/mw_27decf8ccc1b.set")
 }

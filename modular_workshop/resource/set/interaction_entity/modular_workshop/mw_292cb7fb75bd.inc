@@ -7,8 +7,6 @@
 		{link_sound "exhaust"			"vehicle/engine/M4_Sherman/exhaust"}
 		
 	
-
-
 {link_sound "rotate_turret"		"vehicle/turret/handcrank/handcrank_light"}
 }
 

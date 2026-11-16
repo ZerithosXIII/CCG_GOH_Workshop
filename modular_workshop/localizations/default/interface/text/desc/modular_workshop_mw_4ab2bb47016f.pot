@@ -1,0 +1,11 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_4ab2bb47016f"
+msgid "OT-34-100"
+msgstr ""
+
+msgctxt "desc/squad/mw_4ab2bb47016f"
+msgid "OT-34-100"
+msgstr ""

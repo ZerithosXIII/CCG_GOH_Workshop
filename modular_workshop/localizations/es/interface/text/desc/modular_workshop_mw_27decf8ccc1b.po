@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_27decf8ccc1b"
+msgid "IS-130E"
+msgstr "IS-130E"
+
+msgctxt "desc/squad/mw_27decf8ccc1b"
+msgid "IS-130E"
+msgstr "IS-130E"

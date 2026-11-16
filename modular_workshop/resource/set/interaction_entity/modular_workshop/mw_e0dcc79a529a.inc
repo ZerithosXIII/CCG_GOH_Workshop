@@ -46,7 +46,7 @@
 		("reload_time" args 6)		;// weapon reload time
 	}
 
-{on fire "gun" {inherited}
+{on fire "gun" overload {inherited}
 {ani_play "fire_gun"}
 }
 }

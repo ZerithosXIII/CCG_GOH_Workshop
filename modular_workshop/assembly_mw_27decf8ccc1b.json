@@ -1,0 +1,3006 @@
+{
+  "id": "mw_27decf8ccc1b",
+  "output_dir": "C:\\Users\\hourg\\AppData\\Local\\ModularWorkshop\\operations\\20261116_130413_7fcb84\\compile",
+  "entity_path": "-vehicle/workshop/mw_27decf8ccc1b",
+  "definition_path": "entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b.def",
+  "model_path": "entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b.mdl",
+  "files": [
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/armor0_47005dcc00.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/armor0_bd203ceadf.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/cw_plate_358b374230.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/cw_plate_4c2de3dd5d.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/cw_plate_84ac9b3e5d.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/cw_plate_steel.dds",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/cw_plate_steel.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/d_65fe42dc60.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/d_74e0da4fc2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/d_954bf2f041.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/d_caf26a4b69.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/d_f822fda094.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_002179175c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_006ac61b0c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_0303f3a192.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_0b4a1d9e39.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_1262bb793e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_18456bc001.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_1af898b50d.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_1b2dce63fc.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_2bb19bc2cb.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_320cd7e44a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_37edd6433b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_39c014381b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_3e5cf884ed.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_46523b5d7e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_468cfdc7a7.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_568ef6b2fc.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_57cbd93e4d.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_589ff5b5f9.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_605c365df4.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_68b28dce14.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_6a9d8057d2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_6ba5082744.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_74e948fe33.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_7602e559aa.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_7a05081b9c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_7a7d390415.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_7c0de5f5c1.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_7f6ef98372.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_82098ce2e8.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_824b7791e2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_927693b7dd.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_96f66c18f0.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_99e21dd949.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_9b5c2c25ec.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_a0297a19e8.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_a2e67abb4b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_a4b9b0b454.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_a4fb441555.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_a55c7c4a8a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_ac01d7cfc7.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_ace31994dd.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_adf1497a66.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_b6da7462ea.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_b7042dd3ee.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_b973206c9f.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_bb128faf81.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_bdea9088c9.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_c38ecbd2c4.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_c6674c24a6.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_f00d28b6dc.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_f2edcc25dc.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_f370bcff0d.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_f640e39827.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_f8e239e943.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_fc905735c6.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_fcdbca8d24.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hxx_fe204f7c3a.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_00391efeac.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_01414ea749.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_04fef89408.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_0503caa332.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_07551f04b1.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_0a14159671.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_15232e7a29.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_16b8096957.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_17318b0428.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_1ebcec8df6.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_1fe77367c1.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_2188f6e160.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_236156b57b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_23ef587cd0.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_275c13cb8e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_27723c3351.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_2971d34002.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_2e97dc2ccc.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_31bbaa86e4.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_3265f1d590.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_340832af60.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_346cfbbacd.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_373a2e5ffb.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_38cfe3e53a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_423ed6b93a.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_46bc168b83.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_4845bf46e6.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_4a68fb2370.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_4cf0e9aa07.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_4ec1029cc9.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_50bc4a82a0.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_55045b34a7.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_5831cc4548.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_59d226daec.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_5b9df955f7.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_5d2ce38e33.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_619196b6af.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_63e9a176a1.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_6837c40159.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_69b04cac8a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_6d3855cf15.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_6d5f4f6cc9.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_7109de2248.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_773c69f656.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_7788af338b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_7a4f01e8f1.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_7e0a624044.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_7f9913a469.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_8040e3ae15.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_815790ee08.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_81b796651c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_842e60fd7a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_8566237479.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_87f51387b6.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_8bf35f7ae8.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_9c6741dcce.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_9f4e2ff881.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_a273b75526.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_a9d39524f2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_aac6f7584d.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_ad8314c59b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_c9f9b87742.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_caae3b5d3e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_ccb6c851e5.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_d004fddb55.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_dbd3d21da2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_dcb1f7762e.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_e0b168f3a4.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_e2a86a5cc7.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_e395563653.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_e521a2fc91.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_f2bccebc07.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_f688fc600b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_f7f3414680.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_f875a41934.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/hx_f9af3365a9.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_003f165fdd.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_040708ec75.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_0e41411c45.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_14323f70e0.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_16c6d421ea.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_183b54b863.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_19e94283d2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_1d3d5473ea.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_1e2c3555fb.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_223db67126.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_2421488f03.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_25e2ae4bef.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_2656d5948a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_266b495b8b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_27d912f381.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_2af1b57183.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_2bad101371.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_2eb4874686.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_2ee2193cd2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_30ed1ff3dd.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_3126cca880.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_3194a8d67c.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_32780c6edb.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_35de920fca.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_3600bf8d0e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_376a527c95.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_39fa690079.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_3abed32053.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_3e292be420.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_41ee5a5112.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_42c03b29df.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_43393c8933.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_4393fcd344.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_4588d7af79.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_45dbfb812f.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_47293d893c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_47673d92d9.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_49285db6af.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_4aadf8c30a.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_4da55d076f.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_4e36841a8e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_4f5d1295c8.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_53f068370c.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_566ad5d6c2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_5b263bef51.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_5fabca902c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_617de6b137.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_625ae26d3d.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_64a9ba150b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_64eb759a74.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_64f0391d0c.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_65b34f98c1.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_6b89ff5910.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_7023cc7430.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_70aaa747ec.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_7375e8a59d.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_790f5ac727.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_7c529b5fc8.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_7f9ffeb8c6.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_80da28f6fa.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_80fcda6bd6.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8770a1861e.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8888ee0079.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8b5f910f40.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8b6d6d75ef.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8c6108c90c.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8c74f331d2.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_8cae434467.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_9540c3a252.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_9ec6b9d170.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_a06d066d20.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_a4ded8ffac.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_aaef804cf3.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_acd5547367.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_b73af68268.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_ba234cfd24.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_bde4d00cd5.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_c1ec10fbfb.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_c31de1172a.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_cb53ef7cf7.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_cc6d7fd8a7.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_cea2ea2fd5.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_d70731e50e.anm",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_d72aefe3e5.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_d7ac5a1bba.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_d8b320b4f8.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_da94427437.mtl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_dca6ddc6b4.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_dde4e9c290.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_e521f1aa6b.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_e9a8607479.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_f2957b6afb.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_f36ebd9ca5.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_f629e3594e.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_f7a88642f1.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_f889b70415.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_f918d16b17.ply",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/h_fe7c6e9bfd.vol",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b.def",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b.mdl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b_x.def",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b_x.mdl",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b_xx.def",
+    "resource/entity/-vehicle/workshop/mw_27decf8ccc1b/mw_27decf8ccc1b_xx.mdl"
+  ],
+  "metadata": {
+    "schema_version": 1,
+    "compiler": "independent-gem-assembly",
+    "id": "mw_27decf8ccc1b",
+    "recipient": "is2_45",
+    "donor": "is2_45",
+    "operation": "gun_swap",
+    "transform": {
+      "hull": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "turret": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "assembly_draft": {
+        "schema": 1,
+        "guns": [
+          {
+            "schema": 1,
+            "recipient_place": "gun",
+            "donor_place": "gun",
+            "upright": true,
+            "barrel_only": true,
+            "pose": {
+              "position": [
+                -15.3415608226791,
+                2.393435118117143,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "donor_template": "su100y",
+            "donor_catalog": true
+          }
+        ],
+        "turrets": [
+          {
+            "native": true,
+            "recipient_mount": "turret_mgun_aa",
+            "donor_template": "is2_45",
+            "pose": {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "joint_limits": {}
+          }
+        ]
+      },
+      "extra_armor": [
+        {
+          "asset": "entity/-vehicle/usa/tank_heavy/t26e4/t26e4.mdl#extra_armor",
+          "parent": "gun_rot",
+          "position": [
+            11.892340797416999,
+            3.3140495378921457,
+            -1.524933978407868
+          ],
+          "rotation": [
+            -1.2722218725854067e-14,
+            0,
+            0
+          ]
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "mgun_a_rot1",
+          "position": [
+            -13.51731843051089,
+            0.609110054594943,
+            -1.0013666761410178
+          ],
+          "rotation": [
+            89.99999999999999,
+            0,
+            0
+          ],
+          "plate": {
+            "width": 450,
+            "height": 350,
+            "thickness": 30
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "mgun_a_rot1",
+          "position": [
+            -10.296960853098891,
+            5.36119603132803,
+            -1.0825549288572631
+          ],
+          "rotation": [
+            89.99999999999999,
+            1.2722218725854067e-14,
+            -66.82369681731363
+          ],
+          "plate": {
+            "width": 450,
+            "height": 350,
+            "thickness": 30
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "mgun_a_rot1",
+          "position": [
+            -10.296960853098891,
+            -3.9105204905248367,
+            -1.0825549288572631
+          ],
+          "rotation": [
+            90.00000000000004,
+            4.134721085902572e-14,
+            -112.99473749827526
+          ],
+          "plate": {
+            "width": 450,
+            "height": 350,
+            "thickness": 30
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "mgun_a_rot1",
+          "position": [
+            -4.030918302776705,
+            5.298375845988325,
+            -1.0825549288572631
+          ],
+          "rotation": [
+            90.00000000000004,
+            4.134721085902572e-14,
+            -112.99473749827526
+          ],
+          "plate": {
+            "width": 450,
+            "height": 350,
+            "thickness": 30
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "mgun_a_rot1",
+          "position": [
+            -4.030918302776705,
+            -3.759880902302613,
+            -1.0825549288572631
+          ],
+          "rotation": [
+            90.00000000000001,
+            -2.5444437451708134e-14,
+            -67.43141535778973
+          ],
+          "plate": {
+            "width": 450,
+            "height": 350,
+            "thickness": 30
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "turret",
+          "position": [
+            29.272337929397818,
+            -0.9341889060735742,
+            2.6110826949553783
+          ],
+          "rotation": [
+            0,
+            33.514411761397135,
+            0
+          ],
+          "plate": {
+            "width": 1300,
+            "height": 300,
+            "thickness": 50
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "turret",
+          "position": [
+            28.21307402582828,
+            -0.6749271952924807,
+            14.877833379918862
+          ],
+          "rotation": [
+            180,
+            59.79882342976319,
+            180
+          ],
+          "plate": {
+            "width": 1300,
+            "height": 300,
+            "thickness": 50
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "turret",
+          "position": [
+            17.72831337333271,
+            17.554943407902336,
+            5.313832882212097
+          ],
+          "rotation": [
+            0,
+            0,
+            66.38760410789433
+          ],
+          "plate": {
+            "width": 1000,
+            "height": 500,
+            "thickness": 30
+          }
+        },
+        {
+          "asset": "custom:plate",
+          "parent": "turret",
+          "position": [
+            17.72831337333271,
+            -17.68102676074953,
+            5.313832882212097
+          ],
+          "rotation": [
+            0,
+            0,
+            113.57566804025998
+          ],
+          "plate": {
+            "width": 1000,
+            "height": 500,
+            "thickness": 30
+          }
+        }
+      ],
+      "joint_limits": {},
+      "crew_static": true
+    },
+    "gun_assembly": {
+      "schema": 1,
+      "recipient": {
+        "place": "gun",
+        "weapon": "122mm_d25",
+        "link": "gun",
+        "pivot": "gun_rot",
+        "bones": [
+          "foresight1",
+          "gun",
+          "gun_rot"
+        ],
+        "shared": [
+          "foresight5"
+        ],
+        "yaw": "turret",
+        "barrel": [
+          "gun"
+        ],
+        "properties": [
+          "detect_tank_heavy",
+          "detect_tank_medium",
+          "diesel",
+          "emit_on_sink",
+          "engine",
+          "hatch",
+          "heavy",
+          "muzzle_122mm_128mm_sides",
+          "muzzle_hmg_dshk",
+          "obstacle_ignore_height",
+          "sq_armor_super_heavy",
+          "steel",
+          "tank",
+          "turret",
+          "vehicle",
+          "vision_lev05",
+          "with_gun"
+        ]
+      },
+      "donor": {
+        "place": "gun",
+        "weapon": "130mm_b13",
+        "link": "gun",
+        "pivot": "gun_rot",
+        "bones": [
+          "foresight1",
+          "gun",
+          "gun_rot"
+        ],
+        "shared": [],
+        "yaw": "turret",
+        "barrel": [
+          "gun"
+        ],
+        "properties": [
+          "detect_td_heavy",
+          "detect_td_medium",
+          "emit_on_sink",
+          "engine",
+          "hatch",
+          "heavy",
+          "mantlet",
+          "muzzle_122mm_128mm",
+          "obstacle_ignore_height",
+          "sq_at_gun",
+          "steel",
+          "tank",
+          "td",
+          "vehicle",
+          "vision_lev05",
+          "with_gun"
+        ],
+        "template": "su100y"
+      },
+      "operators": {
+        "gunner": [
+          "gunner"
+        ],
+        "charger": [
+          "charger"
+        ]
+      },
+      "filling": "bulletrus_130",
+      "camera_bone_mapping": {
+        "visor1": "cw_scope_0"
+      },
+      "ammunition": [
+        {
+          "item": "bulletrus_130 aphe",
+          "definition": "set/stuff/shell/bulletrus_130.aphe.ammo",
+          "projectile_entity": "130mm_rus_aphe"
+        },
+        {
+          "item": "bulletrus_130 he",
+          "definition": "set/stuff/shell/bulletrus_130.he.ammo",
+          "projectile_entity": "130mm_rus_he"
+        }
+      ],
+      "bone_mapping": {
+        "gun_rot": "gun_rot"
+      },
+      "volume_mapping": {
+        "breech": "module_breech"
+      },
+      "retained_weapons": [
+        "mgun2",
+        "mgun3",
+        "mgun"
+      ],
+      "sequences": [
+        "start",
+        "stop",
+        "fire",
+        "hit",
+        "open",
+        "open_gunner",
+        "mgun_aa",
+        "fire_gun",
+        "repair",
+        "repair",
+        "repair"
+      ],
+      "sequence_names": {
+        "fire": "fire_gun"
+      },
+      "recipient_mount_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.9756
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.0363
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          40.9558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "donor_mount_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.968200000000003
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          47.614900000000006
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "emitted_mount_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          22.6340391773209
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.3571351181171427
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          40.9558
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "recipient_mount": "gun_rot",
+    "gun_camera_donor": "su100y",
+    "camera_bone_mapping": {
+      "visor1": "cw_scope_0"
+    },
+    "donor_mount": "gun_rot",
+    "bone_mapping": {
+      "foresight1": "foresight1",
+      "gun": "gun",
+      "gun_rot": "gun_rot"
+    },
+    "crew_roles": [
+      "charger",
+      "commander",
+      "driver",
+      "gunner"
+    ],
+    "crew_slots": 4,
+    "source_hashes": {
+      "entity/-vehicle/ussr/tank_heavy/is2_45/start.anm": "c4ed173cf79de5467db6eb8142fb942b41cb1ca17bc10e62429ae4bebca6192a",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/stop.anm": "9c995dd8d12033c25a71fe878fa9cad758f30a13d92e4fcd27b8cb47c6511b3d",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/fire.anm": "35de9a464aef30877f60b8b06de10f8ebe4e8eb5fa934c1d25a2aef60a52f581",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/hit.anm": "6e05f9de6d0ff0c559642c7fe125e0818042ce2abb74612563178926e2c230df",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/open.anm": "6f34a087b8a00f4c3a3b814512b2ab3027a099e6c4efffb9b9b673212b155999",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/open_gunner.anm": "5cebee9d567bd3e288bfc34c4096ed6a910024a43e76c0b9586eac5f0645f41a",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/mgun_aa.anm": "6985e1e1a8f46eb409e58c8a958444f49f6032032b6ec1efad5a634fcdd0fd4d",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/body_r.anm": "443cbc474a42b9daa54f41e9390a9a9218f84ae7d84e191ba06a3d0940a85112",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/body.ply": "49a5dfec5ad9dbd957fcafae0ba8eae656d462a29179e5674c38b47610a47dca",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/is2_45_mat.mtl": "26fd749bc3bdf29af49909b6a0e3529797106ef76f1cfba90841d196ef1d15a5",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/body_lod1.ply": "852e16c0172a1ad1c943115124d4aa3f397c7e5b66fcce7d84efe7adff3d1e39",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret_r.anm": "f48d8ed7e507ee70b47e841942504e084bb4bed7c3a1ef1dd517b4334f436388",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret.ply": "c70b46dcf8068e432efadeb45e365ea48b9f335401f5ecf354105bc36b0914ae",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret_lod1.ply": "79be34df57d7677f536bbdbd53b8e8536fa42d527f5ff2d31d3565e86cfa6910",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cover3.ply": "1484b68161fdac43a29c8cf77763b4b8efdeff5fcf3300b7cefa38d014711145",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cover3_lod1.ply": "74ee729b53e94153dd62fc62cd41f8a9527df5af45e842ead65bed725d0cbdc4",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret_mgun_aa.ply": "debdaaf7520dd31be79e08432a0b981e4f4d8ab615cb0d68e0d865506b9dea42",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret_mgun_aa_lod1.ply": "d6c92c4ce9bb4fa6234775d520d322b50d8891d5a50ce8823918c51527ba4ca3",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cover1.ply": "525e6b9ed112b816c8b7233f7d0eacc9a021b008389c3b766791f3c18abb74f0",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cover1_lod1.ply": "060445644582321c62d1a4933f7e6fdd617af20e1b15897f8ddd9c46f3452307",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cover2.ply": "d6bacd384078a8dbb736e11ddaaae934efc55d746a460213033c02ec42a0ff5d",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cover2_lod1.ply": "258297d25695820f5a671f4959d2a4842bc634916165a763a43b9f82494598c2",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/mgun_a_rot1.ply": "88730dda9f31983948e0dbe12c58878807548b1f59ff9d8a9e07cdf9263eaea9",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/mgun_a_rot1_lod1.ply": "ab638fbc12325e893e84e4e3701aef26de84225c6848490bca0b41fcd99c3be7",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/mgun_a_rot2.ply": "a86fe0f5a5da0f0ab402dd31e0c6ae0882ac9ec5275a168ed88c77ebbbc712d8",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/hmgun_mat.mtl": "e6dd0c6eece69d3fa585eb496b2616834c76c2992977213f4d26f12e0f079592",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/mgun_a_rot2_lod1.ply": "01b66ed38c51e79746990bace77d15d4574c5629474459e5f972ddcf5714a533",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/a1.ply": "3d79c5da2bede13294c620dcb2663aea967943f666171c7877ba4183a81f90a8",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/a2.ply": "cb7f94ef860b8c52f38ef8184bb9e6b39ac3e909db5a6fc0d3a690e6f8c751ca",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/a3.ply": "8e343bd329296a56dfbfa4d274f79043285e98534b1614210eb0f67144089a23",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/a4.ply": "d27056f1a60ed17ac7d60901783c392500d413236ee24562d3d043a62e872cad",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/a5.ply": "442e3eb31c4581543bb2c13ec251a29f719e7e147129d137b4769c81ca44489f",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/gun_r.anm": "bd016cf4ab132460bd19586f3fc971811c5b3b655678b4008a59a3bb3dc5efce",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/gun_rot.ply": "48a9b41f244c80c1ed2d9ef0b303d26ea45be1e0ac54bcc9558ae0358bc7d8fa",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/gun_rot_lod1.ply": "4d29d8faf14fdc5ee2769690dbe4c1038fd7d3e0e3c614a2716a549db9db7c74",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/gun.ply": "6eb246a8dd5cb119b4d42ba2fbe643ffaa20cb21d5be96758de68b10ce402525",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/gun_lod1.ply": "1eed9d982755aceb8ece726b1fb5935877c3ebfcabfcc00a75c9772f766d006d",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/rear_mgun.ply": "d04d5076ae21c4aeeb764926354098a9c52525c488cec44ae7c10e01f065b44a",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/rear_mgun_lod1.ply": "f1fac32630cb0d0fe7d1ae544e6b4202a2fe2048bd6ffc3d7c2181c0df40f4c3",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/enumerator2.ply": "f6838261400b858604ad94dc656e97e922f712f6f9b9f14ea13859563aa5d2d5",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/number1.mtl": "742eaa24eb8b9b1964a4d71e24e731a94a30eec99e500ee468a9286652c54f37",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/number2.mtl": "da56062c53ff46dc6cb16750a716c9dd1a63cae5c5a27fac504c8025b5a93894",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/number3.mtl": "00751c8d3b456913eb264171626f04ab7a0455a44ceeefcbc298c3bcf7e2ce2c",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/enumerator.ply": "048d6067a5995715f78d0a8854828f1637ea01d5073ceff7583965a7f16dd6f8",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail1.ply": "b632be6696a78310c869cb9d416e443ab6cfd80cb63087f7f483b316c8767eca",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail1_lod1.ply": "a6c1cd0fa17923a561595ba62a44e05608e4ffba41a95bb07ed6dbc436108789",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail2.ply": "435810e6326d954982efdaf945f7abdbfa087f72d7a1e1793e8052aacba6baed",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail2_lod1.ply": "57c4a33447b6bf3d2334552ec1afdcadef2f09f6a71cc5c4408187f4d509e896",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail4_lod1.ply": "934880c914d9fe3636d2accc1a2aad77db3f4ea5db202ab21364b9056eb8c688",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail3_lod1.ply": "91e264b6eb185da92d16501e160c1b37a53e5b02271d34916c3d7c0c00b698c0",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail6.ply": "8fd53301aa02ecdded1f53351442bc25a4c8ebdcffb0086904bde22709249b61",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail6_lod1.ply": "5c4e455069eee80e40025e4b9001527de5c7e0a84f1e92e69999f60f8f0541e9",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail5.ply": "ff60e252b28db6ddee46596d8240498be04e74684f0c3c13e62c9a032af2f916",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail5_lod1.ply": "d5ee17af8d4a87f2cc51a60a4643c714d27b5f5f905447685338e450b2582d53",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail8.ply": "e5c0716eb3755e64238a44c4cdf2dd83dce785e94ad2d446e503c6e0b495a6fc",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail8_lod1.ply": "73a05d3433609debe74723115fed434c56a5866c857163329d7ead21a0d57c17",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail7.ply": "2990ff6099aec4a38b27bbca662c02a3e4d1f2aae88c83afd06313520e88bf7d",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/detail7_lod1.ply": "321054d65de756f055ad0fe0fda6ff0afa8ba4150790e3aea9dd7979965204dd",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheell8.ply": "da641cb52e86027bc5f7c28e88f09cc4b08d4a1cfa65aed0c53ee11a2c8282f0",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheell8_lod1.ply": "2c4cff08788e13dad69c045dc91ed35e40bf4cfb4b917911367d2451f2558add",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheell11.ply": "f6c1f52600201926fac65039403aae444d78a27f99c36fec5c6a8124ef831b08",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/is2_45_alpha.mtl": "9da07a423288b5dfeac14844da77dc66387c2c20880bda5310ecd01ba3fbe0f6",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheell10_lod1.ply": "3b6423ace80f19ccfc81799c00a236c14fa67d92cad011d0fce0d833511931c0",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheelr1.ply": "471f0c92f84295f8b3e3914fab8f8ac6e4c34f8c6c1c764c6941ff12a4d804e9",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheelr1_lod1.ply": "0a4f4957523bee933a5a128551c56dab61f12e3e0d0b803ce3317d23afff8893",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheelr11.ply": "fbec2701e195372f543c95196c7e9031c5725291f097628958e8c9362e0d09a9",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheelr11_lod1.ply": "0b742c82ffcfce506a4b2ec72e23fce3ede4396fe1db966be9da6ab272c3ad29",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheelr8.ply": "00d4bda13678927745471f3a7deb27a5a48bbcbe4ef4b518a6a2a5a66e649da6",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheelr8_lod1.ply": "7e1a14cc46b157570a2284370c12a844d5e5970ac594ec79bedf720eaa673cdc",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheell1.ply": "f9d49470d1a65e433d81f200f7fd8947d066fabee7b1fc45ca696f5a50896dd4",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/wheell1_lod1.ply": "0ca9fe77688b72733e433cbdcd390b22996f227c90654dcc9d09ff4f5c9fab17",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/engine.ply": "b1ea03d2b77a978e0cc665560e891f7dd93c1e182dfdc0dbd98a77adb686d4c3",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/engine_lod1.ply": "52bc60d1b7d18e39ef9fe9d888d89a501dcc6cb57be2657d004bc6502f1876e4",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/shield2.ply": "31c8e1f5da488367f4865ab832e954aa2598a89da859f33225b3de9c5aaf5188",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/track_detail_mat.mtl": "e0514f859e3794cdf44394c0aed3d04d58e17f6761dc58ad8aca305f6ba90210",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/shield2_lod1.ply": "090247e6d981bf76a9d0c4fa90734a9b06fa5d24aa26b418d4fed8dde03f2eda",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/shield1.ply": "4a8ce78c791d5564f6134848a83c64b32ec3b1ca7675e47d810f77c62c57b6a2",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/shield1_lod1.ply": "54b6830b440d8a9c52effe4023b595202429edabc6013c8cf2e66a994ee4ddf5",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/shield3.ply": "80425e98ab1598703a205f5651e0b79c1dd1e21990c325162031d50d3a0d884e",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/shield3_lod1.ply": "6283325d3b3a9f3575007573a8e7fe4358fabb7ee710944a219adc203f088380",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/trackr.ply": "1a08d74501f8a70ec866bfac7b4810bad01d242f57ffab9f6c2e6a9c23b5fb08",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/track.mtl": "55500b2fb377286ef80d3708fcd0fd80fa4999ff3ec1d80fc4e1646fd8fbcf9e",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/suspension_arms.ply": "77273615b88dfbc58480bea4b09b4ede7d22d4efe092530b849f5038df5719c4",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/suspension_arms_lod1.ply": "6ea24fe017d889b09f54f8739fda4ada45f7f4cc6eb4c69faa96f7b7a6178cda",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/trackl.ply": "6c08fbff010cdfa0df92725d0499d68b2083c64f315aaea2b9401be1fa87b3b1",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/body1.vol": "1c84508b016d12f868d5239d44e1d1a00b908050235b8fc5ef36ae45ecb11eb7",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/body2.vol": "9c1d58232ad3afbdc4c0cb0ed3604c06946ea9526fd287f7ed069dd6c062726e",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/body3.vol": "a6e4caefb4601efe38e5ce6214f78a46287235a4975f50c742650cff2eafbbf9",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/cupola.vol": "c5481eafcecdc7e92b7fd21bacd93158ec2703bbc3c338249a824780ba58c343",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/engine1.vol": "f456fcd1c97d438e1fe6454874f5f16c47113016a34fb81eebd441d166e16249",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/engine2.vol": "4a9ecd3f60d5595c80b7f46b58fbe081e2758e18441a94af2ffab8ad6de1de35",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/fuel1.vol": "745ea1ca963bb16cafc31b49f5cd9ca4138e900abd013e66c3d3a200dbe97992",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/fuel2.vol": "745ea1ca963bb16cafc31b49f5cd9ca4138e900abd013e66c3d3a200dbe97992",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/hole1.vol": "4c4a7367cea4663c5b82f23632eede82c04988be00f7a47e7f5341a02312fc92",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/hole2.vol": "3979cb0a8f7aa807f678ad590fee9ad5d599cbdd9e853e98135173115210ef00",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/ram.vol": "1749b6e2de0c78613bf3b2a17a99c05e8773a9f4fe4cb218dcf6ab18056a4322",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/trackleft.vol": "60ff71cc4c7b6e4f641d4104588700bcbd3e82954daddaf3c02fedeb0c5f340b",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/trackright.vol": "fd8a77d47c7da4d813b887db479c4187f06e2334ca8a54bb9dcc19a697a076bf",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret1.vol": "b57ab857df44fd706d1453b40236a9ae59cfb8bd933cc68cfd65a7f2f9e67783",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret2.vol": "df27549a0c8525693f8cbfd92dd6c7e3d4bbc6427fb97fa18c27206f3ad09f1d",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/turret3.vol": "ccd1f8c871f986f4cf8434dfbd1c83a2cd056f03a10f8ba832f588180918a78a",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/is2_45.mdl": "6d3a10f28727aa05b38245aa6ba2a56ea6ac1eac0b1eb52109e0c4a34f87f4c9",
+      "entity/-vehicle/ussr/tank_heavy/is2_45/is2_45.def": "73f1d02e713fe68d960aa9c5f5b951922af30887d08d3af6a2fa8fe2b3c3ecb3",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/trackr_b.anm": "2dfeb67ca9419511bfdeeeecec3fef367bc3ae5181334c76b3b2620d99f4f5bd",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/trackr.ply": "d8218de9b7f2f2c99dd1d2ab64b5a90d5c30072f11594fa467c2a9c9dd719f6f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/track.mtl": "55500b2fb377286ef80d3708fcd0fd80fa4999ff3ec1d80fc4e1646fd8fbcf9e",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheelr5.ply": "f9154ec63c7baae456a925036c4004741e610b3ae50d76c06eeb98421226cfb7",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/is2_45_alpha.mtl": "ab1abce9b7ad01f37f6f2c422337c22754c397269be48064b545da80c1e9dc87",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/is2_45_mat.mtl": "4dde41bd0127eb1c8322ea8b376e0cfb4e729873566912c1e3235d77087006c2",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheelr5_lod1.ply": "cc60eb8e542893ecb1cc5635a430d7bc93c49ea6d3bce4bc9e86b76e766912a3",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/trackl_b.anm": "803ef94ba95c68824fcb7912c9f842692328fa3210932ea879a0ab9b73c81f3f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/trackl.ply": "427151e1a1f2fe635dbf2bfb59377ef0c54115dde81f492cf57557c450d483ba",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/suspension_arms.ply": "10f8d38965df50496508ba102cdeccc82153bc6d6bf8c62b4fec56e0c8f7a8ac",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/suspension_arms_lod1.ply": "6ea24fe017d889b09f54f8739fda4ada45f7f4cc6eb4c69faa96f7b7a6178cda",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheell2.ply": "5fb640cd0fc042994645a56ca06cc1d46843278dd084363f7c35729feef5b488",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheell2_lod1.ply": "318b6d690d7d2b5c0e650ad1eb324aa9e0a93225361ef67f7383f29f440e1b48",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/body_b.anm": "4e673715cac21a6dbb1e3f804d72281193665d59b8cbf5999182544df7fd8351",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/body.ply": "d6f53ecf894df0f23956259c86565c4df3b0a19ff94ddb6dfaa8bd32a94f5ba3",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/body_lod1.ply": "b99cdebaed04df0d8bace606f4750d6d46dee726deac9f6e501caa26c5558743",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail1.ply": "db47191a6c1411cc130f6e7281377f84aca3662f9d1499cf4c0866bc77b5b0bf",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail1_lod1.ply": "441e563d71824597e739bf573c6ac6e282a9b24df3032c489f0de921c452aec7",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail2.ply": "9bdc408866cad38d281b4a322b83e429dec52fffa56327bd407909d9eb36d1e5",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail2_lod1.ply": "65372b8d4f4a2ba72f545c753ad540de2d1212d3ff99fa71cf60b3d406ec7eba",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail4_lod1.ply": "c3c2e5ba07c23684a5db8e14f44e868ce80e166344024c288d8c1c093ee5541f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail3_lod1.ply": "0143f8185d916b0ded173ca0f01febdc4a28f3ed8106c55cd5bbc5611fbb85ca",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail6.ply": "c7fbfe1d631d96d7109f9f869b770a628b1c02402ebca19dc5e0df67ffbce52a",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail6_lod1.ply": "ca9cb3ef25ddac50210a079b4c42dc97ead8bc805f8e6f483999490fad143e46",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail5.ply": "e25a3c9e6ea6d1c2cbf0a4e24bb5a956960184f5ff3725bf413d6e39e0aae145",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail5_lod1.ply": "f90703c10cc4bacbd9bf3f4751bb1bdf57befd4bc0492e2cb8c4c6f820de214b",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail8.ply": "28b91f6b13df4d2c4f9127f9224423d8cf2f3ef78f12774821a9df7090067066",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail8_lod1.ply": "a8d2898f872cc1f9d70d22a91d7c06581e82c29542e049de9da0e0f4a6778411",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail7.ply": "c39ec988866f3188127fab3e096a95596c5fef242167f1e471e9be7d3d1c33ed",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/detail7_lod1.ply": "3b5cefb8064c8ad1b6bcd2d29a403941ea6817f5d69e074993a37e76afaaa229",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheell8.ply": "5698bedd7a8a52960d46b2310f8dc3706621c815ed38634670891f0308432cb4",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheell8_lod1.ply": "be642b41f2ae55e3aecc8382ed0b638cb38a8906c826b5f86c2ab0e2a1ff3e37",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheelr8.ply": "a40beccc447974483e613fce200ae99173b16fbb5a2db9aff73abe8aed349241",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheelr8_lod1.ply": "b1f215dc7f99229c7e1aa50b501fa9231a078b2ab69536db0ce0300752852f9c",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/engine_b.anm": "dd04fa1b3ad02e32d5192a7cb3bcb490f2923f8773b6b754c237ee91f3d8149b",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/engine.ply": "fa5ede1f2ebf2e577689c180cb61ea1f2254ac35be15a582e44cd8a144c17062",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/engine_lod1.ply": "ababc6593cac01cf8bf3653e2a7abd7de8dcc09750367467df52c231dde63657",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/turret_b.anm": "21807aadaff10e0c82bf1a831e8b3926d81e7ae9f7cccf1d0114db77ca806d24",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/turret.ply": "970ed4a680a50e9025651bc4e7b8bf2b0091f33121438013f383e91dffa2617d",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/turret_lod1.ply": "6868570ea0d02eb473ec00427e182a862b4077f9fb699c2559849285d18106ee",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/gun_b.anm": "a4c527c3d25624f0a09cfe9949f5e0e0892f556dfd66422e0b3851289e35d4f4",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/gun_rot.ply": "7695f056e18da57eb91e6080a4e5f651ab44355837756dc4d6d087335c728554",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/gun_rot_lod1.ply": "2a06e98b43ef2b4f43228bcf19f818d078a463e1933043e8f473e8aac657023c",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/gun.ply": "270efaf4e75ef687281e68e3188099ce43beb3073d7efd4edf2ac967f5c42dd3",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/gun_lod1.ply": "ae01d95c80eb6de034203371f34edc5ae9526d1ddb0ab261fb3e8d02e056f92e",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/turret_mgun_aa.ply": "1182728d0bb7e5a0e234771823bd68f299de9930f5f90386ccecda90f4b5e058",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/turret_mgun_aa_lod1.ply": "733cf516e472499f003dfa7f2844dc28dc239231435f3c19b90d0b5faadf3b96",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/cover1.ply": "54f4459b805645a7f95a46ff06017f36016627c1d1c3ba1afdc6a07c605eb8b6",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/cover1_lod1.ply": "431b970b5f2b12f1cbab4da835640ffd22f3a61bd1f108c4c7ecf63f7b9d3e13",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/cover2.ply": "1f20dc8e350243d20379802edae79de2fdee20715c589731de9374f2ce315db1",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/cover2_lod1.ply": "99d9b7de59b33c001a8a3f9ea18b1b83d7fc307b4d00c0942c407e42c18e174d",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/mgun_a_rot1.ply": "d6364a5482d381bb03a7619e50ae4654868a956c2285373e6ce09df672ef7bb2",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/mgun_a_rot1_lod1.ply": "c115f805f5fc05dde0d1659b7df3eb41630b6772c51490a62d4d3936b7833358",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/mgun_a_rot2.ply": "aa8859149fb123afd02d032647b4b82e58586d1a21501a005aa2b9629afe31d4",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/hmgun_mat.mtl": "931324d32461bcd4c105f7df100c5727131110271ad94feab5564448e44a29cb",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/mgun_a_rot2_lod1.ply": "90d8e1a5471b063be70eb0d57201bab64ceacaaa62a6ad1b776ed9e0e94383d2",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/a1.ply": "9e1dce36ad3caa3df2f926cc1f43a40cff6e06994bdec5a1dbd68a661e7aeef1",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/a2.ply": "c095e53a74f72287e80e7bb5c63e7a05ff105b4896ea472ab0e5ae55cdf626da",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/a3.ply": "b947d310705bf6f3a915a0ea9bd0b6302df7727b156f36a540c2370809da75f5",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/a4.ply": "14ec2b457d3f4a597095a5c00b700b54bbef2964a55e6dc15762ad3b0b2f0945",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/a5.ply": "1117ee65658abd3d22f6221bbe826452512168c96484c1e65852260d2cfbe61f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/cover3.ply": "e22f76e113955ecf68989b29bf37f3cffbfa5caf1cc43f1ce7d0cbf35b02679d",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/cover3_lod1.ply": "33f8f38576381f8a9782022f6025e999e1518d941b4ebfcef1ba724d75ab6e27",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/rear_mgun.ply": "bd04981f6d1a42d31fdae29ecdb25403c509c231152b4a3ba15a99dc631b9b33",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/rear_mgun_lod1.ply": "5a6dcc58f72cebfb6de1b17d13db85c3bae9cc4590b815fbe7aa47f405502a67",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/shield2.ply": "19828e733ebcdb6ad1ee20ccadb9f4290e17cce713fccf9a798c256a965a5208",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/track_detail_mat.mtl": "e0514f859e3794cdf44394c0aed3d04d58e17f6761dc58ad8aca305f6ba90210",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/shield2_lod1.ply": "65100b76b927ae24d1548923aed7fd312992dffabb25d9088f71faf7e0cd9ad7",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/shield1.ply": "29d73b6218196b702a3cbb9b0e991584da0c55bf6ced48c3ded5465dba1e6856",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/shield1_lod1.ply": "a064bf7cddcdefd17bc5331223bc1bb96b459f68e758cc6faf98431799282643",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/shield3.ply": "b696ba4179e74d06f6d9e1543bf122381f22c3eb427133f25604f02359cb1a86",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/shield3_lod1.ply": "3ba6f9006049f2be139778a22f935acb5808bd10ab0739fbab64e729d118810c",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheell11.ply": "2e7664cf7201f1b3a1e475e75940b50cd35bfbe43090fe3fdd3001fe56323fcc",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheell10_lod1.ply": "11c5ef9be9a3b0433da950b3c070abcb3ba3fc3eb7ef78fe47458aa2836cfa4c",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheelr11.ply": "bd3db78fe1001b9ba5dbabcaad5eb8c2b422885fba292bed401113e745cfae4f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/wheelr11_lod1.ply": "9aee1a45854d4589af9c0fa0293e82b6256146bd3bbbe939dab25f8b5b2b1530",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/is2_45_x.mdl": "45f40cf1570c3e96f9395bee3f4d9e797577b57016e1357a4444e660f976eb69",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_x/is2_45_x.def": "a320791347ed67734d6faa851ff8a3ecba2565300a16a7f8b6648cbcfb15367f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr5.ply": "e79773483eedbb8e88e1753a4ab6af6701a61442926a1b394a308b07d8bb55d5",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/is2_45_alpha.mtl": "9cc7f47ecb51230a2c8984db1bda3e0ad12f1e10be122fbf963c5e336e779f3b",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/is2_45_mat.mtl": "5bfdd4811d22d1c7b6d5fdc9d30b2f3637e1597dc4f16046430ea900398f72f8",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr5_lod1.ply": "436f75b4eca03e931535c1c6a74e398a2b5ff833c0640dfb94c7064157c2d4da",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/suspension_arms.ply": "99d92fd90a4fbaa705b8be35a8038010880e9a681bf751a11d327f39afd4aab4",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/suspension_arms_lod1.ply": "5aa05f43d2b2a9d6c1faff6f4a9f1127721c76beced348fa9fd6b1407f610274",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell2.ply": "a2e63243ddd35ebed27931e7b0a9b3cf3f7e46fd3220d0cc5c08df3bd50979a1",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell2_lod1.ply": "ef2e19f27b7f29c31410e1c85c8ea6a4dc6bc0e9379dc9f508617191efdb2b45",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell6.ply": "66e58b5304bb95c25aee20d84ba0a75bae89afa3b06d7ba9196f75759bb98682",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell6_lod1.ply": "b16ceaf854b8b86b830f49ce44883e2ebac12f2040f6692dc505285a9913bda7",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/body.ply": "8622cd41f013b80f15a7d47ac28004bc4634b84b37c14175c8e5384fc2bb99f3",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/body_lod1.ply": "f0dc97d9b32a7378b049305e3b8fd78ba23677cfd1476fbeab4a36d59640ffd9",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part3.ply": "037249a32ee96ae98efd839c7790c603db0bce67cdf9ad08beba7033d58ef010",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part3_lod1.ply": "695301cc8ff6cf8930cd425c15e5d9bdea2d60b92a65fc0578e84ac61fa17ab2",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part4_lod1.ply": "bdb3643c91782ff1fddf55f8a4f9b69eb0f8a3965b8a1904b59947345df6c45c",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/detail8.ply": "5ad56c1b554bbffb5e11aaf292f4351e66457e7fbfde6d04c0bab2968d2a1454",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/detail8_lod1.ply": "20da4075d96e6efb99640eb4b90c985bcc5fdb3fe23524e098441c6c5e265532",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part6.ply": "d8fdce5ce89701271d1499ba0e0039e77bc7a1cb6bb50aabda48cde0bb4f4627",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part6_lod1.ply": "62e73395881125c19c75a0666e6359cc4a8879d1dca6228c0f120cf16cf0aac8",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/engine.ply": "b194d78c05d858baf38362da77c0c5d65dfa07bb229ffa683838d2dbcea7d5b0",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/engine_lod1.ply": "e7561976d50d36abaeaf984fc52dacd83cd875bd33c91283aec34d6f015e9d72",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret.ply": "8280642a661cac7d9f5fca481b1e5b2ed5b3ad1bd8fef71f35ed7be894465885",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret_lod1.ply": "6736f5fa39980dbb040d4cf019fed39913a968d3fbe5281f2df8a8afdd8a7c76",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/gun_rot.ply": "717d588acb7614d5428a1bd9ac52f3ab87dd3e81a51138878910431118964483",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/gun_rot_lod1.ply": "d4735c4a24787aa1606f1fd9c980c83e665dcdad4f5baed1d3c2a7f6aa50e81a",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/gun.ply": "895548781def710e1183bc76a48ab309ae0258bafad0b8cd69d8bef4e2187e59",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/gun_lod1.ply": "e05276faf176420d42653506713334de41b06150eae4784bc571c53261300f14",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret_mgun_aa.ply": "b950424126498aa1f8759a604d828979e36d937eb3129bf0ec9e8caf9927bd83",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret_mgun_aa_lod1.ply": "0b5579ae6b0e0084d8caa0f317aac4c1eba3e8b35861c2245bb180598177a63f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/cover1.ply": "350933f96807af4db9757804ca251f2fef8eed18fd48ac0db697427cb567ea01",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/cover1_lod1.ply": "db2d93abb727e96fc90d1f98559761da04108b84c34e1a7c4644c243115e5a86",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/cover2.ply": "4c8a3270a613cd05fe803c2d8010c11b180af4fac78adedab98b28a05bbb1d5d",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/cover2_lod1.ply": "d6a473a31d148ddda95da41a506db2885d585f6243810051f657d947e78b3508",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part5.ply": "a7b6f1001bc48eaad556abcc8b0dba9b40f7c37b3ae1ca91676c7cec88f17477",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/part5_lod1.ply": "4f7ef1904d0c84fbcab2841512fa2f9409cd6bcfe68fcff0cdd12177c4b19748",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/rear_mgun.ply": "75c2094e9dd42a3a6c8985a5ca4551646cc6b97687b8934da7e846771cee971a",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/rear_mgun_lod1.ply": "6d3d4707ff986f9ce8a582eb1af2dbc59baf38b5a2437939e9347b94e73b99ff",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell8.ply": "fe173233983587ac124e5ab0f37cd3b417cd9eeb2610d17b4ecd40e1e5ba30ba",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell8_lod1.ply": "7489b7b9f5debea3948c9abb2b2bc83aab12128e74db052c4702c3437b6ab03c",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell11.ply": "9d86495604493fb70f1d4b839f655ccf1a3acbadc6dcee867bd01ed54d52e954",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell11_lod1.ply": "b1fdcba1010866e3e4455594f8a4e1cad3b542329bea90587a1182b226345200",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr11.ply": "45ef9620b1b8d6fd64524ac954a0e045fb6ed6da70d4621cbda29db778c3c272",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr11_lod1.ply": "8714bb8fec1bbce3c13f70ff7b5fcb700b0d0a7a529dcc8287048d5923b73d9a",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr8.ply": "d2242077245066316226ac690a2e3a5ce86764839541f2e1770b2e50226b733d",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr8_lod1.ply": "f231528936cb5d31821c50d277b7bccb39d0f170729b905daef373042b972f42",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell1.ply": "800ecad6d5f7139a6f725e68ab2e29edf093ed41cdce9422e2df2cb159bad17f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheell1_lod1.ply": "de636e8d055f62d8339c6b70da8a7b726fbae29130582b219e7c1cc54d74586e",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr1.ply": "fc37b83bdec90bcff67e50d295affc2503701fb454304fe7571a89f56fb97512",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/wheelr1_lod1.ply": "5e1305d4fe5c0896d0c1bfaba4aa1a8a69532a17d919598e5b9c37c27e2e3f5f",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/body1.vol": "ed59bcea0fc6b8a41ddc8024cc1478064fd918faee73ed0863c42250efe1c274",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/body2.vol": "06c1bff557bfd9b0889cf121291526d4b9367c4bcb195d81c3d2721c191676b0",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/body3.vol": "522147918221a141a905dead30668adabaa710ff1d268ce2defb0532931db95a",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/engine1.vol": "74f732c290eec5b05d2dd24a9d96feb9c56fccb83cd2517542306e0b4c3b1621",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/engine2.vol": "4765077ba2b89d9bc3fc04346458823434e09bfa4503d21c3786db5db721f643",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret1.vol": "ef5a00c0e0f99cc666ee7232d61487c863e28983cbeb648eace1ae1fc98ef782",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret2.vol": "a8e6359d4071c1bc8cd99660efc81f7f142edb27471d4d57e1e4b12cb419b184",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/turret3.vol": "645fa8212e3dbcb339f7b0a2a76367722693988127afdfce58be1a7fba59b0e6",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/is2_45_xx.mdl": "68c384fcd21450e401e2877ed213db168f7fd68d6651bb451bdd0788427b6acf",
+      "entity/-vehicle/ussr/tank_heavy/x/is2_45_xx/is2_45_xx.def": "5a825406221366184ef18c9bb100d89f7a29bf4913146eb8fae4804969dfb3a5",
+      "set/stuff/gun/130mm_b13": "aef05d659d76dacf3234cf25b9f4628a49193ea2dc1e6e9da86390848166c5af",
+      "set/stuff/gun/gun.pattern": "b570c71fe5349cd8e5e0fe6c1bb5c33ddcad59a156e75a0bdcaa97f69ca36084",
+      "properties/tank.ext": "a727a8d0c489123c1680daaa8418f65be02dd820ebf796f7dfcc2e28356d28bb",
+      "entity/-vehicle/ussr/tank_heavy/su100y/su100y.def": "f847b4c49e03bdff214f8d8eaffda8f6b6a9ce96e65954ca7a05d41cc68ae027",
+      "entity/-vehicle/ussr/tank_heavy/su100y/su100y.mdl": "ece2a021e482848a258d123a3b6c57b1f8a00091f2a6f88ebdb3bd0a9590fe0b",
+      "properties/tank_assaultgun.ext": "3692afd4858e2034d426dd74f7c507e27b1e5cecbf88ad9769ac3363ddf27f07",
+      "entity/-vehicle/ussr/tank_heavy/su100y/su100y.ext": "319c46b63f7ba753cd299f7dd28e81b79986867ec9e6ef91e4737ed723335ddf",
+      "set/stuff/shell/bulletrus_130.aphe.ammo": "d3c10305d5dd1df7e552a1fd72555af625de78538838ad3e6d4b714d74191c18",
+      "set/stuff/shell/aphe.pattern": "264efdd8fc900c06e918575157006b13045410ea10254663529ce09b1278644f",
+      "set/stuff/shell/generic.pattern": "1fa634245ce7f5fd12ddaaf78522be5d97b83ec6d183dff6e1b884d2b9f5b601",
+      "set/stuff/shell/bulletrus_130.he.ammo": "76776fb34729abc203fac597c0cd69e054525c080cd70ba48d3e972deae564e0",
+      "set/stuff/shell/he.pattern": "b3c7b8027480f8b073aa65873530264a2d4441deb70ad7ce2f996cf635453b92",
+      "set/third_person/vehicle.inc": "c39cb607623dc94e242e4ed3ce7e0abc3731a068e9eed90f87c3150cab94e0e3",
+      "set/third_person/vehicle_specific_ger_tank.inc": "0617eda84436be19b02a5567be96134ae5dec8b40a665a709d79375f04ba2b81",
+      "set/third_person/vehicle_specific_ger_cannon.inc": "1f4b7b63b17e2b6e23e4452e63a0c2f5d5e841602b804d1ef73dc7da018a19ee",
+      "set/third_person/vehicle_specific_rus_tank.inc": "1e2daddf39e6d84e116951acb04c55231594d95994b23c12021fb40bf8232933",
+      "set/third_person/vehicle_specific_rus_cannon.inc": "0c8687bc27280bb9ac1139c40b6e55115396e6983a5f8f48b7e180d728eef018",
+      "set/third_person/vehicle_specific_fin_tank.inc": "257e7c253cab2e15c65434ed24a25aa63f762ca748c2e6d317042704c3073c18",
+      "set/third_person/vehicle_specific_fin_cannon.inc": "743b5d7a03003d9b3c3a55bf0ace81e574826871014884523c1347b96429228b",
+      "set/third_person/vehicle_specific_eng_cannon.inc": "4a98a00146d40a060cd14fcaa5fac9f47a5e1cac10d74f5cb545e9266c60f59f",
+      "set/third_person/vehicle_specific_eng_tank.inc": "723c2d108ef76d6d901e3941c70b0acaf936b2c4e79810525fc9cc1fab200fa7",
+      "set/third_person/vehicle_specific_usa_cannon.inc": "31f3f303828a92ecbc825b64ad9bbbd188701f0a0e500a3c49b17ee5c8a362f0",
+      "set/third_person/vehicle_specific_usa_tank.inc": "7c8916a159cf75340802b3f918405c3260dfd1e51de2c48344a257972e643bb2",
+      "set/third_person/vehicle_specific_marine.inc": "44adf39da68741faa67da384a9d94ddcd0daea486648065e32fd31fb21da13ef",
+      "entity/-vehicle/ussr/tank_heavy/su100y/gun_r.anm": "760a1ea112c5cc231dab0ca9e0b5877b48e558cae3a90facd05aaf3e84202f82",
+      "entity/-vehicle/ussr/tank_heavy/su100y/gun.ply": "482deba4db8ecfdcacccb71aec3212996aa1fa150811b9afdb38c0fb9c831ff5",
+      "entity/-vehicle/ussr/tank_heavy/su100y/su100y_material.mtl": "3c553a5740203726d4af990a00d7a512fde0007e39a6c320c3701ebc7f3c3098",
+      "entity/-vehicle/ussr/tank_heavy/su100y/mantlet1.vol": "10d989ebcfbe95e35a0ceb8697dfbd3c01073d1f1f9f8ca42b1cbd92b6f877e9",
+      "entity/-vehicle/ussr/tank_heavy/su100y/fire.anm": "7d7d42dfb7c0a5c1aaa8c07963410f7674ee995da94373cc868372e7d85211c2",
+      "entity/-vehicle/usa/tank_heavy/t26e4/extra_armor.ply": "da3182419041b9b4696c23e407c4bd75bc7fb5cc0a65e941a1c7bb1256180f63",
+      "entity/-vehicle/usa/tank_heavy/t26e4/mat_t26e4.mtl": "98b5642c97a0419151950cd3622297714c86351befa786160101c9facdd22bd3",
+      "entity/-vehicle/usa/tank_heavy/t26e4/t26e4.mdl": "85cf5960592ead9865e04f2b8e31b579deec1ba0fb8217b4c939c5eeed583594",
+      "entity/-vehicle/usa/tank_heavy/t26e4/t26e4.def": "06db259a232b7fb78cf2d22612a7acc8d81ec7b7eb9a62fe49f10378cb1a84b0",
+      "properties/vehicle.ext": "29c09d098d67e3fce02769be2935786b3eadcb55b240c90b048f56a246901b96"
+    },
+    "state_profile": {
+      "weapon_places": [
+        "gun",
+        "mgun",
+        "mgun2",
+        "mgun3"
+      ],
+      "recipient_module_names": [
+        "foresight1",
+        "gun",
+        "gun_rot"
+      ],
+      "donor_module_names": [
+        "barrel",
+        "breech",
+        "foresight1",
+        "gun",
+        "gun_rot",
+        "hole3",
+        "mantlet",
+        "mantlet1"
+      ],
+      "donor_name_map": {
+        "mantlet": "mantlet",
+        "barrel": "barrel",
+        "gun": "gun",
+        "gun_rot": "gun_rot",
+        "breech": "module_breech",
+        "hole3": "hole3",
+        "foresight1": "foresight1",
+        "mantlet1": "mantlet1"
+      },
+      "allowed_damage_ids": [
+        "ammo1",
+        "ammo2",
+        "ammo3",
+        "ammo4",
+        "ammo5",
+        "armor",
+        "armor1",
+        "armor10",
+        "armor11",
+        "armor12",
+        "armor13",
+        "armor14",
+        "armor15",
+        "armor2",
+        "armor3",
+        "armor4",
+        "armor5",
+        "armor6",
+        "armor7",
+        "armor8",
+        "armor9",
+        "armorL1",
+        "armorL2",
+        "armorL3",
+        "armorL4",
+        "armorL5",
+        "armorL6",
+        "armorL7",
+        "armorL8",
+        "armorL9",
+        "armorR1",
+        "armorR2",
+        "armorR3",
+        "armorR4",
+        "armorR5",
+        "armorR6",
+        "armorR7",
+        "armorR8",
+        "armorR9",
+        "armor_driver",
+        "armor_engine",
+        "armor_front1",
+        "armor_front2",
+        "armor_front3",
+        "armor_front4",
+        "armor_hull",
+        "armor_mantlet",
+        "armor_mg_port",
+        "armor_plate",
+        "armor_visor1",
+        "armor_visor2",
+        "armor_visor3",
+        "barrel",
+        "barrel1",
+        "barrel10",
+        "barrel2",
+        "barrel3",
+        "barrel4",
+        "barrel5",
+        "barrel6",
+        "barrel7",
+        "barrel8",
+        "barrel9",
+        "body",
+        "body1",
+        "body2",
+        "body3",
+        "breach",
+        "breech",
+        "cupola",
+        "detail1",
+        "detail2",
+        "detail3",
+        "detail4",
+        "engine",
+        "engine1",
+        "engine2",
+        "fuel1",
+        "fuel2",
+        "gun",
+        "gun1",
+        "gun10",
+        "gun2",
+        "gun3",
+        "gun4",
+        "gun5",
+        "gun6",
+        "gun7",
+        "gun8",
+        "gun9",
+        "hole",
+        "hole1",
+        "hole10",
+        "hole11",
+        "hole12",
+        "hole13",
+        "hole14",
+        "hole15",
+        "hole16",
+        "hole17",
+        "hole18",
+        "hole19",
+        "hole2",
+        "hole20",
+        "hole21",
+        "hole22",
+        "hole23",
+        "hole24",
+        "hole25",
+        "hole3",
+        "hole4",
+        "hole5",
+        "hole6",
+        "hole7",
+        "hole8",
+        "hole9",
+        "mantlet",
+        "mantlet1",
+        "module_breech",
+        "mw_armor_0_v0",
+        "mw_armor_0_v1",
+        "mw_armor_0_v2",
+        "mw_armor_0_v3",
+        "mw_armor_0_v4",
+        "mw_armor_1_v0",
+        "mw_armor_2_v0",
+        "mw_armor_3_v0",
+        "mw_armor_4_v0",
+        "mw_armor_5_v0",
+        "mw_armor_6_v0",
+        "mw_armor_7_v0",
+        "mw_armor_8_v0",
+        "mw_armor_9_v0",
+        "ram",
+        "sandbag",
+        "sandbag1",
+        "sandbag2",
+        "sandbag3",
+        "sandbag4",
+        "sandbag5",
+        "select",
+        "shield1",
+        "shield2",
+        "shield3",
+        "shieldw",
+        "shieldw1",
+        "shieldw2",
+        "shieldw3",
+        "shieldw4",
+        "shieldw5",
+        "shieldw6",
+        "trackleft",
+        "trackleft1",
+        "trackleft10",
+        "trackleft11",
+        "trackleft12",
+        "trackleft13",
+        "trackleft14",
+        "trackleft15",
+        "trackleft16",
+        "trackleft17",
+        "trackleft18",
+        "trackleft2",
+        "trackleft3",
+        "trackleft4",
+        "trackleft5",
+        "trackleft6",
+        "trackleft7",
+        "trackleft8",
+        "trackleft9",
+        "trackright",
+        "trackright1",
+        "trackright10",
+        "trackright11",
+        "trackright12",
+        "trackright13",
+        "trackright14",
+        "trackright15",
+        "trackright16",
+        "trackright17",
+        "trackright18",
+        "trackright2",
+        "trackright3",
+        "trackright4",
+        "trackright5",
+        "trackright6",
+        "trackright7",
+        "trackright8",
+        "trackright9",
+        "transmission",
+        "turret",
+        "turret1",
+        "turret2",
+        "turret3"
+      ],
+      "weaponry_policy": "reset",
+      "inventory_policy": "gun_replace",
+      "hull_authority": "is2_45",
+      "turret_authority": "is2_45",
+      "gun_swap": {
+        "place": "gun",
+        "old_ammo": null,
+        "ammo_items": [
+          "{item \"bulletrus_130 aphe\" 14}",
+          "{item \"bulletrus_130 he\" 15}"
+        ],
+        "initialize": true,
+        "old_ammo_families": [
+          "bulletrus_122_l48"
+        ]
+      }
+    },
+    "wrecks": [
+      {
+        "state": "x",
+        "native_recipient_wreck": true,
+        "gun_not_transferred": true
+      },
+      {
+        "state": "xx",
+        "native_recipient_wreck": true,
+        "gun_not_transferred": true
+      }
+    ],
+    "crew_visibility": [
+      {
+        "place": "commander",
+        "bone": "gunner2",
+        "native_internal": false,
+        "can_hide": true,
+        "hidden": false,
+        "part": "hull",
+        "source_place": "commander"
+      },
+      {
+        "place": "gunner",
+        "bone": "",
+        "native_internal": true,
+        "can_hide": false,
+        "hidden": false,
+        "part": "hull",
+        "source_place": "gunner"
+      },
+      {
+        "place": "driver",
+        "bone": "",
+        "native_internal": true,
+        "can_hide": false,
+        "hidden": false,
+        "part": "hull",
+        "source_place": "driver"
+      },
+      {
+        "place": "charger",
+        "bone": "",
+        "native_internal": true,
+        "can_hide": false,
+        "hidden": false,
+        "part": "hull",
+        "source_place": "charger"
+      }
+    ],
+    "crew_attachment": [],
+    "validation": {
+      "structural": "passed",
+      "dependencies": {
+        "models": 3,
+        "local_references": 324,
+        "files": 249,
+        "passed": true
+      },
+      "game_runtime": "pending",
+      "campaign_acceptance": "pending"
+    },
+    "interaction_donor": "is2_45",
+    "weapon_effects": [
+      {
+        "place": "mgun2",
+        "shooters": [
+          "foresight5"
+        ],
+        "optional_views": [],
+        "projected_barrels": false,
+        "setup": [
+          "{add_view\t\"flash_gun_big\"\t\"flashbarrel5\"\t\"foresight5\"}"
+        ],
+        "events": [
+          "{on fire \"mgun2\" overload\r\n\t\t\t{if effector \"stuff weapon\"\r\n\t\t\t\t{with_effector\r\n\t\t\t\t\t{call \"fire\"}\r\n\t\t\t\t}\r\n\t\t\telse\r\n\t\t\t\t\r\n\t; Granular Head – played on EVERY shot\r\n\t{play_sound \"action_recoil\"}\r\n\t{play_sound \"head_mid\"}\r\n\t{play_sound \"head_far\"}\r\n\t{tags add \"firing\"}\r\n\t{kill_delay \"burst_end\"}\r\n\r\n\t{delay 0.02 \"burst_end\"\r\n\t\t{tags remove \"firing\"}\r\n\t\t; Tail – plays only when the burst is complete\r\n\t\t{play_sound \"tail_close\"}\r\n\t\t{play_sound \"tail_mid\"}\r\n\t\t{play_sound \"tail_far\"}\r\n\t}\r\n\r\n\t\t\t\t{view start \"flashbarrel5\"}\r\n\t\t\t\t{delay 0.2\r\n\t\t\t\t\t{view pause \"flashbarrel5\"}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}"
+        ],
+        "origin": "is2_45"
+      },
+      {
+        "place": "mgun3",
+        "shooters": [
+          "foresight6"
+        ],
+        "optional_views": [],
+        "projected_barrels": false,
+        "setup": [
+          "{add_view\t\"flash_gun_big\"\t\"flashbarrel6\"\t\"foresight6\"}"
+        ],
+        "events": [
+          "{on fire \"mgun3\" overload\r\n\t\t\t{if effector \"stuff weapon\"\r\n\t\t\t\t{with_effector\r\n\t\t\t\t\t{call \"fire\"}\r\n\t\t\t\t}\r\n\t\t\telse\r\n\t\t\t\t\r\n\t; Granular Head – played on EVERY shot\r\n\t{play_sound \"action_recoil\"}\r\n\t{play_sound \"head_mid\"}\r\n\t{play_sound \"head_far\"}\r\n\t{tags add \"firing\"}\r\n\t{kill_delay \"burst_end\"}\r\n\r\n\t{delay 0.02 \"burst_end\"\r\n\t\t{tags remove \"firing\"}\r\n\t\t; Tail – plays only when the burst is complete\r\n\t\t{play_sound \"tail_close\"}\r\n\t\t{play_sound \"tail_mid\"}\r\n\t\t{play_sound \"tail_far\"}\r\n\t}\r\n\r\n\t\t\t\t{view start \"flashbarrel6\"}\r\n\t\t\t\t{delay 0.2\r\n\t\t\t\t\t{view pause \"flashbarrel6\"}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}"
+        ],
+        "origin": "is2_45"
+      },
+      {
+        "place": "gun",
+        "shooters": [
+          "foresight1"
+        ],
+        "optional_views": [
+          "flashbarrel1",
+          "flashbarrel1smoke",
+          "maximum_ground_fx",
+          "maximum_ground_r_fx",
+          "maximum_sand_fx",
+          "maximum_sand_r_fx",
+          "maximum_snow_fx"
+        ],
+        "projected_barrels": false,
+        "setup": [
+          "{add_view \"tank_canon_fire_122_128\"\t\t\t\t\"cw_7414679bb5_flashbarrelmaximum\"\t\"foresight1\"}",
+          "{link_sound\t\t\"cw_7414679bb5_action_recoil_Cannon\"\t\t\"weapon/shot/cannon/s2/recoil/Shared/Cannon/\"}",
+          "{link_sound\t\t\"cw_7414679bb5_Cannon_Mid\"\t\t\t\t\"weapon/shot/cannon/s4/d2/Shared/Cannon_105to130mm/\"}",
+          "{link_sound\t\t\"cw_7414679bb5_Cannon_Far\"\t\t\t\t\"weapon/shot/cannon/s4/d3/Shared/Cannon_105to130mm/\"}"
+        ],
+        "events": [
+          "{on fire \"gun\" overload\r\n\t\t{view start \"cw_7414679bb5_flashbarrel1\"}\r\n\t\t{view start \"cw_7414679bb5_flashbarrel1smoke\"}\r\n\t\t{ani_play \"fire_gun\"}\r\n\t\n{view start \"cw_7414679bb5_flashbarrelmaximum\"}\n\n{play_sound \"cw_7414679bb5_action_recoil_Cannon\"}\n\n{play_sound \"cw_7414679bb5_Cannon_Mid\"}\n\n{play_sound \"cw_7414679bb5_Cannon_Far\"}\n\n{call \"cw_7414679bb5_maximum_terrain_fx\"}\n}",
+          "{on \"cw_7414679bb5_maximum_terrain_fx\"\r\n\t\t{if not rain\r\n\t\t\t{if terrain_fx \"ground\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_ground_fx\"}\r\n\t\t\telse terrain_fx \"mud\"\r\n\t\t\t\t;//none\r\n\t\t\telse terrain_fx \"water\"\r\n\t\t\t\t;//none\r\n\t\t\telse terrain_fx \"shallow_water\"\r\n\t\t\t\t;//none\r\n\t\t\telse terrain_fx \"sand\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_sand_fx\"}\r\n\t\t\telse terrain_fx \"snow\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_snow_fx\"}\r\n\t\t\telse terrain_fx \"ice\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_snow_fx\"}\r\n\t\t\telse\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_ground_fx\"}\r\n\t\t\t}\r\n\t\telse\r\n\t\t\t{if terrain_fx \"ground\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_ground_r_fx\"}\r\n\t\t\telse terrain_fx \"water\"\r\n\t\t\t\t;//none\r\n\t\t\telse terrain_fx \"shallow_water\"\r\n\t\t\t\t;//none\r\n\t\t\telse terrain_fx \"sand\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_sand_r_fx\"}\r\n\t\t\telse terrain_fx \"snow\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_snow_fx\"}\r\n\t\t\telse terrain_fx \"ice\"\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_snow_fx\"}\r\n\t\t\telse\r\n\t\t\t\t{view start \"cw_7414679bb5_maximum_ground_r_fx\"}\r\n\t\t\t}\r\n\t\t}\r\n\t}"
+        ],
+        "origin": "su100y"
+      }
+    ],
+    "extra_armor": [
+      {
+        "asset": "entity/-vehicle/usa/tank_heavy/t26e4/t26e4.mdl#extra_armor",
+        "parent": "gun_rot",
+        "position": [
+          11.892340797416999,
+          3.3140495378921457,
+          -1.524933978407868
+        ],
+        "rotation": [
+          -1.2722218725854067e-14,
+          0,
+          0
+        ],
+        "bones": [
+          "mw_armor_0_root",
+          "mw_armor_0_b0"
+        ],
+        "volumes": {
+          "armor4": "mw_armor_0_v0",
+          "armor5": "mw_armor_0_v1",
+          "armor6": "mw_armor_0_v2",
+          "armor7": "mw_armor_0_v3",
+          "armor8": "mw_armor_0_v4"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          38.0,
+          80.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "contract_sha256": "390dd5dd64fcb70a4f04c0ac576b096f0a610d920a2dc2af2bd5c46563364d94"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "mgun_a_rot1",
+        "plate": {
+          "width": 450.0,
+          "height": 350.0,
+          "thickness": 30.0
+        },
+        "position": [
+          -13.51731843051089,
+          0.609110054594943,
+          -1.0013666761410178
+        ],
+        "rotation": [
+          89.99999999999999,
+          0,
+          0
+        ],
+        "bones": [
+          "mw_armor_1_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_1_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "mgun_a_rot1",
+        "plate": {
+          "width": 450.0,
+          "height": 350.0,
+          "thickness": 30.0
+        },
+        "position": [
+          -10.296960853098891,
+          5.36119603132803,
+          -1.0825549288572631
+        ],
+        "rotation": [
+          89.99999999999999,
+          1.2722218725854067e-14,
+          -66.82369681731363
+        ],
+        "bones": [
+          "mw_armor_2_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_2_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "mgun_a_rot1",
+        "plate": {
+          "width": 450.0,
+          "height": 350.0,
+          "thickness": 30.0
+        },
+        "position": [
+          -10.296960853098891,
+          -3.9105204905248367,
+          -1.0825549288572631
+        ],
+        "rotation": [
+          90.00000000000004,
+          4.134721085902572e-14,
+          -112.99473749827526
+        ],
+        "bones": [
+          "mw_armor_3_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_3_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "mgun_a_rot1",
+        "plate": {
+          "width": 450.0,
+          "height": 350.0,
+          "thickness": 30.0
+        },
+        "position": [
+          -4.030918302776705,
+          5.298375845988325,
+          -1.0825549288572631
+        ],
+        "rotation": [
+          90.00000000000004,
+          4.134721085902572e-14,
+          -112.99473749827526
+        ],
+        "bones": [
+          "mw_armor_4_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_4_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "mgun_a_rot1",
+        "plate": {
+          "width": 450.0,
+          "height": 350.0,
+          "thickness": 30.0
+        },
+        "position": [
+          -4.030918302776705,
+          -3.759880902302613,
+          -1.0825549288572631
+        ],
+        "rotation": [
+          90.00000000000001,
+          -2.5444437451708134e-14,
+          -67.43141535778973
+        ],
+        "bones": [
+          "mw_armor_5_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_5_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "turret",
+        "plate": {
+          "width": 1300.0,
+          "height": 300.0,
+          "thickness": 50.0
+        },
+        "position": [
+          29.272337929397818,
+          -0.9341889060735742,
+          2.6110826949553783
+        ],
+        "rotation": [
+          0,
+          33.514411761397135,
+          0
+        ],
+        "bones": [
+          "mw_armor_6_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_6_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          50.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "c6004862b7e587e7e57406b4f966cd29f2192b1fd4f40821fd44a63425c553b7"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "turret",
+        "plate": {
+          "width": 1300.0,
+          "height": 300.0,
+          "thickness": 50.0
+        },
+        "position": [
+          28.21307402582828,
+          -0.6749271952924807,
+          14.877833379918862
+        ],
+        "rotation": [
+          180,
+          59.79882342976319,
+          180
+        ],
+        "bones": [
+          "mw_armor_7_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_7_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          50.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "c6004862b7e587e7e57406b4f966cd29f2192b1fd4f40821fd44a63425c553b7"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "turret",
+        "plate": {
+          "width": 1000.0,
+          "height": 500.0,
+          "thickness": 30.0
+        },
+        "position": [
+          17.72831337333271,
+          17.554943407902336,
+          5.313832882212097
+        ],
+        "rotation": [
+          0,
+          0,
+          66.38760410789433
+        ],
+        "bones": [
+          "mw_armor_8_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_8_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      },
+      {
+        "asset": "custom:plate",
+        "parent": "turret",
+        "plate": {
+          "width": 1000.0,
+          "height": 500.0,
+          "thickness": 30.0
+        },
+        "position": [
+          17.72831337333271,
+          -17.68102676074953,
+          5.313832882212097
+        ],
+        "rotation": [
+          0,
+          0,
+          113.57566804025998
+        ],
+        "bones": [
+          "mw_armor_9_root"
+        ],
+        "volumes": {
+          "plate": "mw_armor_9_v0"
+        },
+        "materials": [
+          "steel"
+        ],
+        "thickness": [
+          30.0
+        ],
+        "cast_steel": false,
+        "passive": true,
+        "custom": true,
+        "contract_sha256": "eb84cc86b2c5a32bc4de6c7980a24ae57d3b55957e29b2c92113bbe82bd94f9e"
+      }
+    ],
+    "file_hashes": {
+      "d_65fe42dc60.anm": "760a1ea112c5cc231dab0ca9e0b5877b48e558cae3a90facd05aaf3e84202f82",
+      "d_f822fda094.mtl": "3c553a5740203726d4af990a00d7a512fde0007e39a6c320c3701ebc7f3c3098",
+      "d_74e0da4fc2.ply": "810a7868818e6a15b54bdf1332707c91f27807ca8ae032587bd509d8ad1195c4",
+      "d_caf26a4b69.vol": "10d989ebcfbe95e35a0ceb8697dfbd3c01073d1f1f9f8ca42b1cbd92b6f877e9",
+      "h_6b89ff5910.anm": "c4ed173cf79de5467db6eb8142fb942b41cb1ca17bc10e62429ae4bebca6192a",
+      "h_7f9ffeb8c6.anm": "9c995dd8d12033c25a71fe878fa9cad758f30a13d92e4fcd27b8cb47c6511b3d",
+      "h_d70731e50e.anm": "be1433b106a406bf83aee9ee3314e55c72ed48e4c1a231150472ea8661a3bed4",
+      "h_65b34f98c1.anm": "6e05f9de6d0ff0c559642c7fe125e0818042ce2abb74612563178926e2c230df",
+      "h_cea2ea2fd5.anm": "6f34a087b8a00f4c3a3b814512b2ab3027a099e6c4efffb9b9b673212b155999",
+      "h_41ee5a5112.anm": "5cebee9d567bd3e288bfc34c4096ed6a910024a43e76c0b9586eac5f0645f41a",
+      "h_27d912f381.anm": "6985e1e1a8f46eb409e58c8a958444f49f6032032b6ec1efad5a634fcdd0fd4d",
+      "h_80fcda6bd6.anm": "443cbc474a42b9daa54f41e9390a9a9218f84ae7d84e191ba06a3d0940a85112",
+      "h_7023cc7430.mtl": "26fd749bc3bdf29af49909b6a0e3529797106ef76f1cfba90841d196ef1d15a5",
+      "h_19e94283d2.ply": "9663068c56affca0c9340bb99d3e839ecec4fb3b130ee5abbeae6c73c037d67a",
+      "h_0e41411c45.ply": "1952e1126b0d17dd8665efe653f380525a77f88132f8f2d5d559c3d6471e0acb",
+      "h_53f068370c.anm": "f48d8ed7e507ee70b47e841942504e084bb4bed7c3a1ef1dd517b4334f436388",
+      "h_566ad5d6c2.ply": "12bdda94dfc05cf0b2a199244e061d5aff2a5db3e15ffa4b27125285afded300",
+      "h_64eb759a74.ply": "2b4d637d8bb319348472735cb40ef6a20dbdfaf1ea97c12f78a9cab9544cc74e",
+      "h_f629e3594e.ply": "179b2cc116e99ca7e37d09a39cf6179f87859d3a67beddf604042b2b78e6e2fc",
+      "h_4e36841a8e.ply": "75df5bafa41a51938c02e8fb0c842a84b233e46200422f4bd47eac8fb560c2a1",
+      "h_7c529b5fc8.ply": "7128f9f07a29ca999d32b24b1e04a6b739a652582b9ee058f6ebb7d9c9cc6726",
+      "h_8cae434467.ply": "e93adfd95e58ef14c093212c4a2b0e84e434ad84e3a70d9d4cced7ea45286891",
+      "h_8888ee0079.ply": "5a56b03b394f2a74977036f326d7f432fd7f29a6ceb8ba011613829f423c425a",
+      "h_3600bf8d0e.ply": "c028dde2c8b5928700fde95e874679f036ea818b4c2002c7db3588e46aa084cb",
+      "h_183b54b863.ply": "491c64dfe486292adad3f42fd62ef055fc8d127eb286d1316d0baa137d5ffb8d",
+      "h_376a527c95.ply": "41cef46f45897a82cbb70f55f4cf98d728b5bc64f6165b51438d679a3b204449",
+      "h_2421488f03.ply": "a0fe0f5a6898893193f028c7b19fe8e9b9ddbe28e318a5761d143d7b46ec8be2",
+      "h_2656d5948a.ply": "0f9303dd28f2f21adc8567c45cf1caf27f481d84902ba9de1408e4d527b1aa5a",
+      "h_8b6d6d75ef.mtl": "e6dd0c6eece69d3fa585eb496b2616834c76c2992977213f4d26f12e0f079592",
+      "h_5fabca902c.ply": "250853ef75ab0534dc6bdcb6cc00669c3cc4640d1b3b6c8c9c9bc3f753c4b932",
+      "h_25e2ae4bef.ply": "773c3226e043d9897336561618faf6eb0568e75415f27a848f6b7a0dff008918",
+      "h_7375e8a59d.ply": "dafea25fa93ed0fa103b7a95865518bcfacbdcc4539762dcecf77a274e20a3a7",
+      "h_30ed1ff3dd.ply": "e5bcd692640d79e6db779c840dea20f3f2f1bd22cda2974f76eb7ec1d6cbf138",
+      "h_45dbfb812f.ply": "cac541b445c5a5ffb1982b426915b054f113381c7ed1c5e4c140cdcd6bb1c2d2",
+      "h_266b495b8b.ply": "09737693990c4a6f3d9b022ca827f8b741592af232fb45a21b8f8d8161723c88",
+      "h_c1ec10fbfb.ply": "314a64a4a13c172e589af585b11c4c6931c5efce63ac1dab6803b66d05156548",
+      "h_2eb4874686.ply": "6414eb02eaf99f03784c4c0e79593d369c7e1a1460ed697cd546832c1170a77e",
+      "h_e521f1aa6b.ply": "91f68c9935460d9b18ba5a0fc3b27a052882f1c8907cdb48803b257a4f4a8854",
+      "h_c31de1172a.mtl": "da56062c53ff46dc6cb16750a716c9dd1a63cae5c5a27fac504c8025b5a93894",
+      "h_64f0391d0c.mtl": "742eaa24eb8b9b1964a4d71e24e731a94a30eec99e500ee468a9286652c54f37",
+      "h_14323f70e0.mtl": "00751c8d3b456913eb264171626f04ab7a0455a44ceeefcbc298c3bcf7e2ce2c",
+      "h_1d3d5473ea.ply": "2695f205c9008dca85c5d7b5309563946d57baa4aae66d2f2a39e7b4d05fb31e",
+      "h_d7ac5a1bba.ply": "68b2b62bf5785032e1d29381b981086a063dd7eb8188e7e639d50c4776fe8cdb",
+      "h_2af1b57183.ply": "40975088aa90edd4818c421d61da1b1fe013423aff09e9d0c156d5700fc259c2",
+      "h_f2957b6afb.ply": "165c64914fe6108e7e2ed1db365e5f1b11f15158fb6666c05ba8c295668bbc62",
+      "h_003f165fdd.ply": "ecc2e8902ea0e466b72d30f348322be85e24b0f7eda7c1ff7e080325d24401a3",
+      "h_cb53ef7cf7.ply": "99d5a6c080e5c2e53e5e53ea342e1d5ad3b0c79a5e4059e819644dcb71def4ef",
+      "h_4aadf8c30a.ply": "d4929f78949cc77abeed9cb243249cc889bb8872e32098f699eee861b3789f0b",
+      "h_9540c3a252.ply": "e808f948632eef23e3aad50c81f20f6446456eabf52e527a928d850e0f1b5194",
+      "h_1e2c3555fb.ply": "ad565c52484131702a1052a46c99adee652a3897c4cda0fb81fd5be126a37f59",
+      "h_3e292be420.ply": "e1bb90523a1fe45397150701652bc4b9a27a34225bcaf95046bf73491c0b5390",
+      "h_223db67126.ply": "03b5b51f49162776203f9279eb9ad566689c83fc69cee4ecc9d4b18f0bad1ce2",
+      "h_70aaa747ec.ply": "d7224dcdae90005e371ae335eb580b2f88dbc8c736825a9b52c0d3a4e98974a9",
+      "h_cc6d7fd8a7.ply": "046e1eaaf25f0ae62bea49ac4ab0562521a66eedfcf69c5f5221d764f7ce235c",
+      "h_64a9ba150b.ply": "042451f0929b011f09eaae7cad794d613ab5b6d035f6ec9a783241d213b9cdda",
+      "h_2ee2193cd2.ply": "0eb89bab56923dde368607f71460ff4ff608d62fab0a3333c122500bf66b9bb9",
+      "h_49285db6af.ply": "d06097bfdad765605349c9c4ca948d19f0fbd11c83c5172ee36d3715d51036a7",
+      "h_f918d16b17.ply": "dac788fd80f6e5285f938c099d00e5115fbb2fabe0c26da95bfbbbb9822775fa",
+      "h_d8b320b4f8.ply": "554521dd4642746ddb7d32a109e0efcd06074dd6531987aaac4522453afbdd65",
+      "h_da94427437.mtl": "9da07a423288b5dfeac14844da77dc66387c2c20880bda5310ecd01ba3fbe0f6",
+      "h_2bad101371.ply": "16348ff0446f760baf70dad61fd23e6845ad1c65e42d2020c25e3d22578f31e2",
+      "h_5b263bef51.ply": "7d7a345a60b253ccf84f91ec17b14d2c436f256e5ab52c493dc00572a723e8b6",
+      "h_8c6108c90c.ply": "a2a4110aa62c49abc197d8e97dbb8e1480e2fd0371e05c56f0d0f770a5e1ee1c",
+      "h_a4ded8ffac.ply": "4d8da7eb1f00252600d73e03dda4f4e2e5491977a661b823b96d0cbbca854127",
+      "h_47673d92d9.ply": "27691ebd9d932fd0c2a71f14444deb4c90161047414c189e4ebca5d548dff211",
+      "h_4f5d1295c8.ply": "f85ff9187d2fa2233cb9f32bee0627a8dae298ad5a03517c9d799b062d91ae9d",
+      "h_47293d893c.ply": "632117afa206abb0dd3bcfc9f8ed259068738909680bdff532a6f5e63bf0b0bc",
+      "h_3abed32053.ply": "42f7ee985ed0a9db261a1be3a837eaf948f645018d9ef4799364c87504a0b585",
+      "h_acd5547367.ply": "e98f49b4b4866cfab68763b66d6657676332e1a365f6d042fa01337d347571dc",
+      "h_4588d7af79.ply": "cc88c353e59ea703dbc3368aae079d190d64cb7bc72639b0ce779f2a6e1385fe",
+      "h_dca6ddc6b4.ply": "cac50c0e45a94685f5c38a243959aee64c5c870e43608c10a404822a16c1814e",
+      "h_32780c6edb.ply": "e74b4502f1f9da08c1515d5b9caf0de39e58c236b37efaa8bffb2f39ca33bac4",
+      "h_8b5f910f40.mtl": "e0514f859e3794cdf44394c0aed3d04d58e17f6761dc58ad8aca305f6ba90210",
+      "h_8c74f331d2.ply": "823c59ec6427af0517e645884f4343b707d259061c2208ceca05b63728520004",
+      "h_4393fcd344.ply": "20b709036a67622732a0e6f7cef87b95c718761bc3b2953d9a0111f41386a018",
+      "h_f889b70415.ply": "73a8e84ed19979418bacce7905c18f183c0c5c4830ee44295a3f4604e071356f",
+      "h_d72aefe3e5.ply": "95278b62de656297703f962d4f7f4c7b445537885ba600d34a6c0eb3500a5542",
+      "h_dde4e9c290.ply": "08faf66ee637c8c1ce1012cb07524c59e5519f589cdb2dc9cb6892cd9a877fec",
+      "h_3126cca880.ply": "8a726737d78c4161fa07ad66d642e0173a4e4b9986f9be2e6e2c70c39c7f0c1e",
+      "h_3194a8d67c.mtl": "55500b2fb377286ef80d3708fcd0fd80fa4999ff3ec1d80fc4e1646fd8fbcf9e",
+      "h_790f5ac727.ply": "e08c461718f365582f1d13fe136c5fb73ae6d58c1c0ef750a6dff2b2bae9b5aa",
+      "h_a06d066d20.ply": "8f89b9768567752c1bd15d598d20484b05c06f0279ecfa454851fff609d6773e",
+      "h_9ec6b9d170.ply": "67501ddc14e8e76ba052b853c83103506f474d8297481a805048ee4c358d3ed8",
+      "h_42c03b29df.ply": "98f1b47c7c250496cd1cbdb1a0434d9682842b4c9752763e1ebd1d9a545f6478",
+      "h_8770a1861e.vol": "1c84508b016d12f868d5239d44e1d1a00b908050235b8fc5ef36ae45ecb11eb7",
+      "h_fe7c6e9bfd.vol": "9c1d58232ad3afbdc4c0cb0ed3604c06946ea9526fd287f7ed069dd6c062726e",
+      "h_f36ebd9ca5.vol": "a6e4caefb4601efe38e5ce6214f78a46287235a4975f50c742650cff2eafbbf9",
+      "h_43393c8933.vol": "c5481eafcecdc7e92b7fd21bacd93158ec2703bbc3c338249a824780ba58c343",
+      "h_4da55d076f.vol": "f456fcd1c97d438e1fe6454874f5f16c47113016a34fb81eebd441d166e16249",
+      "h_040708ec75.vol": "4a9ecd3f60d5595c80b7f46b58fbe081e2758e18441a94af2ffab8ad6de1de35",
+      "h_80da28f6fa.vol": "745ea1ca963bb16cafc31b49f5cd9ca4138e900abd013e66c3d3a200dbe97992",
+      "h_625ae26d3d.vol": "745ea1ca963bb16cafc31b49f5cd9ca4138e900abd013e66c3d3a200dbe97992",
+      "h_617de6b137.vol": "4c4a7367cea4663c5b82f23632eede82c04988be00f7a47e7f5341a02312fc92",
+      "h_aaef804cf3.vol": "3979cb0a8f7aa807f678ad590fee9ad5d599cbdd9e853e98135173115210ef00",
+      "h_39fa690079.vol": "1749b6e2de0c78613bf3b2a17a99c05e8773a9f4fe4cb218dcf6ab18056a4322",
+      "h_f7a88642f1.vol": "60ff71cc4c7b6e4f641d4104588700bcbd3e82954daddaf3c02fedeb0c5f340b",
+      "h_e9a8607479.vol": "fd8a77d47c7da4d813b887db479c4187f06e2334ca8a54bb9dcc19a697a076bf",
+      "h_b73af68268.vol": "b57ab857df44fd706d1453b40236a9ae59cfb8bd933cc68cfd65a7f2f9e67783",
+      "h_16c6d421ea.vol": "df27549a0c8525693f8cbfd92dd6c7e3d4bbc6427fb97fa18c27206f3ad09f1d",
+      "h_ba234cfd24.vol": "ccd1f8c871f986f4cf8434dfbd1c83a2cd056f03a10f8ba832f588180918a78a",
+      "h_35de920fca.ply": "19ecb66553895ac9d319690ff6484c4ec4468f025fe4036ffae31c4a00053cfe",
+      "h_bde4d00cd5.ply": "2a8cf90eac69c0bf28cc920c08d7a1d22c82ae251efc94b320e0a6a89bc06c09",
+      "d_954bf2f041.anm": "f48c693b3670abc243dd0a2d52b3e570033e6dccde64f3e3015b1985b621a74d",
+      "hx_e0b168f3a4.anm": "2dfeb67ca9419511bfdeeeecec3fef367bc3ae5181334c76b3b2620d99f4f5bd",
+      "hx_e521a2fc91.mtl": "55500b2fb377286ef80d3708fcd0fd80fa4999ff3ec1d80fc4e1646fd8fbcf9e",
+      "hx_2188f6e160.ply": "eb2b5d361db7eae1c021030ecaba89a010a2dad64b3623c0f86e1763ce744728",
+      "hx_7a4f01e8f1.mtl": "ab1abce9b7ad01f37f6f2c422337c22754c397269be48064b545da80c1e9dc87",
+      "hx_4a68fb2370.mtl": "4dde41bd0127eb1c8322ea8b376e0cfb4e729873566912c1e3235d77087006c2",
+      "hx_842e60fd7a.ply": "7c953fc36ec4331244aeb80ea664df9405c6a80804b28ae3dd7ba254eb097e63",
+      "hx_55045b34a7.ply": "93b7871c05feb15cedcc3c01e34441ecb428240c90568cba6d03fb606fe804fd",
+      "hx_e395563653.anm": "803ef94ba95c68824fcb7912c9f842692328fa3210932ea879a0ab9b73c81f3f",
+      "hx_4cf0e9aa07.ply": "22c594f392337c4e198d50dab098a068eb37cf3c9ebffff6dc7eaf88bf97f124",
+      "hx_17318b0428.ply": "912aae577873756acffd038adbe507cbc5284eb8a7befb006d9cbc183e550c64",
+      "hx_a273b75526.ply": "7e07fd05e9adf4fb4462b9e7cb5d7c6f05a24b9d1074047420982b82de08c42e",
+      "hx_38cfe3e53a.ply": "cd463cc78a7247688bacd14c330f1178a766ad1874d67a16388e362889e8cef1",
+      "hx_619196b6af.ply": "9b2d9ac4aa5297501bf2f15a52851cf4b471b3996489a0949f5bab8cbe3371bb",
+      "hx_dcb1f7762e.anm": "4e673715cac21a6dbb1e3f804d72281193665d59b8cbf5999182544df7fd8351",
+      "hx_5d2ce38e33.ply": "709b1bb3b47e26123e042f68d73e066636aca3931c7d162a5181f584ebadae88",
+      "hx_87f51387b6.ply": "5ca99777097f5bc5a85f19580a9ff27afa394ce59e996512b4b9e144dab3e5d9",
+      "hx_340832af60.ply": "94ad8ce0553601b8645b1f3fcbb26fbea8a306726405079ee07691eaa2b06493",
+      "hx_8bf35f7ae8.ply": "ce8fdf81a6e96213a07b49bf51742816d7ec4ea8170d0884df1ecf4429c6cfed",
+      "hx_50bc4a82a0.ply": "05082d85ec7ce4db4b3dce98842da4fd98a75f1d3c462fc844c568cda9825517",
+      "hx_69b04cac8a.ply": "cccf37e6739284c4167d07674c6336a507b9fe3249c4a7493c34002732fe2a61",
+      "hx_f688fc600b.ply": "72cc36cf9df1db5291c9b835d1ed1fc3008b604f817df5d923ddf549a6efc22c",
+      "hx_4ec1029cc9.ply": "6dbf66433d73c78e4c5a401404aa6373f32ea94d8fa774163d507fce1babf52d",
+      "hx_27723c3351.ply": "e34cb54f622fbec0c761b91b269c6410596422eb1a93422bc1c1027384d90910",
+      "hx_59d226daec.ply": "3be965d626a975388e59fbd145c505712e9903ab006d649bd3bde486769d0d04",
+      "hx_81b796651c.ply": "9eeb26d26c392284b4b23edc625daadd1a2d9f4a72bf5c7ccb56b0c2584f2c36",
+      "hx_46bc168b83.ply": "aca8d5ca2d948b6788250ea5afef371545b8451284825c9d92416f7d03de145c",
+      "hx_236156b57b.ply": "a36e80cc5d45e0fa3f40ef97e0fb428ea3c8d430a5085ad32c6552d28df3d51b",
+      "hx_7f9913a469.ply": "051e4dff154c658e337e093a4df0cdf6fb26998a95a6121d6ba3b5fc2fbac984",
+      "hx_07551f04b1.ply": "183c60c2ac9dbe7ce173bbf54ff7768635a35d79313edf7a03539edbc284ceee",
+      "hx_6d5f4f6cc9.ply": "6c9184a311569c28deddeec5c7cd28597b364e83a69ab626996acc942773ceb3",
+      "hx_ad8314c59b.ply": "b8c64cbae1548978c3ef83cadb9f552357eeb96b51ba512132bb0efbb4aaec92",
+      "hx_01414ea749.ply": "0d7846e4c1646e16fe05c2c156fb6a3f816a12d31cb24fa79ca9a41f877f8b50",
+      "hx_9f4e2ff881.ply": "7a6f9a33d57458c0a6061d494d7b11fa8d978f0a7474c35c6439dff2b8f6c44a",
+      "hx_0a14159671.ply": "8410cdd540baeaca91882e7e7775135323e80bd50511fc873fd6a0dd28690f0c",
+      "hx_5b9df955f7.anm": "dd04fa1b3ad02e32d5192a7cb3bcb490f2923f8773b6b754c237ee91f3d8149b",
+      "hx_346cfbbacd.ply": "e0da6517cb82c35d440b2573fa1261d93d46875522ee1c946f91f73e03096b39",
+      "hx_04fef89408.ply": "75fafe79e13d6e75bf25f4ad905a3c8b414c0e4bd6f851bf288aa92f5161b501",
+      "hx_f875a41934.anm": "21807aadaff10e0c82bf1a831e8b3926d81e7ae9f7cccf1d0114db77ca806d24",
+      "hx_00391efeac.ply": "54fc77a6de2aad7d6344bcdd0c1032403f9d34698dfa1a98aad74b790ac84bd7",
+      "hx_773c69f656.ply": "6537c4b2ed1a338b2f17bffe92d427216d394b58214b69ba8b63e35d58040940",
+      "hx_423ed6b93a.anm": "a4c527c3d25624f0a09cfe9949f5e0e0892f556dfd66422e0b3851289e35d4f4",
+      "hx_7109de2248.ply": "01c7bba6f5829a7ad340422aade3b9bac00556ebd20b9c921309f9a1509ae44e",
+      "hx_a9d39524f2.ply": "770f8b97bdff9c1ab086d9f32ff5652b5a22821052e64e79fc7b4ba7e5db7e87",
+      "hx_d004fddb55.ply": "76120f5702a5b558169689271d7182bf7dc0b107284f22033058e5aaf9e06d9f",
+      "hx_6d3855cf15.ply": "75732fb9c1abf1b79687aac41e9ed581a95e880c3d798794bfd95f423385f47a",
+      "hx_31bbaa86e4.ply": "584430eb76d8a3df9414ce6515827ab5b72459a60a7305dac8b2ed646f1a31ed",
+      "hx_23ef587cd0.ply": "cade8f5de0aacf17d56b33c010a31600ab20cfaa7b38a4c4ff09e254acc61e6d",
+      "hx_2e97dc2ccc.ply": "a903fbc5e6dabbd2a2b51a4d562efe461d785ae29b8209aefbfee28ba1bbadd7",
+      "hx_63e9a176a1.ply": "ed529a05ca16c79e540ff05accc7e3c4c7f6eaa4fd49a5be7b241032578dd23d",
+      "hx_8566237479.ply": "8be029fd9c2f84d651fc8024b4d4ccae05d4ff2696fa2c7f88098f38e8067d9b",
+      "hx_6837c40159.ply": "3fbbefe6fa9c89d5eda4e6f8e0c45ed4fda060a2e9147c0f94af9b257226e087",
+      "hx_e2a86a5cc7.ply": "5287edba076e988e4dd8a6e1ee8e33b48d1f0053e44514c5cd46c33a58aab286",
+      "hx_275c13cb8e.ply": "ae2b9e38d64451cb80055201fd16a972b178298a971abdfd58c3dd03bee1df1c",
+      "hx_1fe77367c1.mtl": "931324d32461bcd4c105f7df100c5727131110271ad94feab5564448e44a29cb",
+      "hx_9c6741dcce.ply": "e1d70778a8bb025f1efc2cf6607451afe429c5fa86958c4801e4fa34099e4f30",
+      "hx_2971d34002.ply": "fc8f79797f0bf9d287cd3f0ea10d7c330259825df6c367b619f95d3ae0c97f69",
+      "hx_5831cc4548.ply": "a2cbad8bf8f93d27b03ab2688f45c77bc451d9dc83ee15507b623f069fc3ea50",
+      "hx_0503caa332.ply": "63e0a3616d0a4cfc3f648fbf7d16ff8b72e7cc7b796872818281d7c5774d1a09",
+      "hx_4845bf46e6.ply": "9d5788cf58904a6b32b3dc20197642e012da64a139ecf784b3a5ffefd8d5988e",
+      "hx_7e0a624044.ply": "946665bc970b094a1b6daa04d09d83fac7f7976c99f9eee3624139d0f544af3c",
+      "hx_16b8096957.ply": "f546bc01f1ecd9b949f6147e2f02783f55edf9466ac1cc382b2af2b8c9ca68a4",
+      "hx_ccb6c851e5.ply": "09388c1f22e60efec02f81985510cba2a6dad7d3bf9c1fce1393654a0dbcf539",
+      "hx_373a2e5ffb.ply": "e68115f3bb2a0bb468db4b6b9bd47c9bb8679b20fa744fdca09287118bb99e27",
+      "hx_1ebcec8df6.ply": "35ce31a05e690419d7d4179dc91e453035a53a76f8f57f9ee316291c2f3e4ec4",
+      "hx_c9f9b87742.ply": "11fad8192809a3bff534b239ee3cb0e402266bdb50814b1299a4df413f2ee73d",
+      "hx_f7f3414680.mtl": "e0514f859e3794cdf44394c0aed3d04d58e17f6761dc58ad8aca305f6ba90210",
+      "hx_15232e7a29.ply": "b7e4cd73ef7b977c5edfca01e0e0c7a2750d2662a069080e1fd290947d4afa41",
+      "hx_f9af3365a9.ply": "374a64a5b431633a2b0b43326126cd14ed63619a02cdbce79fc7d1822c390416",
+      "hx_f2bccebc07.ply": "b166e88d66a5469e017199e9aefd29712480a6d36c56dc154f4ee17850334d6f",
+      "hx_dbd3d21da2.ply": "79ea5c9332085af38698216438ab4bb7ff15ec8e0f4609123580b62cd041e045",
+      "hx_815790ee08.ply": "320c5b552c8b8bfdaa98a5694df70ebf82906d6a9ac9607451f860be480da390",
+      "hx_aac6f7584d.ply": "0d0763a09864fc2e7bacec0c2147f13d1468b6b7c6fe9e0cebd80ba9064fefba",
+      "hx_caae3b5d3e.ply": "06675bb7c703d5420476a0c3cc215afa43c270171183efb34b857cd47b9ff2aa",
+      "hx_7788af338b.ply": "8903b1a05582d1929ab52524b55e966e6145f2e5da595f1140e54e2d61c1f92c",
+      "hx_8040e3ae15.ply": "7afc60a26258d1fcf990bf908022c10e52d220b49e84169695f5b9c1aa5f1b06",
+      "hx_3265f1d590.ply": "bf5371afdf95487ab91acba2c0410d028df497e027b2447d47cf62367424f357",
+      "mw_27decf8ccc1b_x.mdl": "644643d6a891fedb190f00ad93092c1dd7525d55ddbbd3b1f5af95e3af28c827",
+      "mw_27decf8ccc1b_x.def": "7c05b5fb2ffaaaab2ba886107fb95ba7d262dbb6e7e09bf3dfabc6c511011a3d",
+      "hxx_1b2dce63fc.mtl": "9cc7f47ecb51230a2c8984db1bda3e0ad12f1e10be122fbf963c5e336e779f3b",
+      "hxx_0b4a1d9e39.mtl": "5bfdd4811d22d1c7b6d5fdc9d30b2f3637e1597dc4f16046430ea900398f72f8",
+      "hxx_1af898b50d.ply": "4d40cb28159e1b822526deaae1224c6d06a46bfbfc461403bc38e20ce3be400b",
+      "hxx_a0297a19e8.ply": "98b24d10e90616ca32b20a13d49b2484fca64764baf8dedfcbaeac2b2a995bf4",
+      "hxx_7c0de5f5c1.ply": "486b9840bc0cc376f09729b0b2967d5b65e4ee6802f68ffd8c7065b0e58095a0",
+      "hxx_ac01d7cfc7.ply": "edd985567b0d3f45fc0d09141a4662f458d49735ffdba942c9be22fb2e0fb06c",
+      "hxx_fcdbca8d24.ply": "bddfd2a7fada53716e99583987fceef793aaf0b2bbc3eec72b946b63d3522015",
+      "hxx_9b5c2c25ec.ply": "208daf7b9e36b82e6c02243a2c6e1f63ac357417bba8bab4adb935b6947ed8d2",
+      "hxx_6a9d8057d2.ply": "885dc58c6c37526fac3ee4307221e4188eff653d5fb266909a336732073b1f60",
+      "hxx_a4b9b0b454.ply": "49bf87d17862c7340a19b7d04ab5ca2d5c45bbc849de8331c75295b5c039152d",
+      "hxx_82098ce2e8.ply": "8ea7ae0129ad82fc265864504d208121ab80dc706cf8bb0ae652b7c33939a30e",
+      "hxx_568ef6b2fc.ply": "b113a7b8e70eb167c4c32cb82acc86cb19d6c82dc72002a8e9753d9b568f263f",
+      "hxx_96f66c18f0.ply": "76da3163d206c0226246d78ec1929b1750c9b5d528f8946778d4208dc3114894",
+      "hxx_589ff5b5f9.ply": "0432935f364c81d333341b577825dbf1aba9520b2165fd71ddd0430b0758a844",
+      "hxx_f2edcc25dc.ply": "b8c06977dbd0ac0a10267ae536775ecdb33576ea061f643a8f0d969f451a9951",
+      "hxx_bb128faf81.ply": "c136644d1b1fb231d85bf3deb0fe000e9c4d94589ab648aff984b94db58b068f",
+      "hxx_7a05081b9c.ply": "5ca057fd8d7dd1f2ea3e8403961505a7a6adeed322c0330c4281fe0dd458ea4c",
+      "hxx_006ac61b0c.ply": "31e98f096459763a0ad8d8e284349dfcdddd151b93cd06c5c20b8e982a3ffee6",
+      "hxx_320cd7e44a.ply": "826f1211cb54f024f2635e116a9dfe8f2f944af8bff1843ea68c9775c588f34c",
+      "hxx_f640e39827.ply": "cba46e766f06a41d1d401f376931c7c9d9d0d8f897551d18283f3207948bc808",
+      "hxx_1262bb793e.ply": "a8ee4c9d64198a7c73ba676bf2df7cf04f4056ecbc88c54bed3a2412aaef8e6f",
+      "hxx_0303f3a192.ply": "f14f47d5e77bdbfca5feba52f1f3978a2e3480c8762138c2922beacbe8e964b6",
+      "hxx_002179175c.ply": "97630b7edc77561031dd6924e4111f11e338af7be40c2b8210b61ee12c721b40",
+      "hxx_2bb19bc2cb.ply": "b161e0a8a10fa39e49659fc870cf6750258daa63e36ef84f00bcebdd838d758e",
+      "hxx_57cbd93e4d.ply": "8eadc7b8264fa93d3d282611ad9ec87b14fe0d676e2e857e752a945956b47556",
+      "hxx_3e5cf884ed.ply": "086c4752967f6e3ace6d37a22e93d5f7f6aa4b089fc1a00f665695bd0e4d6ed3",
+      "hxx_ace31994dd.ply": "ef3c64c52e3b22f14b3ecb29c263d06e0d93125ba3dd9e6f0b9ebd7dbfc5213e",
+      "hxx_b7042dd3ee.ply": "2d36321591331ee84b5d29368dc44e44f9178ead0f54ca78ee262fe272bab0d4",
+      "hxx_7602e559aa.ply": "13b7bf1683d2519692e301969870643c24e54aa9c719c862d81f796c8d895870",
+      "hxx_a2e67abb4b.ply": "95d2718972fd413a141adc4f5d1a7ec89622fa146546ff88acc836d398a742b4",
+      "hxx_927693b7dd.ply": "c18501bb78b89fe9ab2fd641f5a4636a19fd59f9215299d3980b70adfe2b5954",
+      "hxx_fc905735c6.ply": "2eb35e3d3d3d716997e6e962ba9fc3f7341f49a022b89351c8df5b9204b02a78",
+      "hxx_a55c7c4a8a.ply": "1875984c387577e0ebc0109c6636e322ebcdb2cda625cb536ec2b9dfa356bfff",
+      "hxx_99e21dd949.ply": "03edf8f86452dcefb87490bfb83eb43f49aeb73bed9b4242b451bdc22ce4b773",
+      "hxx_468cfdc7a7.ply": "3508d96f6dff0e206fbf61056243bc38a83837164787e33fe48a1744081e0b76",
+      "hxx_37edd6433b.ply": "2a09e2731d375187b4b0c7d603c594bd4b2ec954a76f69033a70322c8f59f1f9",
+      "hxx_adf1497a66.ply": "c0f5a79b431d83371ec743690451de2c9354753a0358086a4520286940cef15a",
+      "hxx_b973206c9f.ply": "df35d8e4e0b200c52a9b89deb9fa47bf4585e8ee696c4db20aa375e68532e61c",
+      "hxx_18456bc001.ply": "9049fdac1b37bc89ac85d6654f91046551b74935cbbe4edce214d8eae8e1b0de",
+      "hxx_7a7d390415.ply": "05ba1d3f32e5f5656d09b58e3fa4ec606a324ad6528a479bca175be31deb8ce2",
+      "hxx_824b7791e2.ply": "466cac6ad8d89718c1ce9d4214348e6a9caf8c266ed3e8ffb9a8d1b9d535acd3",
+      "hxx_6ba5082744.ply": "067c6c28b662df810ace09ec76af6c9f4b8e1646aa2ecd9b9a8fb87470ce1bf8",
+      "hxx_39c014381b.ply": "c7a43b19ec39ab8815db01843a9f2e1f03a7fa79272da7f2a3e4ba4aceaa78d5",
+      "hxx_46523b5d7e.ply": "2dba8841a3063cc09fd156672ad03e3fda059c6c8392e124a22bed58db6b6e47",
+      "hxx_c6674c24a6.ply": "6f733b4a7c03475a7d959a86ebf0f4d135d6908e6bcb58948e34efcad4f29bda",
+      "hxx_74e948fe33.ply": "fbec92d46ca9a5810832525e50cf238d6854094c7370a3aabad2c0be8285a805",
+      "hxx_b6da7462ea.ply": "878cfcfd5048403991ea764dbdd86815ff554d67ad0dab3ac2adbb294ba31671",
+      "hxx_bdea9088c9.ply": "b292d548517e78b4bf97413c251c46e1e07182060636b32d3ae5eae3350e5471",
+      "hxx_a4fb441555.ply": "f610d05706f2c3b8095ffc8ed2715d3f3f155e27a866c6d48b52a4a2b3847ed4",
+      "hxx_f370bcff0d.vol": "ed59bcea0fc6b8a41ddc8024cc1478064fd918faee73ed0863c42250efe1c274",
+      "hxx_68b28dce14.vol": "06c1bff557bfd9b0889cf121291526d4b9367c4bcb195d81c3d2721c191676b0",
+      "hxx_605c365df4.vol": "522147918221a141a905dead30668adabaa710ff1d268ce2defb0532931db95a",
+      "hxx_7f6ef98372.vol": "74f732c290eec5b05d2dd24a9d96feb9c56fccb83cd2517542306e0b4c3b1621",
+      "hxx_f8e239e943.vol": "4765077ba2b89d9bc3fc04346458823434e09bfa4503d21c3786db5db721f643",
+      "hxx_fe204f7c3a.vol": "ef5a00c0e0f99cc666ee7232d61487c863e28983cbeb648eace1ae1fc98ef782",
+      "hxx_c38ecbd2c4.vol": "a8e6359d4071c1bc8cd99660efc81f7f142edb27471d4d57e1e4b12cb419b184",
+      "hxx_f00d28b6dc.vol": "645fa8212e3dbcb339f7b0a2a76367722693988127afdfce58be1a7fba59b0e6",
+      "mw_27decf8ccc1b_xx.mdl": "6c7b73ccbc329c104b25ce23d2a4a61a9af6e3c77e9049753c662da845fe8fcf",
+      "mw_27decf8ccc1b_xx.def": "2e8401e296a6fc25cb17412f94b3ea0770aea853a5dafda79b79f0ed35655c58",
+      "armor0_bd203ceadf.mtl": "98b5642c97a0419151950cd3622297714c86351befa786160101c9facdd22bd3",
+      "armor0_47005dcc00.ply": "21a2d602f9c7f372a8574310ef4d7b192bee3c224ffe9669238c9599c674b8c8",
+      "cw_plate_4c2de3dd5d.ply": "c10ae168146bb4972f28e475737df5ea9abab40dd062b8e776f8f813bf3e4dd0",
+      "cw_plate_steel.dds": "101b065aee1bacc66646a2fece222f9d03b2a0bbbc2d8bceaa564365a886c36f",
+      "cw_plate_steel.mtl": "4cc26e2f1a9efe398801ea34dfc1bba4fe1be2afaca40ae5da4b6c3e62ad8aa4",
+      "cw_plate_358b374230.ply": "faf26de4c9fd91fcd6c2ebe47841d24cab46cd500a1969c71c3676287d244f0d",
+      "cw_plate_84ac9b3e5d.ply": "af7cd16b49a0196e21fc317638c93f36f463193773dccbb62281978c27ae98ae",
+      "mw_27decf8ccc1b.def": "1bc1a14d0ed4eef4e9a77a63bed3cf20a3cfef98c8e9c4400362b700ab50fa90",
+      "mw_27decf8ccc1b.mdl": "13c8fef8345590a2a93b2faa5766fd145a79e09ffad95d7867054ca61c2e420c"
+    },
+    "gun_assemblies": [
+      {
+        "schema": 1,
+        "recipient": {
+          "place": "gun",
+          "weapon": "122mm_d25",
+          "link": "gun",
+          "pivot": "gun_rot",
+          "bones": [
+            "foresight1",
+            "gun",
+            "gun_rot"
+          ],
+          "shared": [
+            "foresight5"
+          ],
+          "yaw": "turret",
+          "barrel": [
+            "gun"
+          ],
+          "properties": [
+            "detect_tank_heavy",
+            "detect_tank_medium",
+            "diesel",
+            "emit_on_sink",
+            "engine",
+            "hatch",
+            "heavy",
+            "muzzle_122mm_128mm_sides",
+            "muzzle_hmg_dshk",
+            "obstacle_ignore_height",
+            "sq_armor_super_heavy",
+            "steel",
+            "tank",
+            "turret",
+            "vehicle",
+            "vision_lev05",
+            "with_gun"
+          ]
+        },
+        "donor": {
+          "place": "gun",
+          "weapon": "130mm_b13",
+          "link": "gun",
+          "pivot": "gun_rot",
+          "bones": [
+            "foresight1",
+            "gun",
+            "gun_rot"
+          ],
+          "shared": [],
+          "yaw": "turret",
+          "barrel": [
+            "gun"
+          ],
+          "properties": [
+            "detect_td_heavy",
+            "detect_td_medium",
+            "emit_on_sink",
+            "engine",
+            "hatch",
+            "heavy",
+            "mantlet",
+            "muzzle_122mm_128mm",
+            "obstacle_ignore_height",
+            "sq_at_gun",
+            "steel",
+            "tank",
+            "td",
+            "vehicle",
+            "vision_lev05",
+            "with_gun"
+          ],
+          "template": "su100y"
+        },
+        "operators": {
+          "gunner": [
+            "gunner"
+          ],
+          "charger": [
+            "charger"
+          ]
+        },
+        "filling": "bulletrus_130",
+        "camera_bone_mapping": {
+          "visor1": "cw_scope_0"
+        },
+        "ammunition": [
+          {
+            "item": "bulletrus_130 aphe",
+            "definition": "set/stuff/shell/bulletrus_130.aphe.ammo",
+            "projectile_entity": "130mm_rus_aphe"
+          },
+          {
+            "item": "bulletrus_130 he",
+            "definition": "set/stuff/shell/bulletrus_130.he.ammo",
+            "projectile_entity": "130mm_rus_he"
+          }
+        ],
+        "bone_mapping": {
+          "gun_rot": "gun_rot"
+        },
+        "volume_mapping": {
+          "breech": "module_breech"
+        },
+        "retained_weapons": [
+          "mgun2",
+          "mgun3",
+          "mgun"
+        ],
+        "sequences": [
+          "start",
+          "stop",
+          "fire",
+          "hit",
+          "open",
+          "open_gunner",
+          "mgun_aa",
+          "fire_gun",
+          "repair",
+          "repair",
+          "repair"
+        ],
+        "sequence_names": {
+          "fire": "fire_gun"
+        },
+        "recipient_mount_frame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            37.9756
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -2.0363
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            40.9558
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "donor_mount_frame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            24.968200000000003
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -0.02
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            47.614900000000006
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "emitted_mount_frame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            22.6340391773209
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3571351181171427
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            40.9558
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "gun_profiles": [
+      {
+        "donor_template": "su100y",
+        "donor_eid": null,
+        "profile": {
+          "weapon_places": [
+            "gun",
+            "mgun",
+            "mgun2",
+            "mgun3"
+          ],
+          "recipient_module_names": [
+            "foresight1",
+            "gun",
+            "gun_rot"
+          ],
+          "donor_module_names": [
+            "barrel",
+            "breech",
+            "foresight1",
+            "gun",
+            "gun_rot",
+            "hole3",
+            "mantlet",
+            "mantlet1"
+          ],
+          "donor_name_map": {
+            "mantlet": "mantlet",
+            "barrel": "barrel",
+            "gun": "gun",
+            "gun_rot": "gun_rot",
+            "breech": "module_breech",
+            "hole3": "hole3",
+            "foresight1": "foresight1",
+            "mantlet1": "mantlet1"
+          },
+          "allowed_damage_ids": [
+            "ammo1",
+            "ammo2",
+            "ammo3",
+            "ammo4",
+            "ammo5",
+            "armor",
+            "armor1",
+            "armor10",
+            "armor11",
+            "armor12",
+            "armor13",
+            "armor14",
+            "armor15",
+            "armor2",
+            "armor3",
+            "armor4",
+            "armor5",
+            "armor6",
+            "armor7",
+            "armor8",
+            "armor9",
+            "armorL1",
+            "armorL2",
+            "armorL3",
+            "armorL4",
+            "armorL5",
+            "armorL6",
+            "armorL7",
+            "armorL8",
+            "armorL9",
+            "armorR1",
+            "armorR2",
+            "armorR3",
+            "armorR4",
+            "armorR5",
+            "armorR6",
+            "armorR7",
+            "armorR8",
+            "armorR9",
+            "armor_driver",
+            "armor_engine",
+            "armor_front1",
+            "armor_front2",
+            "armor_front3",
+            "armor_front4",
+            "armor_hull",
+            "armor_mantlet",
+            "armor_mg_port",
+            "armor_plate",
+            "armor_visor1",
+            "armor_visor2",
+            "armor_visor3",
+            "barrel",
+            "barrel1",
+            "barrel10",
+            "barrel2",
+            "barrel3",
+            "barrel4",
+            "barrel5",
+            "barrel6",
+            "barrel7",
+            "barrel8",
+            "barrel9",
+            "body",
+            "body1",
+            "body2",
+            "body3",
+            "breach",
+            "breech",
+            "cupola",
+            "detail1",
+            "detail2",
+            "detail3",
+            "detail4",
+            "engine",
+            "engine1",
+            "engine2",
+            "fuel1",
+            "fuel2",
+            "gun",
+            "gun1",
+            "gun10",
+            "gun2",
+            "gun3",
+            "gun4",
+            "gun5",
+            "gun6",
+            "gun7",
+            "gun8",
+            "gun9",
+            "hole",
+            "hole1",
+            "hole10",
+            "hole11",
+            "hole12",
+            "hole13",
+            "hole14",
+            "hole15",
+            "hole16",
+            "hole17",
+            "hole18",
+            "hole19",
+            "hole2",
+            "hole20",
+            "hole21",
+            "hole22",
+            "hole23",
+            "hole24",
+            "hole25",
+            "hole3",
+            "hole4",
+            "hole5",
+            "hole6",
+            "hole7",
+            "hole8",
+            "hole9",
+            "mantlet",
+            "mantlet1",
+            "module_breech",
+            "mw_armor_0_v0",
+            "mw_armor_0_v1",
+            "mw_armor_0_v2",
+            "mw_armor_0_v3",
+            "mw_armor_0_v4",
+            "mw_armor_1_v0",
+            "mw_armor_2_v0",
+            "mw_armor_3_v0",
+            "mw_armor_4_v0",
+            "mw_armor_5_v0",
+            "mw_armor_6_v0",
+            "mw_armor_7_v0",
+            "mw_armor_8_v0",
+            "mw_armor_9_v0",
+            "ram",
+            "sandbag",
+            "sandbag1",
+            "sandbag2",
+            "sandbag3",
+            "sandbag4",
+            "sandbag5",
+            "select",
+            "shield1",
+            "shield2",
+            "shield3",
+            "shieldw",
+            "shieldw1",
+            "shieldw2",
+            "shieldw3",
+            "shieldw4",
+            "shieldw5",
+            "shieldw6",
+            "trackleft",
+            "trackleft1",
+            "trackleft10",
+            "trackleft11",
+            "trackleft12",
+            "trackleft13",
+            "trackleft14",
+            "trackleft15",
+            "trackleft16",
+            "trackleft17",
+            "trackleft18",
+            "trackleft2",
+            "trackleft3",
+            "trackleft4",
+            "trackleft5",
+            "trackleft6",
+            "trackleft7",
+            "trackleft8",
+            "trackleft9",
+            "trackright",
+            "trackright1",
+            "trackright10",
+            "trackright11",
+            "trackright12",
+            "trackright13",
+            "trackright14",
+            "trackright15",
+            "trackright16",
+            "trackright17",
+            "trackright18",
+            "trackright2",
+            "trackright3",
+            "trackright4",
+            "trackright5",
+            "trackright6",
+            "trackright7",
+            "trackright8",
+            "trackright9",
+            "transmission",
+            "turret",
+            "turret1",
+            "turret2",
+            "turret3"
+          ],
+          "weaponry_policy": "reset",
+          "inventory_policy": "gun_replace",
+          "hull_authority": "mw_draft_turret0",
+          "turret_authority": "su100y",
+          "gun_swap": {
+            "place": "gun",
+            "old_ammo": "bulletrus_122_l48",
+            "ammo_items": [
+              "{item \"bulletrus_130 aphe\" 14}",
+              "{item \"bulletrus_130 he\" 15}"
+            ],
+            "initialize": true
+          }
+        }
+      }
+    ],
+    "draft_steps": [
+      {
+        "kind": "module_edit",
+        "donor_template": "is2_45",
+        "donor_eid": null,
+        "donor_depot": null,
+        "donor_catalog": false,
+        "profile": {
+          "weaponry_policy": "recipient",
+          "inventory_policy": "recipient",
+          "allowed_damage_ids": [
+            "ammo1",
+            "ammo2",
+            "ammo3",
+            "ammo4",
+            "ammo5",
+            "armor",
+            "armor1",
+            "armor10",
+            "armor11",
+            "armor12",
+            "armor13",
+            "armor14",
+            "armor15",
+            "armor2",
+            "armor3",
+            "armor4",
+            "armor5",
+            "armor6",
+            "armor7",
+            "armor8",
+            "armor9",
+            "armorL1",
+            "armorL2",
+            "armorL3",
+            "armorL4",
+            "armorL5",
+            "armorL6",
+            "armorL7",
+            "armorL8",
+            "armorL9",
+            "armorR1",
+            "armorR2",
+            "armorR3",
+            "armorR4",
+            "armorR5",
+            "armorR6",
+            "armorR7",
+            "armorR8",
+            "armorR9",
+            "armor_driver",
+            "armor_engine",
+            "armor_front1",
+            "armor_front2",
+            "armor_front3",
+            "armor_front4",
+            "armor_hull",
+            "armor_mantlet",
+            "armor_mg_port",
+            "armor_plate",
+            "armor_visor1",
+            "armor_visor2",
+            "armor_visor3",
+            "barrel",
+            "barrel1",
+            "barrel10",
+            "barrel2",
+            "barrel3",
+            "barrel4",
+            "barrel5",
+            "barrel6",
+            "barrel7",
+            "barrel8",
+            "barrel9",
+            "body",
+            "body1",
+            "body2",
+            "body3",
+            "breach",
+            "breech",
+            "cupola",
+            "detail1",
+            "detail2",
+            "detail3",
+            "detail4",
+            "engine",
+            "engine1",
+            "engine2",
+            "fuel1",
+            "fuel2",
+            "gun",
+            "gun1",
+            "gun10",
+            "gun2",
+            "gun3",
+            "gun4",
+            "gun5",
+            "gun6",
+            "gun7",
+            "gun8",
+            "gun9",
+            "hole",
+            "hole1",
+            "hole10",
+            "hole11",
+            "hole12",
+            "hole13",
+            "hole14",
+            "hole15",
+            "hole16",
+            "hole17",
+            "hole18",
+            "hole19",
+            "hole2",
+            "hole20",
+            "hole21",
+            "hole22",
+            "hole23",
+            "hole24",
+            "hole25",
+            "hole3",
+            "hole4",
+            "hole5",
+            "hole6",
+            "hole7",
+            "hole8",
+            "hole9",
+            "ram",
+            "sandbag",
+            "sandbag1",
+            "sandbag2",
+            "sandbag3",
+            "sandbag4",
+            "sandbag5",
+            "select",
+            "shield1",
+            "shield2",
+            "shield3",
+            "shieldw",
+            "shieldw1",
+            "shieldw2",
+            "shieldw3",
+            "shieldw4",
+            "shieldw5",
+            "shieldw6",
+            "trackleft",
+            "trackleft1",
+            "trackleft10",
+            "trackleft11",
+            "trackleft12",
+            "trackleft13",
+            "trackleft14",
+            "trackleft15",
+            "trackleft16",
+            "trackleft17",
+            "trackleft18",
+            "trackleft2",
+            "trackleft3",
+            "trackleft4",
+            "trackleft5",
+            "trackleft6",
+            "trackleft7",
+            "trackleft8",
+            "trackleft9",
+            "trackright",
+            "trackright1",
+            "trackright10",
+            "trackright11",
+            "trackright12",
+            "trackright13",
+            "trackright14",
+            "trackright15",
+            "trackright16",
+            "trackright17",
+            "trackright18",
+            "trackright2",
+            "trackright3",
+            "trackright4",
+            "trackright5",
+            "trackright6",
+            "trackright7",
+            "trackright8",
+            "trackright9",
+            "transmission",
+            "turret",
+            "turret1",
+            "turret2",
+            "turret3"
+          ],
+          "weapon_places": [
+            "gun",
+            "mgun",
+            "mgun2",
+            "mgun3"
+          ]
+        },
+        "inventory_boxes": [
+          "{box\r\n\t\t\t{item \"bulletrus_122_l48 aphebc\" 9}\t\t;28 rounds\r\n\t\t\t{item \"bulletrus_122_l48 he\" 18}\r\n\t\t\t{item \"ammo mgun_rus dt\" 3276}\t\t\t;55 drums\r\n\t\t\t{item \"ammo hmgun_rus ap\" 750}\t\t;15 drum boxes\r\n\t\t\t{item \"satchel_charge_rus\" 1}\r\n\t\t}"
+        ]
+      },
+      {
+        "kind": "gun",
+        "donor_template": "su100y",
+        "donor_eid": null,
+        "donor_depot": null,
+        "donor_catalog": true,
+        "profile": {
+          "weapon_places": [
+            "gun",
+            "mgun",
+            "mgun2",
+            "mgun3"
+          ],
+          "recipient_module_names": [
+            "foresight1",
+            "gun",
+            "gun_rot"
+          ],
+          "donor_module_names": [
+            "barrel",
+            "breech",
+            "foresight1",
+            "gun",
+            "gun_rot",
+            "hole3",
+            "mantlet",
+            "mantlet1"
+          ],
+          "donor_name_map": {
+            "mantlet": "mantlet",
+            "barrel": "barrel",
+            "gun": "gun",
+            "gun_rot": "gun_rot",
+            "breech": "module_breech",
+            "hole3": "hole3",
+            "foresight1": "foresight1",
+            "mantlet1": "mantlet1"
+          },
+          "allowed_damage_ids": [
+            "ammo1",
+            "ammo2",
+            "ammo3",
+            "ammo4",
+            "ammo5",
+            "armor",
+            "armor1",
+            "armor10",
+            "armor11",
+            "armor12",
+            "armor13",
+            "armor14",
+            "armor15",
+            "armor2",
+            "armor3",
+            "armor4",
+            "armor5",
+            "armor6",
+            "armor7",
+            "armor8",
+            "armor9",
+            "armorL1",
+            "armorL2",
+            "armorL3",
+            "armorL4",
+            "armorL5",
+            "armorL6",
+            "armorL7",
+            "armorL8",
+            "armorL9",
+            "armorR1",
+            "armorR2",
+            "armorR3",
+            "armorR4",
+            "armorR5",
+            "armorR6",
+            "armorR7",
+            "armorR8",
+            "armorR9",
+            "armor_driver",
+            "armor_engine",
+            "armor_front1",
+            "armor_front2",
+            "armor_front3",
+            "armor_front4",
+            "armor_hull",
+            "armor_mantlet",
+            "armor_mg_port",
+            "armor_plate",
+            "armor_visor1",
+            "armor_visor2",
+            "armor_visor3",
+            "barrel",
+            "barrel1",
+            "barrel10",
+            "barrel2",
+            "barrel3",
+            "barrel4",
+            "barrel5",
+            "barrel6",
+            "barrel7",
+            "barrel8",
+            "barrel9",
+            "body",
+            "body1",
+            "body2",
+            "body3",
+            "breach",
+            "breech",
+            "cupola",
+            "detail1",
+            "detail2",
+            "detail3",
+            "detail4",
+            "engine",
+            "engine1",
+            "engine2",
+            "fuel1",
+            "fuel2",
+            "gun",
+            "gun1",
+            "gun10",
+            "gun2",
+            "gun3",
+            "gun4",
+            "gun5",
+            "gun6",
+            "gun7",
+            "gun8",
+            "gun9",
+            "hole",
+            "hole1",
+            "hole10",
+            "hole11",
+            "hole12",
+            "hole13",
+            "hole14",
+            "hole15",
+            "hole16",
+            "hole17",
+            "hole18",
+            "hole19",
+            "hole2",
+            "hole20",
+            "hole21",
+            "hole22",
+            "hole23",
+            "hole24",
+            "hole25",
+            "hole3",
+            "hole4",
+            "hole5",
+            "hole6",
+            "hole7",
+            "hole8",
+            "hole9",
+            "mantlet",
+            "mantlet1",
+            "module_breech",
+            "mw_armor_0_v0",
+            "mw_armor_0_v1",
+            "mw_armor_0_v2",
+            "mw_armor_0_v3",
+            "mw_armor_0_v4",
+            "mw_armor_1_v0",
+            "mw_armor_2_v0",
+            "mw_armor_3_v0",
+            "mw_armor_4_v0",
+            "mw_armor_5_v0",
+            "mw_armor_6_v0",
+            "mw_armor_7_v0",
+            "mw_armor_8_v0",
+            "mw_armor_9_v0",
+            "ram",
+            "sandbag",
+            "sandbag1",
+            "sandbag2",
+            "sandbag3",
+            "sandbag4",
+            "sandbag5",
+            "select",
+            "shield1",
+            "shield2",
+            "shield3",
+            "shieldw",
+            "shieldw1",
+            "shieldw2",
+            "shieldw3",
+            "shieldw4",
+            "shieldw5",
+            "shieldw6",
+            "trackleft",
+            "trackleft1",
+            "trackleft10",
+            "trackleft11",
+            "trackleft12",
+            "trackleft13",
+            "trackleft14",
+            "trackleft15",
+            "trackleft16",
+            "trackleft17",
+            "trackleft18",
+            "trackleft2",
+            "trackleft3",
+            "trackleft4",
+            "trackleft5",
+            "trackleft6",
+            "trackleft7",
+            "trackleft8",
+            "trackleft9",
+            "trackright",
+            "trackright1",
+            "trackright10",
+            "trackright11",
+            "trackright12",
+            "trackright13",
+            "trackright14",
+            "trackright15",
+            "trackright16",
+            "trackright17",
+            "trackright18",
+            "trackright2",
+            "trackright3",
+            "trackright4",
+            "trackright5",
+            "trackright6",
+            "trackright7",
+            "trackright8",
+            "trackright9",
+            "transmission",
+            "turret",
+            "turret1",
+            "turret2",
+            "turret3"
+          ],
+          "weaponry_policy": "reset",
+          "inventory_policy": "gun_replace",
+          "hull_authority": "mw_draft_turret0",
+          "turret_authority": "su100y",
+          "gun_swap": {
+            "place": "gun",
+            "old_ammo": "bulletrus_122_l48",
+            "ammo_items": [
+              "{item \"bulletrus_130 aphe\" 14}",
+              "{item \"bulletrus_130 he\" 15}"
+            ],
+            "initialize": true
+          }
+        },
+        "inventory_boxes": []
+      }
+    ],
+    "draft_frames": {
+      "gun": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.9756
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.0363
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          40.9558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mgun2": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.9756
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -2.0363
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          40.9558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mgun": [
+        [
+          0.866,
+          -0.5,
+          0.0,
+          5.8147
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -8.546700000000001
+        ],
+        [
+          0.5,
+          0.866,
+          0.0,
+          62.26010000000001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "draft_module_roots": {
+      "turret_mgun_aa": "turret_mgun_aa"
+    }
+  },
+  "diagnostics": [
+    {
+      "code": "barrel_only",
+      "level": "info",
+      "message": "Only the donor barrel is shown; breech, cradle and shield were left out."
+    },
+    {
+      "code": "camera_socket_preserved",
+      "level": "info",
+      "bone": "cw_scope_0",
+      "source_bone": "visor1",
+      "message": "Native aiming camera frame retained without donor hull geometry."
+    },
+    {
+      "code": "extra_armor_runtime_gate",
+      "level": "warning",
+      "message": "Native spatial armor volumes exported; penetration, damage and persistence require battle acceptance."
+    }
+  ],
+  "ready_for_campaign": true,
+  "compiled": true,
+  "preview_valid": false,
+  "runtime_verified": false
+}

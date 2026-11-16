@@ -2,14 +2,14 @@
 	
 	
 	{score_factor 0.05}
-	{tags "conquest conquestonly usa late"}
+	{tags "conquest conquestonly usa late can eng fin ger pol rus early mid"}
 	{charge {delay 0}{interval 0}}
 	{cw 4}
 	{cp 16}
-	{research_stage 5}
+	{research_stage 1}
 	{research_stage_max 99}
 	{squad_cost_factor 1}
-	{round_multiple 5.0}
+	{round_multiple 1}
 	{level 1}
 	{button "vehicles"}
 
@@ -17,4 +17,8 @@
 	{button "vehicles"}
 
 	{cost 890} ;// +25 for crew
+
+{not_for_player_sale 0}
+
+{not_for_sale 0}
 }

@@ -2548,15 +2548,19 @@
 		{vehicle_view "hms_boadicea"}	
 	}
 
-{"mw_8416aa9bc364"
-		{vehicle_view "m4a3_75w"}
+{"mw_0ef04b0ad273"
+		{vehicle_view "m5a1_stuart_late"}
 	}
 
-{"mw_e0dcc79a529a"
-		{vehicle_view "m18_hellcat_late"}
+{"mw_11d995df9c18"
+		{vehicle_view "m5a1_stuart_late"}
 	}
 
-{"mw_9339f107e4e8"
+{"mw_19323bd73bea"
+		{vehicle_view "m8_greyhound"}
+	}
+
+{"mw_292cb7fb75bd"
 		{vehicle_view "m4_75_late"}
 	}
 
@@ -2564,35 +2568,15 @@
 		{vehicle_view "m18_hellcat_late"}
 	}
 
-{"mw_292cb7fb75bd"
-		{vehicle_view "m4_75_late"}
-	}
-
-{"mw_0ef04b0ad273"
-		{vehicle_view "m5a1_stuart_late"}
-	}
-
-{"mw_bb728f966583"
-		{vehicle_view "m5a1_stuart_late"}
-	}
-
 {"mw_3609a9ce7ec0"
 		{vehicle_view "m8_hmc"}
 	}
 
-{"mw_19323bd73bea"
-		{vehicle_view "m8_greyhound"}
+{"mw_4ab2bb47016f"
+		{vehicle_view "t34_85"}
 	}
 
-{"mw_11d995df9c18"
-		{vehicle_view "m5a1_stuart_late"}
-	}
-
-{"mw_e5ee481f8031"
-		{vehicle_view "m5a1_stuart_late"}
-	}
-
-{"mw_e59f40e33576"
+{"mw_696ec999ad5f"
 		{vehicle_view "m5a1_stuart_late"}
 	}
 
@@ -2600,11 +2584,35 @@
 		{vehicle_view "m5a1_stuart_late"}
 	}
 
-{"mw_696ec999ad5f"
-		{vehicle_view "m5a1_stuart_late"}
+{"mw_8416aa9bc364"
+		{vehicle_view "m4a3_75w"}
+	}
+
+{"mw_9339f107e4e8"
+		{vehicle_view "m4_75_late"}
 	}
 
 {"mw_b14a2602a1b1"
 		{vehicle_view "su100y"}
+	}
+
+{"mw_bb728f966583"
+		{vehicle_view "m5a1_stuart_late"}
+	}
+
+{"mw_e0dcc79a529a"
+		{vehicle_view "m18_hellcat_late"}
+	}
+
+{"mw_e59f40e33576"
+		{vehicle_view "m5a1_stuart_late"}
+	}
+
+{"mw_e5ee481f8031"
+		{vehicle_view "m5a1_stuart_late"}
+	}
+
+{"mw_27decf8ccc1b"
+		{vehicle_view "is1_43"}
 	}
 }
