@@ -1,0 +1,376 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "td" "light" "vision_lev03" "muzzle_75mm_76mm_sides" "shell_eject" "tractor" "tractor_medium" "open_top" "ammo_open_top" "sq_he_medium"}
+	
+	{extension "mw_525623e71a54.mdl"}
+
+	;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 25mm
+
+	("tank_light_tier2")
+
+	("shield_group" args "tshield1" 25 "shieldt")
+	("shield_group" args "tshield2" 10 "shieldt")
+	("shield_group" args "tshield3" 10 "shieldt")
+	("shield_group" args "tshield4" 15 "shieldt")
+	("shield_group" args "tshield5" 25 "shieldt")
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(20))
+
+	("fuel" args "fuel")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("transmission" args "transmission")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull 
+		{thickness 15
+			{front 30}		; Lower Hull
+			{top 25}		; Glacis
+			{rear 15}
+			{bottom 7}		; Bottom and Top
+		}
+		{able {holed}}
+		{HighHardness}
+	}
+	{volume "engine"		; Internal
+		{thickness 5}
+		{able {NoWoundDecal 0}}
+	}
+	
+	
+
+	{volume "tshield1"
+		{tags "gun_shield"}
+		{tags "no_target"}
+	}
+	{volume "tshield2"
+		{tags "gun_shield"}
+		{tags "no_target"}
+	}
+	{volume "tshield3"
+		{tags "gun_shield"}
+		{tags "no_target"}
+	}
+	{volume "tshield4"
+		{tags "gun_shield"}
+		{tags "no_target"}
+	}
+	{volume "tshield5"
+		{tags "gun_shield"}
+		{tags "no_target"}
+	}
+	{targetclass "tank_light"}
+	{targetSelector "tank_medium"}
+	{patherId "su76"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t34_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse {end "emit_t34_hold"} {base "open_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "pose_pak40_gunlayer" 10}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "pose_pak40_charger" 10}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+	
+{anm "cmdmg_board2"
+			{forward {begin "board_tank_right"} 
+{end "pose_mgun_pz6"}
+}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+
+{anm "cmdmg_board3"
+			{forward {begin "board_tank_right"} 
+{end "pose_mgun_pz6"}
+}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+}
+
+	
+{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{door "emit2"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+		{link "emit1" "driver" {anm "left"} {forward putoff} {reverse puton}}
+		{link "emit2" "driver" {anm "right"} {forward putoff} {reverse puton}}
+	}
+	
+{placer
+		{place "gunner"
+			{group "crew"}
+			{visor "main"}
+			{linkbone "gunner"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+{boarder
+		{door "emit1"}
+		{door "emit1"}
+		{link "emit1" "gunner" {anm "left"} {forward putoff} {reverse puton}}
+		{link "emit1" "gunner" {anm "left"} {forward putoff} {reverse puton}}
+	}
+	
+{placer
+		{place "charger"
+			{group "crew"}
+			{visor "none"}
+			{linkbone "charger"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+{boarder
+		{door "emit1"}
+		{door "emit1"}
+		{link "emit1" "charger" {anm "right"} {forward putoff} {reverse puton}}
+		{link "emit1" "charger" {anm "right"} {forward putoff} {reverse puton}}
+	}
+	
+{placer
+		{place "commander"
+			{group "crew"}
+			
+			
+			{turnoff {sensor}}
+			;{openForCrush}
+		
+{LinkBone "cmdmg_gunner3"}
+
+{sealable}
+
+{visor "cmdmg_top2"}
+}
+	}
+{boarder
+		{door "emit2"}
+		{door "emit2"}
+		{link "emit2" "commander" {anm "cmdmg_board2"} {forward putoff} {reverse puton}}
+		{link "emit2" "commander" {anm "cmdmg_board3"} {forward putoff} {reverse puton}}
+	}
+
+	{sensor
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	{extender "inventory"
+		{box
+				;59 rounds + 1 loaded
+			
+			
+			
+			{item "satchel_charge_rus" 1}
+		
+{item "bulletger_75_l43 apcbche" 42}
+
+{item "bulletger_75_l43 he" 27}
+
+{item "bulletger_75_l43 apcr" 2}
+
+{item "bulletger_75_l43 heatc" 8}
+
+{item "mg34_drum" filled {user "mgun1"}}
+
+{item "ammo mgun_ger belt" 150}
+}
+	
+{weapon "mgun1" {mask "mountable"}}
+}
+
+	{Placer
+		{place "ammo001"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo001"}
+			{handlebone "body"}
+		}
+		{place "ammo002"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo002"}
+			{handlebone "body"}
+		}
+		{place "ammo003"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo003"}
+			{handlebone "body"}
+		}
+		{place "ammo004"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo004"}
+			{handlebone "body"}
+		}
+		{place "ammo005"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo005"}
+			{handlebone "body"}
+		}
+		{place "ammo006"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo006"}
+			{handlebone "body"}
+		}
+		{place "ammo007"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo007"}
+			{handlebone "body"}
+		}
+		{place "ammo008"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo008"}
+			{handlebone "body"}
+		}
+		{place "ammo009"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo009"}
+			{handlebone "body"}
+		}
+		{place "ammo010"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo010"}
+			{handlebone "body"}
+		}
+		{place "ammo011"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo011"}
+			{handlebone "body"}
+		}
+		{place "ammo012"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo012"}
+			{handlebone "body"}
+		}
+		{place "ammo013"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo013"}
+			{handlebone "body"}
+		}
+		{place "ammo014"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo014"}
+			{handlebone "body"}
+		}
+		{place "ammo015"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo015"}
+			{handlebone "body"}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_pak39" filling "bulletger_75_l43 apcbche" 1}
+			
+			
+				; general setting used by Tank Destroyers, which conserves more accuracy on the rotation of the main gun
+	 ; 	spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+		{MaxLinearSpeed 10}				;km/h
+		{ByLinearSpeed 0.4}
+		{MaxAngularSpeed 8}				;deg/s
+		{ByAngularSpeed 0.50}
+		{DisorderTime 0.25}				;s
+		{OrderTime 2.25}						;s
+	}
+
+
+		
+{foresight "foresight1"}
+
+{gunner "gunner"}
+
+{charger "charger" minWorkers 1}
+
+{LinkBone "gun"}
+
+{rotate}
+}
+	
+{place "mgun1"
+			{type "aa"}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "cmdmg_mgun_rot2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+}
+
+	{mass 10000}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.55))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(12) ;--------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(10.0) ;-------Weight in Tonnes.
+			power(85) ;----------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(120) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(150) ;---------Range in km, off-road.
+		)
+	}
+
+	
+	{bone "turret"
+		{limits -15 15}
+		{speed2 8}
+	}
+
+{props "-muzzle_75mm_76mm_sides" "muzzle_75mm_76mm"}
+
+{volume "mantlet"
+		{thickness 75}
+		{CastSteel 0.8063}
+		{tags "armor"}
+	}
+
+{bone "gun_rot"
+		
+		
+	}
+
+{bone "gun_rot"
+{limits -3 25}
+
+{speed2 10}
+}
+
+{sensor {visor "cmdmg_top2" {vision "human"} {bone "cmdmg_mgun_rot2"}}}
+
+{props "hatch"}
+
+{bone "cmdmg_mgun_a_rot2" {speed2 180}}
+
+{bone "cmdmg_mgun_a_rot3" {speed2 90}}
+
+{props "-turret"}
+}

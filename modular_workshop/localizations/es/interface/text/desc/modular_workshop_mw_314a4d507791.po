@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_314a4d507791"
+msgid "T-35 Flakturm"
+msgstr "T-35 Flakturm"
+
+msgctxt "desc/squad/mw_314a4d507791"
+msgid "T-35 Flakturm"
+msgstr "T-35 Flakturm"

@@ -1,0 +1,258 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	
+	
+	
+	
+	
+	
+	{extension "mw_314a4d507791_xx.mdl"}
+
+
+
+
+
+
+	{volume "body1"			; Nose
+		{thickness 50
+			{front 70}
+			{top 20}		; Glacis
+			{bottom 30}
+		}
+	}
+	{volume "body2"			; Hull
+		{thickness 50
+			{front 70}
+			{top 10}
+			{rear 10}
+			{bottom 20}
+		}
+	}
+	{volume "body3"			; Superstructure
+		{thickness 50
+			{top 10}
+			{bottom 20}
+		}
+	}
+	{volume "engine1"
+		{thickness 20
+			{front 10}
+			{top 10}
+		}
+	}
+	
+	
+	
+	
+	
+	{volume "armor1"		; Right Side box of superstructure
+		{thickness 10
+			{front 20}
+			{rear 20}
+		}
+		{tags "armor"}
+	}
+	{volume "armor2"		; Left Side box of superstructure
+		{thickness 10
+			{front 20}
+			{rear 20}
+		}
+		{tags "armor"}
+	}
+
+	
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	{volume "part3"
+		{thickness 2}
+	}
+	{volume "shieldl"
+		{thickness 11}
+	}
+	{volume "shieldr"
+		{thickness 11}
+	}
+	
+	
+	
+	
+	("tracks" thickness(20))
+
+{volume "module_barrel1"
+		{thickness 6}
+	}
+
+{volume "module_barrel2"
+		{thickness 6}
+	}
+
+{volume "module_turret1"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret2"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret3"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "aux_turret1"
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_barrel1_1"
+		{thickness 6}
+	}
+
+{volume "module_barrel2_1"
+		{thickness 6}
+	}
+
+{volume "module_turret1_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret2_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret3_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "aux_turret3"
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_barrel1_2"
+		{thickness 6}
+	}
+
+{volume "module_barrel2_2"
+		{thickness 6}
+	}
+
+{volume "module_turret1_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret2_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret3_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "aux_turret2"
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_barrel1_3"
+		{thickness 6}
+	}
+
+{volume "module_barrel2_3"
+		{thickness 6}
+	}
+
+{volume "module_turret1_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret2_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret3_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "aux_turret4"
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "turret1"	;main
+		{thickness 16}
+		{able {holed}}
+	}
+
+{volume "turret2"	;ring
+		{thickness 16}
+	}
+
+{volume "barrel1"
+		{thickness 15}
+	}
+
+{volume "barrel2"
+		{thickness 15}
+	}
+}

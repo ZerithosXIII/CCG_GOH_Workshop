@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "desc/entity/mw_09d3124170e4"
+msgid "YaG-10 2-4"
+msgstr "YaG-10 2-4"
+
+msgctxt "desc/squad/mw_09d3124170e4"
+msgid "YaG-10 2-4"
+msgstr "YaG-10 2-4"

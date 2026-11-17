@@ -37,6 +37,8 @@
 
 (include "modular_workshop/mw_19323bd73bea.set")
 
+(include "modular_workshop/mw_27decf8ccc1b.set")
+
 (include "modular_workshop/mw_292cb7fb75bd.set")
 
 (include "modular_workshop/mw_3276e59f8199.set")
@@ -63,5 +65,13 @@
 
 (include "modular_workshop/mw_e5ee481f8031.set")
 
-(include "modular_workshop/mw_27decf8ccc1b.set")
+(include "modular_workshop/mw_525623e71a54.set")
+
+(include "modular_workshop/mw_216206709f0f.set")
+
+(include "modular_workshop/mw_09d3124170e4.set")
+
+(include "modular_workshop/mw_314a4d507791.set")
+
+(include "modular_workshop/mw_4f19228e2cb4.set")
 }

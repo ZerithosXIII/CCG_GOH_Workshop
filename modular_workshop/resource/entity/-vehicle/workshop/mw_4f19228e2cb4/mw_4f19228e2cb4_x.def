@@ -1,0 +1,39 @@
+{game_entity
+	
+	
+	
+	
+	
+	
+	{extension "mw_4f19228e2cb4_x.mdl"}
+
+
+
+
+
+ {RimLight}
+
+{volume "aux_turret1"
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "aux_turret3"
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "aux_turret2"
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "aux_turret4"
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+}

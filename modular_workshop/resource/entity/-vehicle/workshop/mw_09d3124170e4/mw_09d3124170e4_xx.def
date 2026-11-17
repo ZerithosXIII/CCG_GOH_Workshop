@@ -1,0 +1,107 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	
+	
+	{extension "mw_09d3124170e4_xx.mdl"}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{volume "body1"
+		{thickness 2.5}
+	}
+	{volume "body2"
+		{thickness 2.5}
+	}
+	{volume "body3"
+		{thickness 2.5}
+		{able {holed}}
+	}
+	{volume "body4"
+		{thickness 2.5}
+	}
+	{volume "body5"
+		{thickness 2.5}
+	}
+	{volume "body6"
+		{thickness 2.5}
+	}
+	{volume "body7"
+		{thickness 2.5}
+	}
+	{volume "bodyback1"
+		{thickness 12}
+		{able {holed}}
+	}
+	{volume "bodyback2"
+		{thickness 12}
+		{able {holed}}
+	}
+	{volume "bodyback3"
+		{thickness 2.5}
+	}
+	{volume "bodyback4"
+		{thickness 2.5}
+	}
+	{volume "bodyback5"
+		{thickness 12}
+	}
+	{volume "bodyback6"
+		{thickness 12}
+	}
+	{volume "wheelleft1"
+		{thickness 2}
+	}
+	{volume "wheelleft2"
+		{thickness 2}
+	}
+	{volume "wheelleft3"
+		{thickness 2}
+	}
+	{volume "wheelright1"
+		{thickness 2}
+	}
+	{volume "wheelright2"
+		{thickness 2}
+	}
+	{volume "wheelright3"
+		{thickness 2}
+	}
+
+{volume "turret1"	;main
+		{thickness 16}
+		{able {holed}}
+	}
+
+{volume "turret2"	;ring
+		{thickness 16}
+	}
+
+{volume "barrel1"
+		{thickness 15}
+	}
+
+{volume "barrel2"
+		{thickness 15}
+	}
+
+{volume "module_hole3"
+{able clear {hole}}
+
+{density 0}
+}
+
+{volume "module_hole4"
+{able clear {hole}}
+
+{density 0}
+}
+}

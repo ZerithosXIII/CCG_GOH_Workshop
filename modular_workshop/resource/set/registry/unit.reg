@@ -2560,6 +2560,10 @@
 		{vehicle_view "m8_greyhound"}
 	}
 
+{"mw_27decf8ccc1b"
+		{vehicle_view "is1_43"}
+	}
+
 {"mw_292cb7fb75bd"
 		{vehicle_view "m4_75_late"}
 	}
@@ -2612,7 +2616,23 @@
 		{vehicle_view "m5a1_stuart_late"}
 	}
 
-{"mw_27decf8ccc1b"
-		{vehicle_view "is1_43"}
+{"mw_525623e71a54"
+		{vehicle_view "su76"}
+	}
+
+{"mw_216206709f0f"
+		{vehicle_view "gaz"}
+	}
+
+{"mw_09d3124170e4"
+		{vehicle_view "yag10_29k"}
+	}
+
+{"mw_314a4d507791"
+		{vehicle_view "t35"}
+	}
+
+{"mw_4f19228e2cb4"
+		{vehicle_view "t35"}
 	}
 }

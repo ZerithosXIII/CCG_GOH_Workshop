@@ -1,0 +1,2077 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle_big.inc" scale(1.1))
+	{props "heavy"  "multi_turret"   "detect_tank_heavy" "t35" "sq_armor_heavy" "vision_lev04" "open_top" "sq_autocannon"}
+	
+	
+	
+	
+	
+	
+	{extension "mw_314a4d507791.mdl"}
+
+	
+("shield" args "shieldr" 11)
+
+("shield" args "shieldl" 11)
+
+("fuel" args "fuel1")
+
+("fuel" args "fuel2")
+
+("fuel" args "fuel3")
+
+("ammo" args "ammo1")
+
+("ammo" args "ammo2")
+
+("ammo" args "ammo3")
+
+("ammo" args "ammo4")
+
+("transmission" args "transmission")
+
+{volume "body1"			; Nose
+		{thickness 50
+			{front 70}
+			{top 20}		; Glacis
+			{bottom 30}
+		}
+	}
+
+{volume "body2"			; Hull
+		{thickness 50
+			{front 70}
+			{top 10}
+			{rear 10}
+			{bottom 20}
+		}
+	}
+
+{volume "body3"			; Superstructure
+		{thickness 50
+			{top 10}
+			{bottom 20}
+		}
+	}
+
+{volume "engine1"
+		{thickness 20
+			{front 10}
+			{top 10}
+		}
+	}
+
+{volume "mantlet"		; Turret Mantlet
+		{thickness 20}
+	}
+
+{volume "armor1"		; Right Side box of superstructure
+		{thickness 10
+			{front 20}
+			{rear 20}
+		}
+		{tags "armor"}
+	}
+
+{volume "armor2"		; Left Side box of superstructure
+		{thickness 10
+			{front 20}
+			{rear 20}
+		}
+		{tags "armor"}
+	}
+
+{volume "module_gun"
+{component "gun"}
+
+{tags "no_target" "gun"}
+
+{thickness 6}
+
+{able {Contact 0} {Visible 0} {Obstacle 0} {nolook 1}}
+}
+
+{volume "aux_turret1"
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "shield"
+		{thickness 6.4}
+	}
+
+{volume "shield1"
+		{thickness 6.4}
+	}
+
+{volume "shield2"
+		{thickness 6.4}
+	}
+
+{volume "shield3"
+		{thickness 6.4}
+	}
+
+{volume "module_turret1"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret2"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret3"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret4"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret5"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "module_turret6"
+		{thickness 6.4}
+	
+{component "aux_turret1"}
+
+{tags "aux_turret1"}
+}
+
+{volume "magazine01"
+		{thickness 6.4}
+	}
+
+{volume "magazine02"
+		{thickness 6.4}
+	}
+
+{volume "magazine03"
+		{thickness 6.4}
+	}
+
+{volume "magazine04"
+		{thickness 6.4}
+	}
+
+{volume "module_gun_1"
+{component "gun"}
+
+{tags "no_target" "gun"}
+
+{thickness 6}
+
+{able {Contact 0} {Visible 0} {Obstacle 0} {nolook 1}}
+}
+
+{volume "aux_turret3"
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_shield"
+		{thickness 6.4}
+	}
+
+{volume "module_shield1"
+		{thickness 6.4}
+	}
+
+{volume "module_shield2"
+		{thickness 6.4}
+	}
+
+{volume "module_shield3"
+		{thickness 6.4}
+	}
+
+{volume "module_turret1_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret2_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret3_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret4_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret5_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_turret6_1"
+		{thickness 6.4}
+	
+{component "aux_turret3"}
+
+{tags "aux_turret3"}
+}
+
+{volume "module_magazine01"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine02"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine03"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine04"
+		{thickness 6.4}
+	}
+
+{volume "module_gun_2"
+{component "gun"}
+
+{tags "no_target" "gun"}
+
+{thickness 6}
+
+{able {Contact 0} {Visible 0} {Obstacle 0} {nolook 1}}
+}
+
+{volume "aux_turret2"
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_shield_1"
+		{thickness 6.4}
+	}
+
+{volume "module_shield1_1"
+		{thickness 6.4}
+	}
+
+{volume "module_shield2_1"
+		{thickness 6.4}
+	}
+
+{volume "module_shield3_1"
+		{thickness 6.4}
+	}
+
+{volume "module_turret1_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret2_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret3_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret4_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret5_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_turret6_2"
+		{thickness 6.4}
+	
+{component "aux_turret2"}
+
+{tags "aux_turret2"}
+}
+
+{volume "module_magazine01_1"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine02_1"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine03_1"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine04_1"
+		{thickness 6.4}
+	}
+
+{volume "module_gun_3"
+{component "gun"}
+
+{tags "no_target" "gun"}
+
+{thickness 6}
+
+{able {Contact 0} {Visible 0} {Obstacle 0} {nolook 1}}
+}
+
+{volume "aux_turret4"
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_shield_2"
+		{thickness 6.4}
+	}
+
+{volume "module_shield1_2"
+		{thickness 6.4}
+	}
+
+{volume "module_shield2_2"
+		{thickness 6.4}
+	}
+
+{volume "module_shield3_2"
+		{thickness 6.4}
+	}
+
+{volume "module_turret1_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret2_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret3_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret4_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret5_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_turret6_3"
+		{thickness 6.4}
+	
+{component "aux_turret4"}
+
+{tags "aux_turret4"}
+}
+
+{volume "module_magazine01_2"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine02_2"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine03_2"
+		{thickness 6.4}
+	}
+
+{volume "module_magazine04_2"
+		{thickness 6.4}
+	}
+
+("gun" repair(30) thickness(15))
+
+("ammo" args "ammo6")
+
+("ammo" args "ammo7")
+
+{volume "turret1"	;main
+		{thickness 16}
+		{able {holed}}
+	}
+
+{volume "turret2"	;ring
+		{thickness 16}
+	}
+
+{volume "module_body"
+{component "body"}
+
+{tags "body"}
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	;SDL
+
+	;notes
+	;tracks and wheels 20mm
+	;gun 25mm and 20mm
+
+	("tank_heavy_tier1")
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+
+	("tracks" repair(40) thickness(20))
+	
+	
+	
+	("aux_turret" repair(45))
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+	
+	
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{PatherId "smk"}
+	{collider "tank.heavy"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	
+{boarder
+		{anm "left"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+
+{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	;("commander_visible")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t34_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse {end "emit_t34_hold"} {base "close_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_Is-2"} {end "seat_commander_hatch"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_Is-2"} {end "seat_commander_hatch"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_2"}}
+			{reverse {end "emit_body"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "seat_armor"}}
+			{reverse {end "emit_body"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+
+	{boarder
+		
+		{anm "gunner2"
+			{forward {begin "board_MiddleArmor"} {end "seat_m45_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "charger2"
+			{forward {begin "board_MiddleArmor"} {end "seat_kubel_commander"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "passenger1"
+			{forward {begin "board_big-midcar"} {end "seat_kubel_commander"} }
+			{reverse {end "board_big-midcar" -1} }
+		}
+		{anm "passenger2"
+			{forward {begin "board_MiddleArmor"} {end "seat_kubel_commander"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+	{boarder
+		{door "emit1"}
+		
+	}
+	
+	{boarder
+		{door "emit4"}
+		
+	}
+	
+	{boarder
+		{door "emit6"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit5"}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{boarder
+		
+		{anm "gunner3"
+			{forward {begin "board_MiddleArmor"} {end "seat_m45_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "charger3"
+			{forward {begin "board_MiddleArmor"} {end "seat_kubel_commander"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		
+	}
+	
+	{boarder
+		{door "emit4"}
+		
+	}
+	
+	{boarder
+		{door "emit6"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit5"}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{boarder
+		
+		{anm "gunner4"
+			{forward {begin "board_MiddleArmor"} {end "seat_m45_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "charger4"
+			{forward {begin "board_MiddleArmor"} {end "seat_kubel_commander"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		
+	}
+	
+	{boarder
+		{door "emit4"}
+		
+	}
+	
+	{boarder
+		{door "emit6"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit5"}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{boarder
+		
+		{anm "gunner5"
+			{forward {begin "board_MiddleArmor"} {end "seat_m45_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "commander"
+			{forward {begin "board_MiddleArmor"} {end "seat_kubel_commander"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		
+	}
+	
+	{boarder
+		{door "emit4"}
+		
+	}
+	
+	{boarder
+		{door "emit6"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit2"}
+		
+	}
+	{boarder
+		{door "emit5"}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{boarder
+		
+		{anm "charger"
+			{forward {begin "board_tank_left"} {end "seat_wirbel_charger"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner"
+			{forward {begin "board_tank_right"} {end "seat_wirbel_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner6"
+			{forward {begin "board_tank_right"} {end "seat_wirbel_charger"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		
+		
+		
+	}
+	{boarder
+		
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+		
+	}
+	{boarder
+		{door "emit1"}
+		{door "emit2"}
+		
+		
+	}
+	
+	{boarder
+		{door "emit2"}
+		
+		
+		
+	}
+	
+	{boarder
+		{door "emit1"}
+		
+		
+		
+	}
+	
+	{boarder
+		{door "emit2"}
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{placer
+		{place "driver"
+			{group "crew"}
+			{visor "driver"}
+		}
+	}
+	{placer
+		{place "gunner2"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "gunner"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger2"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "charger"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "gunner3"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "module_gunner"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger3"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "module_charger"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "gunner4"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "module_gunner_1"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger4"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "module_charger_1"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "gunner5"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "module_gunner_2"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "commander"
+			{group "crew"}
+			{visor "main"}
+			{LinkBone "module_charger_2"}
+			{turnoff }
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "gunner6"
+			{group "crew"}
+			{visor "around"}
+			{linkbone "commander"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "gunner"
+			{group "crew"}
+			{visor "main"}
+			{linkbone "gunner"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{placer
+		{place "charger"
+			{group "crew"}
+			{visor "around"}
+			{linkbone "charger"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{boarder
+{link "emit1" "driver" {anm "left"} {forward putoff} {reverse puton}}
+
+{link "emit2" "driver" {anm "right"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit4" "gunner2" {anm "gunner2"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit6" "charger2" {anm "charger2"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit4" "gunner3" {anm "gunner3"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit6" "charger3" {anm "charger3"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit4" "gunner4" {anm "gunner4"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit6" "charger4" {anm "charger4"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit4" "gunner5" {anm "gunner5"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit6" "commander" {anm "commander"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit2" "gunner6" {anm "gunner6"} {forward putoff} {reverse puton}}
+
+{link "emit1" "gunner6" {anm "gunner6"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit1" "gunner" {anm "gunner"} {forward putoff} {reverse puton}}
+
+{link "emit1" "gunner" {anm "gunner"} {forward putoff} {reverse puton}}
+}
+	{boarder
+{link "emit2" "charger" {anm "charger"} {forward putoff} {reverse puton}}
+
+{link "emit1" "charger" {anm "charger"} {forward putoff} {reverse puton}}
+}
+	("seat_human" place(seat1) bone(seat01) door(emit5)  animation(armor2))
+	("seat_human" place(seat2) bone(seat02) door(emit6)  animation(armor2))
+	("seat_human" place(seat3) bone(seat03) door(emit7)  animation(armor2))
+	("seat_human" place(seat4) bone(seat04) door(emit8)  animation(armor2))
+	("seat_human" place(seat5) bone(seat05) door(emit9)  animation(armor2))
+	("seat_human" place(seat6) bone(seat06) door(emit10)  animation(armor2))
+	("seat_human" place(seat7) bone(seat07) door(emit11)  animation(armor2))
+	("seat_human" place(seat8) bone(seat08) door(emit12)  animation(armor2))
+	("seat_human" place(seat9) bone(seat09) door(emit13)  animation(armor))
+	("seat_human" place(seat10) bone(seat10) door(emit14)  animation(armor))
+	("seat_human" place(seat11) bone(seat11) door(emit15)  animation(armor))
+	("seat_human" place(seat12) bone(seat12) door(emit16)  animation(armor))
+	
+	{sensor
+		{visor "main1"
+			{vision "tank_range_200"}
+			{bone "module_turret"}
+		}
+		{visor "main2"
+			{vision "tank_range_200"}
+			{bone "module_turret_2"}
+		}
+		{visor "mg1"
+			{vision "tank_rear-mg"}
+			{bone "module_turret_1"}
+		}
+		{visor "mg2"
+			{vision "tank_rear-mg"}
+			{bone "module_turret_3"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+							;96 76mm rounds
+			
+
+					;226 45mm rounds
+			
+
+						;160 drums
+			{item "satchel_charge_rus" 1}
+		
+
+
+
+
+
+
+
+
+{item "bulletger_20_auto ap" 1600}
+
+{item "bulletger_20_auto he" 1520}
+
+{item "ammo mgun_ger belt" 1200}
+
+{item "geballteladung_3kg" 1}
+}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		
+		
+		
+		
+		
+		
+		
+		
+	
+{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "20mm_flak38_x4" filling "bulletger_20_auto he" 80}
+			{Barrels 4}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_aaa"
+				zeroing(1.2)
+				dispersion(0.15)
+			)
+		
+{shooter "module4_shooter"}
+
+{foresight "foresight1"}
+}
+{place "mgun5"
+			{Barrels 4}
+			{type "main"}
+			{foresight "foresight14"}
+			{gunner "gunner2"}
+			{charger "charger2"}
+			{weapon "browning_m2_x4" filling "hmgun_usa api" 800}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		
+{shooter "shooter"}
+
+{ai_in_manual}
+}
+
+{place "mgun3"
+			{Barrels 4}
+			{type "main"}
+			{foresight "module_foresight14"}
+			{gunner "gunner3"}
+			{charger "charger3"}
+			{weapon "browning_m2_x4" filling "hmgun_usa api" 800}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		
+{shooter "module_shooter"}
+
+{ai_in_manual}
+}
+
+{place "mgun2"
+			{Barrels 4}
+			{type "main"}
+			{foresight "module_foresight14_1"}
+			{gunner "gunner4"}
+			{charger "charger4"}
+			{weapon "browning_m2_x4" filling "hmgun_usa api" 800}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		
+{shooter "module2_shooter"}
+
+{ai_in_manual}
+}
+
+{place "mgun4"
+			{Barrels 4}
+			{type "main"}
+			{foresight "module_foresight14_2"}
+			{gunner "gunner5"}
+			{charger "commander"}
+			{weapon "browning_m2_x4" filling "hmgun_usa api" 800}
+			("abm_mgun")
+			{Rotate}
+			{basic}
+		
+{shooter "module3_shooter"}
+
+{ai_in_manual}
+}
+}
+
+	{mass 54000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.48))
+		("mobility_tank"
+			speed(30) ;--------Max speed when fully accelerated on road, km/h.
+			reverse(14) ;--------Max speed in reverse on road, km/h.
+			traverse(20) ;-------Track traverse, per second, in degrees.
+			weight(54) ;---------Weight in Tonnes.
+			power(580) ;---------Engine Power, in hp.
+			track(3.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(910) ;----------Fuel capacity in Litres.
+			type(fuel) ;-------Fuel type. (diesel OR fuel)
+			range(80) ;---------Range in km, off-road.
+		)
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "module_gun_rot"
+		{limits -5 88}
+		{speed2 60}
+	}
+
+{bone "module_turret"
+		{speed2 60}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "module_gun_rot_1"
+		{limits -5 88}
+		{speed2 60}
+	}
+
+{bone "module_turret_1"
+		{speed2 60}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "module_gun_rot_2"
+		{limits -5 88}
+		{speed2 60}
+	}
+
+{bone "module_turret_2"
+		{speed2 60}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "module_gun_rot_3"
+		{limits -5 88}
+		{speed2 60}
+	}
+
+{bone "module_turret_3"
+		{speed2 60}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{bone "gun_rot"
+		{limits -10 88}
+		{speed2 50}
+	}
+
+{bone "turret"
+		{speed2 40}
+	}
+
+{props "with_gun"}
+
+{sensor
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+
+
+{props "turret"}
+}
